@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navigation title="我的個人網站"/>
+    <Banner/>
+    <Card />
+    <Footer />
+    <ListItem />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
+  name: "app",
+  data: () => ({
+    // dam: require("@/assets/dam.jpg")
+  }),
   components: {
-    HelloWorld
+    Navigation: () => import("./components/Navigation.vue"),
+    Banner: () => import("./components/Banner.vue"),
+    Card: () => import("./components/Card.vue"),
+    Footer: () => import("./components/Footer.vue"),
+    ListItem: () => import("./components/ListItem.vue")
+  }
+};
+</script>
+<style lang="scss">
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
   }
 }
-</script>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+section {
+  padding: 150px 0;
 }
 </style>
