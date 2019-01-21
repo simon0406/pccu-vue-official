@@ -2,7 +2,7 @@
   <div id="app">
     <Navigation title="我的個人網站" />
     <div class="container">
-      <div class="row">
+      <Theme title="技能">
         <Card>
           <h4>前端</h4>
           <ul>
@@ -31,24 +31,19 @@
             <li>領域知識：Arbitrage, Blockchain</li>
           </ul>
         </Card>
-      </div>
-      <div class="row">
+      </Theme>
+      <Theme title="生活">
         <Card>
-          <img src="@/assets/lobster.jpg">
-          <h3>龍蝦</h3>
-          <p>說明文字</p>
+          <img src="@/assets/dam.jpg">
+          <h3>騎車攝影</h3>
+          <p>週末天氣好的時候就一個人一車離家出走。偶遇美景時，一個鏡頭永遠留存。</p>
         </Card>
         <Card>
-          <img src="@/assets/lobster.jpg">
-          <h3>龍蝦</h3>
-          <p>說明文字</p>
+          <img src="@/assets/rice.jpg">
+          <h3>下廚</h3>
+          <p>有時心血來潮，就到附近全聯撿貨。買回家自己大顯身手。</p>
         </Card>
-        <Card>
-          <img src="@/assets/lobster.jpg">
-          <h3>龍蝦</h3>
-          <p>說明文字</p>
-        </Card>
-      </div>
+      </Theme>
       <ListItem />
     </div>
   </div>
@@ -59,6 +54,7 @@ export default {
   name: "app",
   components: {
     Navigation: () => import("./components/Navigation.vue"),
+    Theme: () => import("./components/Theme.vue"),
     Card: () => import("./components/Card.vue"),
     ListItem: () => import("./components/ListItem.vue")
   }

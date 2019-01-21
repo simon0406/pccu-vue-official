@@ -8,7 +8,6 @@
 </template>
 <style lang="scss" scoped>
 .card-custom {
-  padding: 1rem;
   .card_line {
     border: none;
     border-top: #979797 5px solid;
@@ -18,6 +17,7 @@
   .card_body {
     img {
       max-width: 100%;
+      margin-bottom: 0.5rem;
     }
   }
 }
