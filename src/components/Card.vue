@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-4 card-custom">
+  <div class="col-md-6 col-lg-4 card-custom">
     <hr class="card_line">
     <div class="card_body">
       <slot></slot>

@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <Navigation title="我的個人網站" />
+    <PageHeader :src="imageUrl">
+      <img src="@/assets/myAvatar.png">
+    </PageHeader>
     <div class="container">
       <Theme title="技能">
         <Card>
@@ -53,16 +56,20 @@
 export default {
   name: "app",
   components: {
+    PageHeader: () => import("./components/PageHeader.vue"),
     Navigation: () => import("./components/Navigation.vue"),
     Theme: () => import("./components/Theme.vue"),
     Card: () => import("./components/Card.vue"),
     ListItem: () => import("./components/ListItem.vue")
-  }
+  },
+  data: () => ({
+    imageUrl: require("@/assets/temple.jpg")
+  })
 };
 </script>
 <style lang="scss">
 #app {
-  padding: 56px 0;
+  padding: 55px 0;
 }
 html {
   scroll-behavior: smooth;
