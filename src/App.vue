@@ -2,7 +2,7 @@
   <div id="app">
     <Navigation title="我的個人網站" />
     <div class="container">
-      <PageHeader :src="imageUrl">
+      <PageHeader :src="imageUrl" name_zh="朱奕安" name_en="(Ian Chu)">
         <img src="@/assets/myAvatar.png">
       </PageHeader>
       <Theme title="技能">
