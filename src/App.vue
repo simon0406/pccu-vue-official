@@ -2,7 +2,11 @@
   <div id="app">
     <Navigation title="我的個人網站" />
     <div class="container">
-      <PageHeader :src="imageUrl" name_zh="朱奕安" name_en="(Ian Chu)">
+      <PageHeader
+        :src="imageUrl"
+        name_zh="朱奕安"
+        name_en="(Ian Chu)"
+      >
         <img src="@/assets/myAvatar.png">
       </PageHeader>
       <Theme title="技能">
@@ -47,7 +51,32 @@
           <p>有時心血來潮，就到附近全聯撿貨。買回家自己大顯身手。</p>
         </Card>
       </Theme>
-      <ListItem />
+      <Theme title="經歷">
+        <ListItem>
+          <h4>恩智區塊鏈 全端工程師</h4>
+          <h5>August 2013 - July 2014</h5>
+          <ul>
+            <li>外派中國支援前端開發一個月</li>
+            <li>參與開發具備後台管理系統的網頁App</li>
+            <li>2週獨立以Vue+Express+Face recognition.js實做臉部辨識Demo</li>
+            <li>獨立以Vue+Express+MS SQL Server實作低買高賣Demo，利用Docker發布於Linux主機上</li>
+            <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
+            <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
+          </ul>
+        </ListItem>
+        <ListItem>
+          <h4>恩智區塊鏈 全端工程師</h4>
+          <h5>August 2013 - July 2014</h5>
+          <ul>
+            <li>外派中國支援前端開發一個月</li>
+            <li>參與開發具備後台管理系統的網頁App</li>
+            <li>2週獨立以Vue+Express+Face recognition.js實做臉部辨識Demo</li>
+            <li>獨立以Vue+Express+MS SQL Server實作低買高賣Demo，利用Docker發布於Linux主機上</li>
+            <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
+            <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
+          </ul>
+        </ListItem>
+      </Theme>
     </div>
   </div>
 </template>
