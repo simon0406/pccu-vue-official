@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <Navigation title="我的個人網站" />
-    <PageHeader :src="imageUrl">
-      <img src="@/assets/myAvatar.png">
-    </PageHeader>
     <div class="container">
+      <PageHeader :src="imageUrl">
+        <img src="@/assets/myAvatar.png">
+      </PageHeader>
       <Theme title="技能">
         <Card>
           <h4>前端</h4>
