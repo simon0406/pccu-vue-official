@@ -122,4 +122,7 @@ section {
   min-height: 100vh;
   position: relative;
 }
+img {
+  display: block;
+}
 </style>

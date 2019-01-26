@@ -1,5 +1,5 @@
 <template>
-  <div class="listItem col">
+  <div class="listItem col-12">
     <div class="row">
       <div class="col-1 bullet"></div>
       <div class="col-11">
@@ -34,7 +34,6 @@ export default {
     text-align: center;
     display: inline-block;
     background-color: #a8a8a8;
-    margin-top: 10px;
     margin-left: 0.5px;
   }
   &:after {
@@ -44,7 +43,7 @@ export default {
     background-color: #979797;
     display: block;
     margin-left: 4.5px;
-    top: 10px;
+    transform: translateY(-10px);
   }
 }
 </style>
