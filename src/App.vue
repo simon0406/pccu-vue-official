@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navigation title="我的個人網站" />
+    <Navigation title="Welcome"></Navigation>
     <div class="container">
       <PageHeader
         :src="imageUrl"
@@ -38,6 +38,11 @@
             <li>領域知識：Arbitrage, Blockchain</li>
           </ul>
         </Card>
+        <Card>
+          <h4>MBTI職業性格</h4>
+          <span>INTJ - 追求能力與獨立</span>
+          <p>你有很多原創性的想法。你總是在不懈地把自己的點子變成現實，完成自己設定的目標。你能迅速看清外部世界裏隱含的模式，能夠站在長遠的角度考慮事情。一旦作出承諾，你就會作出規劃，並善始善終地完成它。你極其獨立，很有懷疑精神，無論是對自己還是對別人都有很高的標準。</p>
+        </Card>
       </Theme>
       <Theme title="生活">
         <Card>
@@ -54,7 +59,7 @@
       <Theme title="經歷">
         <ListItem>
           <h4>恩智區塊鏈 全端工程師</h4>
-          <h5>August 2013 - July 2014</h5>
+          <h5>March 2018 - February 2019</h5>
           <ul>
             <li>外派中國支援前端開發一個月</li>
             <li>參與開發具備後台管理系統的網頁App</li>
@@ -65,15 +70,11 @@
           </ul>
         </ListItem>
         <ListItem>
-          <h4>恩智區塊鏈 全端工程師</h4>
-          <h5>August 2013 - July 2014</h5>
+          <h4>香蕉會兒設計 遊戲前端工程師</h4>
+          <h5>March 2017 - March 2018</h5>
           <ul>
-            <li>外派中國支援前端開發一個月</li>
-            <li>參與開發具備後台管理系統的網頁App</li>
-            <li>2週獨立以Vue+Express+Face recognition.js實做臉部辨識Demo</li>
-            <li>獨立以Vue+Express+MS SQL Server實作低買高賣Demo，利用Docker發布於Linux主機上</li>
-            <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
-            <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
+            <li>利用遊戲引擎開發遊戲</li>
+            <li>以Vue.js製作簡單的RWD網頁</li>
           </ul>
         </ListItem>
       </Theme>
@@ -99,6 +100,7 @@ export default {
 <style lang="scss">
 #app {
   padding: 55px 0;
+  background-color: rgb(248, 248, 248);
 }
 html {
   scroll-behavior: smooth;
