@@ -1,4 +1,5 @@
 # pccu-vue-template
+> 在2018 56月拿來做為教材與樣版的履歷靜態網頁
 
 ## Project setup
 ```
