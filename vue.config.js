@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: "pccu-vue-official"
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/pccu-vue-official/'
+        : '/'
 } 
