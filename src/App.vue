@@ -110,7 +110,7 @@ export default {
 #app {
     font-family: "Noto Sans TC", sans-serif;
     padding: 55px 0;
-    background-color: rgb(248, 248, 248);
+    // background-color: ghostwhite;
 }
 html {
     scroll-behavior: smooth;
