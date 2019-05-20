@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <Navigation title="Welcome"></Navigation>
+        <Navigation title="我的履歷教材"></Navigation>
         <div class="container">
             <PageHeader :src="imageUrl" name_zh="朱奕安" name_en="(Ian Chu)">
                 <img src="@/assets/myAvatar.png">
@@ -9,9 +9,9 @@
                 <Card>
                     <h4>前端 65%</h4>
                     <ul>
-                        <li>前端框架：Vue.js (Vuex + Typescript + ESLint)</li>
+                        <li>前端框架：Vue.js (Vuex)</li>
                         <li>前端技能：HTML, SCSS, Bootstrap</li>
-                        <li>前端環境：Vue Cli, Webpack, Gulp</li>
+                        <li>前端環境：Vue Cli, Webpack</li>
                         <li>連線模組：axios, socket.io</li>
                     </ul>
                 </Card>
@@ -20,8 +20,7 @@
                     <ul>
                         <li>後端技能：Node.js (Typescript)</li>
                         <li>後端框架：Express.js, passport.js</li>
-                        <li>資料庫：：MongoDB</li>
-                        <li>DB GUI：Robo 3T</li>
+                        <li>資料庫：：MongoDB (Robo 3T)</li>
                     </ul>
                 </Card>
                 <Card>
@@ -41,7 +40,7 @@
                 <Card>
                     <h4>其他</h4>
                     <ul>
-                        <li>撰碼風格：物件導向, 扁平化, 原生優先, Async First</li>
+                        <li>撰碼風格：物件導向, 扁平化, Native First, Async First</li>
                         <li>開發環境：VS Code</li>
                         <li>版本控制：GitKraken, GitHub</li>
                         <li>作業系統：Mac, Windows</li>
@@ -56,24 +55,19 @@
                     <p>不只是投資本業，也是灌溉夢想。</p>
                 </Card>
                 <Card>
-                    <img src="@/assets/dam.jpg">
-                    <h3>騎車攝影</h3>
-                    <p>週末天氣好的時候就一個人一車離家出走。偶遇美景時，一個鏡頭永遠留存。</p>
-                </Card>
-                <Card>
-                    <img src="@/assets/rice.jpg">
+                    <img src="@/assets/investment.jpg">
                     <h3>理財</h3>
                     <p>基富通手續費很低廉，而且有跟Line結合綁定，真的不錯。</p>
                 </Card>
                 <Card>
-                    <img src="@/assets/rice.jpg">
-                    <h3>下廚</h3>
-                    <p>有時心血來潮，就到附近全聯撿貨。買回家自己大顯身手。</p>
+                    <img src="@/assets/dam.jpg">
+                    <h3>騎車攝影</h3>
+                    <p>週末天氣好的時候就一個人一車離家出走。偶遇美景時，一個鏡頭永遠留存。</p>
                 </Card>
             </Theme>
             <Theme title="經歷">
                 <div class="row justify-content-around">
-                    <div class="col-12 col-lg-5">
+                    <div class="col-11 col-lg-5">
                         <h4>專職</h4>
                         <ListItem>
                             <h4>博暉科技股份有限公司 前端工程師</h4>
@@ -103,7 +97,7 @@
                             </ul>
                         </ListItem>
                     </div>
-                    <div class="col col-lg-5">
+                    <div class="col-11 col-lg-5">
                         <h4>兼職</h4>
                         <ListItem>
                             <h4>生涯設計工作坊 技術型天使</h4>
@@ -120,6 +114,37 @@
                             </ul>
                         </ListItem>
                     </div>
+                </div>
+            </Theme>
+            <Theme title="FAQ">
+                <div class="col-11">
+                    <ol>
+                        <li>
+                            <p class="m-0">大學念甚麼的?</p>
+                            <p>資訊工程系，軟硬體參半，但是只喜歡軟體，所以也只拿了一半的成績。好在很會做專題，不至於一事無成。</p>
+                        </li>
+                        <li>
+                            <p class="m-0">是在畢業後直接去美國嗎?</p>
+                            <p>不是，適逢人生低潮，尋求改變，先考預官。預官之後，受同裁影響，認定出國是一個改變的契機，所以花了一年備考。一邊用稱不上是積極的等級備考，一邊思考自己要甚麼。</p>
+                            <p>備考之外的時間，為了做狼人殺網頁遊戲，自學了Javascript前後端。</p>
+                        </li>
+                        <li>
+                            <p class="m-0">為什麼要考預官?</p>
+                            <p>尋求改變。</p>
+                        </li>
+                        <li>
+                            <p class="m-0">為什麼要去美國?</p>
+                            <p>尋求改變。</p>
+                        </li>
+                        <li>
+                            <p class="m-0">為什麼不在美國找工作?為什麼要回台灣?</p>
+                            <p>現實面履歷太弱，沒有強到可以跨越種族與語言的限制。</p>
+                        </li>
+                        <li>
+                            <p class="m-0">未來的目標是甚麼?</p>
+                            <p>推廣Javascript並把自己發揮到極限。</p>
+                        </li>
+                    </ol>
                 </div>
             </Theme>
         </div>
