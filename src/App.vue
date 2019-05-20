@@ -7,25 +7,28 @@
             </PageHeader>
             <Theme title="技能">
                 <Card>
-                    <h4>前端 70%</h4>
+                    <h4>前端 65%</h4>
                     <ul>
-                        <li>前端技能：Javascript, HTML, SCSS</li>
-                        <li>前端框架：Vue.js (Vuex), Bootstrap</li>
-                        <li>管理工具：Webpack, Gulp</li>
+                        <li>前端框架：Vue.js (Vuex + Typescript + ESLint)</li>
+                        <li>前端技能：HTML, SCSS, Bootstrap</li>
+                        <li>前端環境：Vue Cli, Webpack, Gulp</li>
                         <li>連線模組：axios, socket.io</li>
                     </ul>
                 </Card>
                 <Card>
-                    <h4>後端 25%</h4>
+                    <h4>後端 30%</h4>
                     <ul>
-                        <li>後端技能：Node.js (以JsDoc+Typescript強化)</li>
-                        <li>後端框架：Express</li>
-                        <li>資料庫：MS SQL Server</li>
+                        <li>後端技能：Node.js (Typescript)</li>
+                        <li>後端框架：Express.js, passport.js</li>
+                        <li>資料庫：：MongoDB</li>
+                        <li>DB GUI：Robo 3T</li>
                     </ul>
                 </Card>
                 <Card>
                     <h4>CICD 5%</h4>
                     <ul>
+                        <li>Cloud: Google Cloud Platform</li>
+                        <li>CI: Azure DevOps</li>
                         <li>容器: Docker (Portainer)</li>
                     </ul>
                 </Card>
@@ -48,9 +51,19 @@
             </Theme>
             <Theme title="生活">
                 <Card>
+                    <img src="@/assets/coding.jpg">
+                    <h3>寫程式</h3>
+                    <p>不只是投資本業，也是灌溉夢想。</p>
+                </Card>
+                <Card>
                     <img src="@/assets/dam.jpg">
                     <h3>騎車攝影</h3>
                     <p>週末天氣好的時候就一個人一車離家出走。偶遇美景時，一個鏡頭永遠留存。</p>
+                </Card>
+                <Card>
+                    <img src="@/assets/rice.jpg">
+                    <h3>理財</h3>
+                    <p>基富通手續費很低廉，而且有跟Line結合綁定，真的不錯。</p>
                 </Card>
                 <Card>
                     <img src="@/assets/rice.jpg">
@@ -59,33 +72,55 @@
                 </Card>
             </Theme>
             <Theme title="經歷">
-                <ListItem>
-                    <h4>博暉科技股份有限公司 前端工程師</h4>
-                    <h5>March 2019 ~</h5>
-                    <ul>
-                        <li>參與開發基富通改版</li>
-                    </ul>
-                </ListItem>
-                <ListItem>
-                    <h4>恩智區塊鏈 全端工程師</h4>
-                    <h5>March 2018 - March 2019</h5>
-                    <ul>
-                        <li>外派中國支援前端開發一個月</li>
-                        <li>參與開發具備後台管理系統的網頁App</li>
-                        <li>2週獨立以Vue+Express+Face recognition.js實做臉部辨識Demo</li>
-                        <li>獨立以Vue+Express+MS SQL Server實作低買高賣Demo，利用Docker發布於Linux主機上</li>
-                        <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
-                        <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
-                    </ul>
-                </ListItem>
-                <ListItem>
-                    <h4>香蕉會兒設計 遊戲前端工程師</h4>
-                    <h5>March 2017 - March 2018</h5>
-                    <ul>
-                        <li>利用遊戲引擎開發遊戲</li>
-                        <li>以Vue.js製作簡單的RWD網頁</li>
-                    </ul>
-                </ListItem>
+                <div class="row justify-content-around">
+                    <div class="col-12 col-lg-5">
+                        <h4>專職</h4>
+                        <ListItem>
+                            <h4>博暉科技股份有限公司 前端工程師</h4>
+                            <h5>March 2019 ~</h5>
+                            <ul>
+                                <li>參與開發基富通改版</li>
+                            </ul>
+                        </ListItem>
+                        <ListItem>
+                            <h4>恩智區塊鏈 全端工程師</h4>
+                            <h5>March 2018 - March 2019</h5>
+                            <ul>
+                                <li>外派中國支援前端開發一個月</li>
+                                <li>參與開發具備後台管理系統的網頁App</li>
+                                <li>2週獨立以Vue+Express+Face recognition.js實做臉部辨識Demo</li>
+                                <li>獨立以Vue+Express+MS SQL Server實作低買高賣Demo，利用Docker發布於Linux主機上</li>
+                                <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
+                                <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
+                            </ul>
+                        </ListItem>
+                        <ListItem>
+                            <h4>香蕉會兒設計 遊戲前端工程師</h4>
+                            <h5>March 2017 - March 2018</h5>
+                            <ul>
+                                <li>利用遊戲引擎開發遊戲</li>
+                                <li>以Vue.js製作簡單的RWD網頁</li>
+                            </ul>
+                        </ListItem>
+                    </div>
+                    <div class="col col-lg-5">
+                        <h4>兼職</h4>
+                        <ListItem>
+                            <h4>生涯設計工作坊 技術型天使</h4>
+                            <h5>May 2019 ~</h5>
+                            <ul>
+                                <li>沒錢，只好用技術投資</li>
+                            </ul>
+                        </ListItem>
+                        <ListItem>
+                            <h4>中國文化大學進修部 兼任講師</h4>
+                            <h5>May 2019 ~ June 2019</h5>
+                            <ul>
+                                <li>教學Vue.js</li>
+                            </ul>
+                        </ListItem>
+                    </div>
+                </div>
             </Theme>
         </div>
     </div>
