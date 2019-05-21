@@ -117,7 +117,7 @@
                 </div>
             </Theme>
             <Theme title="FAQ">
-                <div class="col-11">
+                <div class="col-12">
                     <ol>
                         <li>
                             <p class="m-0">大學念甚麼的?</p>

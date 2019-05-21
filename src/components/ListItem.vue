@@ -1,8 +1,8 @@
 <template>
     <div class="listItem col-12">
         <div class="row">
-            <div class="col-1 bullet"></div>
-            <div class="col-11">
+            <div class="d-none d-sm-block col-sm-1 bullet"></div>
+            <div class="col-12 col-sm-11">
                 <slot></slot>
             </div>
         </div>
