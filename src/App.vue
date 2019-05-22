@@ -74,6 +74,8 @@
                             <h5>March 2019 ~</h5>
                             <ul>
                                 <li>參與開發基富通改版</li>
+                                <li>以Vue進行開發，建立不欠債的Coding Style</li>
+                                <li>提倡勇於發問與討論的環境</li>
                             </ul>
                         </ListItem>
                         <ListItem>
@@ -86,6 +88,12 @@
                                 <li>獨立以Vue+Express+MS SQL Server實作低買高賣Demo，利用Docker發布於Linux主機上</li>
                                 <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
                                 <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
+                            </ul>
+                            <ul>
+                                推薦信
+                                <li>
+
+                                </li>
                             </ul>
                         </ListItem>
                         <ListItem>
@@ -103,13 +111,15 @@
                             <h4>生涯設計工作坊 技術型天使</h4>
                             <h5>May 2019 ~</h5>
                             <ul>
-                                <li>沒錢，只好用技術投資</li>
+                                <li>用Vue製作靜態網頁</li>
+                                <li>發布到Google App Engine</li>
                             </ul>
                         </ListItem>
                         <ListItem>
                             <h4>中國文化大學進修部 兼任講師</h4>
                             <h5>May 2019 ~ June 2019</h5>
                             <ul>
+                                <li>自製履歷用教材，也就是本網站的功能之一</li>
                                 <li>教學Vue.js</li>
                             </ul>
                         </ListItem>
@@ -146,6 +156,22 @@
                         </li>
                     </ol>
                 </div>
+            </Theme>
+            <Theme title="推薦信">
+                <ol>
+                    <li>
+                        <a
+                            href="https://drive.google.com/open?id=1ytUwY-Ayqtg2nFDL-NMdkxqkj55gKOMY"
+                            target="_blank"
+                        >來自專案經理</a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://drive.google.com/open?id=1kLbgMLBR5y9Np9nIeX1xzX80uaHgzp9V"
+                            target="_blank"
+                        >來自實習生</a>
+                    </li>
+                </ol>
             </Theme>
         </div>
     </div>
