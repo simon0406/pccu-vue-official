@@ -14,7 +14,7 @@
     .card_body {
         background-color: white;
         border-left: 2px groove;
-        border-bottom: 3px groove darkseagreen;
+        border-bottom: 2px groove darkseagreen;
         border-radius: 0 0 0 8px;
         box-shadow: 10px 10px 25px -15px;
         padding: 10px;
