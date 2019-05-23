@@ -89,12 +89,6 @@
                                 <li>利用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
                                 <li>近期刷新個人紀錄，3.5小時完成靜態網頁初版</li>
                             </ul>
-                            <ul>
-                                推薦信
-                                <li>
-
-                                </li>
-                            </ul>
                         </ListItem>
                         <ListItem>
                             <h4>香蕉會兒設計 遊戲前端工程師</h4>
@@ -117,7 +111,7 @@
                         </ListItem>
                         <ListItem>
                             <h4>中國文化大學進修部 兼任講師</h4>
-                            <h5>May 2019 ~ June 2019</h5>
+                            <h5>July 2019 ~ August 2019</h5>
                             <ul>
                                 <li>自製履歷用教材，也就是本網站的功能之一</li>
                                 <li>教學Vue.js</li>
