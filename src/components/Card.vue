@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-6 col-lg-4 card-custom">
+    <div class="card-custom">
         <hr class="card_line">
         <div class="card_body">
             <slot></slot>
@@ -16,10 +16,8 @@
         border-left: 2px groove;
         border-bottom: 3px groove darkseagreen;
         border-radius: 0 0 0 8px;
-        // border-color: darkseagreen;
-        // box-shadow: 0px 5px 10px;
+        box-shadow: 10px 10px 25px -15px;
         padding: 10px;
-        // margin-bottom: 15px;
         img {
             max-width: 100%;
             margin: 0.5rem auto;
