@@ -1,5 +1,5 @@
 <template>
-    <div class="theme">
+    <div class="myTheme">
         <h2>{{title}}</h2>
         <div class="row">
             <slot></slot>
@@ -14,7 +14,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.theme {
+.myTheme {
     margin-top: 1rem;
 }
 </style>

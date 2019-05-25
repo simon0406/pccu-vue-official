@@ -1,5 +1,5 @@
 <template>
-  <div class="pageHeader">
+  <div class="myPageHeader">
     <div
       class="header_image"
       :style="{ backgroundImage: `url(${src})` }"
@@ -24,7 +24,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.pageHeader {
+.myPageHeader {
   position: relative;
   .header_image {
     min-width: 100%;

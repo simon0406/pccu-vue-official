@@ -1,5 +1,5 @@
 <template>
-    <div class="listItem col-12">
+    <div class="myListItem col-12">
         <div class="row">
             <div class="d-none d-sm-block col-sm-1 bullet"></div>
             <div class="col-12 col-sm-11">
@@ -15,7 +15,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.listItem {
+.myListItem {
     h1,
     h2,
     h3,
@@ -48,7 +48,7 @@ export default {
 }
 </style>
 <style lang="scss">
-.listItem {
+.myListItem {
     &:last-child {
         .bullet {
             &:after {

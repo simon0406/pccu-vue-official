@@ -1,5 +1,5 @@
 <template>
-    <div class="card-custom">
+    <div class="myCard-custom">
         <hr class="card_line">
         <div class="card_body">
             <slot></slot>
@@ -7,7 +7,7 @@
     </div>
 </template>
 <style lang="scss" scoped>
-.card-custom {
+.myCard-custom {
     .card_line {
         border: none;
     }
