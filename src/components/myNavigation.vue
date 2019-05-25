@@ -1,8 +1,5 @@
 <template>
     <nav id="myNavigation" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <!-- <router-link :to="{name:'Home'}">
-            <a class="navbar-brand" @click="closeMenu">LifeDesign</a>
-        </router-link> -->
         <a class="navbar-brand js-scroll-trigger" @click="closeMenu" :href="`#/`">{{title}}</a>
         <button
             class="navbar-toggler"

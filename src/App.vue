@@ -18,9 +18,6 @@ export default {
     font-family: "Noto Sans TC", sans-serif;
     background-color: whitesmoke;
 }
-html {
-    scroll-behavior: smooth;
-}
 
 header {
     padding: 154px 0 100px;
