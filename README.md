@@ -2,7 +2,8 @@
 在2019 56月拿來做為教材與樣版的履歷靜態網頁
 
 發布於Github Pages上
-https://medium.com/@Roli_Dori/deploy-vue-cli-3-project-to-github-pages-ebeda0705fbd
+https://chuiantw1212.github.io/pccu-vue-official/
+
 ## Project setup
 ```
 npm install
