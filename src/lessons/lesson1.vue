@@ -1,8 +1,20 @@
 <template>
-    <div class="container">
+    <div class="container pb-5">
         <myPageHeader :src="imageUrl" name_zh="朱奕安" name_en="(Ian Chu)">
             <img src="@/assets/myAvatar.png">
         </myPageHeader>
+        <myCard class="my-social">
+            <div class="row">
+                <a class="col" href="https://github.com/Chuiantw1212" target="blank">
+                    <i class="my-social__github fab fa-github"></i>
+                </a>
+            </div>
+            <div class="row justify-content-center">
+                <span class="col-12 font-weight-bold">Web Speicalist using JS</span>
+                <a class="col-12" href="mailto:chuiantw1212@gmail.com">chuiantw1212@gmail.com</a>
+                <span class="col-12">0905-930-953</span>
+            </div>
+        </myCard>
         <myTheme title="技能">
             <myCard class="col-md-6 col-lg-4">
                 <h4>前端 65%</h4>
@@ -18,7 +30,7 @@
                 <ul>
                     <li>後端技能：Node.js (Typescript)</li>
                     <li>後端框架：Express.js, passport.js</li>
-                    <li>資料庫：：MongoDB (Robo 3T)</li>
+                    <li>資料庫：：MongoDB</li>
                 </ul>
             </myCard>
             <myCard class="col-md-6 col-lg-4">
@@ -125,11 +137,14 @@
                 <div class="col-11 col-lg-5">
                     <h4>兼職</h4>
                     <myListItem>
-                        <h4>工作坊 技術型天使</h4>
+                        <h4>職涯工作坊 技術型天使</h4>
                         <h5>May 2019 ~</h5>
                         <ul>
                             <li>用Vue製作靜態網頁</li>
+                            <li>用Node.js製作API Server</li>
                             <li>發布到Google App Engine</li>
+                            <li>影片與圖片存放於Google Cloud Storage</li>
+                            <li>其他資料存放於MongoDB Atlas</li>
                         </ul>
                     </myListItem>
                     <myListItem>
@@ -207,5 +222,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+.my-social {
+    text-align: center;
+    a,
+    span {
+        color: black;
+    }
+    .my-social__github {
+        font-size: 44px;
+    }
+}
 </style>
