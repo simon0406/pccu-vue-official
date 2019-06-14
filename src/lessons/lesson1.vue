@@ -4,13 +4,22 @@
             <img src="@/assets/myAvatar.png">
         </myPageHeader>
         <myCard class="my-social">
-            <div class="row">
-                <a class="col" href="https://github.com/Chuiantw1212" target="blank">
-                    <i class="my-social__github fab fa-github"></i>
+            <div class="row justify-content-center p-2">
+                <a
+                    class="d-flex justify-content-center mx-2"
+                    href="https://github.com/Chuiantw1212"
+                    target="blank"
+                >
+                    <i class="my-social__icon fab fa-github"></i>
+                    <span class="align-self-center ml-1">chuiantw1212</span>
                 </a>
+                <div class="d-flex justify-content-center mx-2">
+                    <i class="my-social__icon fab fa-line"></i>
+                    <span class="align-self-center ml-1">chuian1212</span>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <span class="col-12 font-weight-bold">Web Speicalist using JS</span>
+            <div class="row justify-content-center p-2">
+                <h6 class="col-12 font-weight-bold">Web Speicalist using JS</h6>
                 <a class="col-12" href="mailto:chuiantw1212@gmail.com">chuiantw1212@gmail.com</a>
                 <span class="col-12">0905-930-953</span>
             </div>
@@ -225,11 +234,12 @@ export default {
 <style lang="scss">
 .my-social {
     text-align: center;
+    i,
     a,
     span {
         color: black;
     }
-    .my-social__github {
+    .my-social__icon {
         font-size: 44px;
     }
 }
