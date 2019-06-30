@@ -11,18 +11,23 @@ export default new Router({
     routes: [
         {
             path: '/',
-            redirect: { name: "lesson1" },
+            redirect: { name: "resume" },
             component: () => import('@/frames/basic.vue'),
             children: [
                 {
-                    path: 'lesson1',
-                    name: 'lesson1',
-                    component: () => import('@/lessons/lesson1.vue'),
+                    path: 'resume',
+                    name: 'resume',
+                    component: () => import('@/lessons/1.resume.vue'),
                 },
                 {
-                    path: 'lesson2',
-                    name: 'lesson2',
-                    component: () => import('@/lessons/lesson2.vue'),
+                    path: 'html',
+                    name: 'html',
+                    component: () => import('@/lessons/2.html.vue'),
+                },
+                {
+                    path: 'css',
+                    name: 'css',
+                    component: () => import('@/lessons/3.css.vue'),
                 }
             ]
         },
