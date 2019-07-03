@@ -89,7 +89,7 @@
                 <div class="col-11 col-lg-5">
                     <h4>專職</h4>
                     <myListItem>
-                        <h4>FinTech股份有限公司 前端工程師</h4>
+                        <h4>FinTech股份有限公司 網頁前端工程師</h4>
                         <h5>March 2019 ~</h5>
                         <ul>
                             <li>參與開發基富通改版，以Vue進行開發</li>
@@ -98,7 +98,7 @@
                         </ul>
                     </myListItem>
                     <myListItem>
-                        <h4>區塊鏈有限公司 全端工程師</h4>
+                        <h4>區塊鏈有限公司 網頁全端工程師</h4>
                         <h5>March 2018 - March 2019</h5>
                         <ul>
                             <li>外派中國支援前端開發一個月</li>
