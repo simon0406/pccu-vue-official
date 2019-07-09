@@ -16,6 +16,10 @@ export default {
         text: '範本'
       },
       {
+        name: 'overview',
+        text: '入門'
+      },
+      {
         name: 'html',
         text: 'HTML'
       },

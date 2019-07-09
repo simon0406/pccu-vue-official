@@ -1,0 +1,97 @@
+<template>
+  <div class="container pt-5">
+    <h1>白話文CSS</h1>
+    <p>CSS主要有三大功能</p>
+    <ol>
+      <li>排列</li>
+      <li>間距調整</li>
+      <li>美化</li>
+    </ol>
+    <h2>排列</h2>
+    <p>瀏覽器渲染的順序是從左到右, 從上到下, 但如果要呈現不同的排列方式或是在RWD時做出變化,</p>
+    <p>就需要配合div標籤與各種css屬性來呈現不同的排列</p>
+    <p>當前主流控制排列方式的方法有兩種</p>
+    <ul>
+      <li>Flex box: 用來控制相對位置, 呈現方式會根據欄位數量或是螢幕寬度改變</li>
+      <li>Position: 用來控制絕對位置, 比如定在瀏覽器的最上方, 或是某個容器內的右上角</li>
+    </ul>
+    <h3>Flex box</h3>
+    <p>普通排列</p>
+    <myCard>
+      <div>
+        <span class="border text-primary">普通排列</span>
+        <span class="border text-primary">普通排列</span>
+        <span class="border text-primary">普通排列</span>
+      </div>
+    </myCard>
+    <p>在調整css之後, 改為垂直排列</p>
+    <myCard>
+      <div class="d-flex flex-column">
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+      </div>
+    </myCard>
+    <p>在調整css之後, 改為均勻分布</p>
+    <myCard>
+      <div class="d-flex justify-content-between">
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+      </div>
+    </myCard>
+    <p>在調整css之後, 改為置中</p>
+    <myCard>
+      <div class="d-flex justify-content-center">
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+      </div>
+    </myCard>
+    <p>在調整css之後, 改為置末</p>
+    <myCard>
+      <div class="d-flex justify-content-end">
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+        <span class="border text-primary">垂直排列</span>
+      </div>
+    </myCard>
+    <p>還有align-self: center可以使標籤自我置中, 但比較進階可以之後再來研究</p>
+    <h3>Position</h3>
+    <p>在調整css之前</p>
+    <myCard>
+      <span class="border text-primary">普通排列</span>
+      <span class="border text-primary">普通排列</span>
+      <span class="border text-primary">普通排列</span>
+      <span class="border text-primary">還沒固定右上角</span>
+    </myCard>
+    <p>在調整css之後</p>
+    <myCard class="position-relative">
+      <span class="border text-primary">普通排列</span>
+      <span class="border text-primary">普通排列</span>
+      <span class="border text-primary">普通排列</span>
+      <span class="border text-primary fixed-top-right">現在固定右上角</span>
+    </myCard>
+  </div>
+</template>
+<script>
+import myCard from '@/components/myCard.vue'
+export default {
+  components: {
+    myCard
+  }
+}
+</script>
+<style lang="scss" scoped>
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.fixed-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+</style>
