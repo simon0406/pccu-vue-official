@@ -72,6 +72,51 @@
       <span class="border text-primary">普通排列</span>
       <span class="border text-primary fixed-top-right">現在固定右上角</span>
     </myCard>
+    <h2>間距調整</h2>
+    <p>首先要了解網頁佈局中的兩的概念，容器與內容。</p>
+    <p>網頁中容器與內容的關係，就像俄羅斯娃哇一樣，雞生蛋蛋生雞，一個容器可以是其他容器的內容，一個內容可以是其他容器的容器。</p>
+    <ul>
+      <li>Margin: 控制容器間的距離</li>
+      <li>Padding: 控制容器與內容的距離</li>
+    </ul>
+    <h3>Margin</h3>
+    <div class="d-flex">
+      <myCard>
+        <span>沒有間距</span>
+      </myCard>
+      <myCard>
+        <span>沒有間距</span>
+      </myCard>
+    </div>
+    <div class="d-flex">
+      <myCard class="mr-3">
+        <span>有間距</span>
+      </myCard>
+      <myCard>
+        <span>有間距</span>
+      </myCard>
+    </div>
+    <h3>Padding</h3>
+    <div class="d-flex">
+      <myCard>
+        <span>沒有間距</span>
+      </myCard>
+      <myCard>
+        <span>沒有間距</span>
+      </myCard>
+    </div>
+    <div class="d-flex">
+      <myCard>
+        <div class="p-3">
+          <span>有間距</span>
+        </div>
+      </myCard>
+      <myCard>
+        <div class="p-3">
+          <span>有間距</span>
+        </div>
+      </myCard>
+    </div>
   </div>
 </template>
 <script>
