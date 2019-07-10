@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2f4dc007"],{5180:function(t,c,s){},"8ce4":function(t,c,s){"use strict";var a=s("5180"),n=s.n(a);n.a},9434:function(t,c,s){"use strict";s.r(c);var a=function(){var t=this,c=t.$createElement,s=t._self._c||c;return s("div",{staticClass:"myCard-custom"},[s("hr",{staticClass:"card_line"}),s("div",{staticClass:"card_body"},[t._t("default")],2)])},n=[],e=(s("8ce4"),s("2877")),i={},r=Object(e["a"])(i,a,n,!1,null,"281b5e17",null);c["default"]=r.exports}}]);
-//# sourceMappingURL=chunk-2f4dc007.65850454.js.map
