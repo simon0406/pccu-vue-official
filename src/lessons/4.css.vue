@@ -1,5 +1,5 @@
 <template>
-  <div class="container pt-5">
+  <div class="container pt-5 pb-5">
     <h1>白話文CSS</h1>
     <p>CSS主要有三大功能</p>
     <ol>
@@ -117,6 +117,28 @@
         </div>
       </myCard>
     </div>
+    <h2>美化</h2>
+    <p>美化的基礎就是控制顏色與大小，他的複雜度比單純的排列與調整間距更高</p>
+    <p>以下僅列出常用的美化屬性</p>
+    <span>文字相關</span>
+    <ul>
+      <li>color: 文字顏色</li>
+      <li>font-size: 文字大小</li>
+      <li>font-weight: 文字粗細</li>
+      <li>line-height: 文字高度, 有時可以讓文字重直至中</li>
+    </ul>
+    <span>顏色</span>
+    <ul>
+      <li>background-color: 背景顏色</li>
+    </ul>
+    <span>邊框</span>
+    <div class="css__border">
+      <p>通常一行就解決，如border: 2px solid darkseagreen</p>
+      <p>表現了邊框寬度, 邊框線條風格, 與邊框顏色</p>
+    </div>
+    <h2>作業</h2>
+    <p>承前一題目，善用CSS屬性將你的房間與主要家具用網頁元素來呈現，表現房間的格局</p>
+    <p>禁止使用Bootstrap</p>
   </div>
 </template>
 <script>
@@ -138,5 +160,8 @@ export default {
   position: absolute;
   top: 0;
   right: 0;
+}
+.css__border {
+  border: 2px solid darkseagreen;
 }
 </style>
