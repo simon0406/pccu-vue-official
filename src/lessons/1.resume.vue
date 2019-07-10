@@ -61,7 +61,7 @@
         <ul>
           <li>撰碼風格：物件導向, 扁平化, Native First, Async First</li>
           <li>開發環境：VS Code</li>
-          <li>版本控制：GitKraken, GitHub</li>
+          <li>版控GUI：GitKraken, GitHub</li>
           <li>作業系統：前端主用Windows、後端主用Mac</li>
           <li>領域知識：FinTech</li>
         </ul>
@@ -81,7 +81,7 @@
       <myCard class="col-md-6 col-lg-4">
         <img src="@/assets/dam.jpg">
         <h3>騎車攝影</h3>
-        <p>週末天氣好的時候就一個人一車離家出走。偶遇美景時，一個鏡頭永遠留存。</p>
+        <p>一個腳踏車上下班的狂人。</p>
       </myCard>
     </myTheme>
     <myTheme title="學經歷">
@@ -89,12 +89,10 @@
         <div class="col-11 col-lg-5">
           <h4>專職</h4>
           <myListItem>
-            <h4>FinTech股份有限公司 前端工程師</h4>
+            <h4>FinTech股份有限公司 網頁前端工程師</h4>
             <h5>March 2019 ~</h5>
             <ul>
               <li>參與開發基富通改版，以Vue進行開發</li>
-              <li>跨部門協調</li>
-              <li>積極傳授所知，與解決各種難題</li>
             </ul>
           </myListItem>
           <myListItem>
@@ -106,7 +104,28 @@
               <li>2週獨立以Vue + Express + Face recognition.js實做臉部辨識Demo</li>
               <li>獨立以Vue + Express + MS SQL Server實作低買高賣Demo，用Docker發布於Linux主機上</li>
               <li>創造個人紀錄，3.5小時發布一款Single Page Application</li>
-              <li>用下班時間教導非資訊本科同事寫網頁，使用Bootstrap、Gulp發布於GCP Storage</li>
+              <li>用下班時間教導非資訊本科同事寫網頁，使用Bootstrap Template發布於GCP Storage</li>
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://storage.googleapis.com/beautyofmalaysia/index.html"
+                  >CK</a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://storage.googleapis.com/annwannaaroundtheworld/index.html"
+                  >Ann</a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://storage.googleapis.com/orhanpamukandme/index.html"
+                  >Jina</a>
+                </li>
+              </ul>
+              <li>見證加班與技術債如何摧毀團隊</li>
             </ul>
           </myListItem>
           <myListItem>
@@ -115,6 +134,7 @@
             <ul>
               <li>利用遊戲引擎開發遊戲</li>
               <li>以Vue.js製作簡單的RWD網頁</li>
+              <li>誤入博弈公司的黑歷史</li>
             </ul>
           </myListItem>
           <myListItem>
