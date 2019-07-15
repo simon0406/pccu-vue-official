@@ -20,14 +20,19 @@ export default new Router({
                     component: () => import('@/lessons/1.resume.vue'),
                 },
                 {
+                    path: 'overview',
+                    name: 'overview',
+                    component: () => import('@/lessons/2.overview.vue'),
+                },
+                {
                     path: 'html',
                     name: 'html',
-                    component: () => import('@/lessons/2.html.vue'),
+                    component: () => import('@/lessons/3.html.vue'),
                 },
                 {
                     path: 'css',
                     name: 'css',
-                    component: () => import('@/lessons/3.css.vue'),
+                    component: () => import('@/lessons/4.css.vue'),
                 }
             ]
         },
