@@ -26,6 +26,26 @@ export default {
       {
         name: 'css',
         text: 'CSS'
+      },
+      {
+        name: 'practice',
+        text: 'PRACTICE'
+      },
+      {
+        name: 'practice2',
+        text: 'PRACTICE2'
+      },
+      {
+        name: 'practice3',
+        text: 'PRACTICE3'
+      },
+      {
+        name: 'RWDpractice',
+        text: 'RWDpractice'
+      },
+      {
+        name: 'RWDpractice2',
+        text: 'RWDpractice2'
       }
     ]
   }),

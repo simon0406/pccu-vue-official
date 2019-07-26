@@ -33,6 +33,31 @@ export default new Router({
                     path: 'css',
                     name: 'css',
                     component: () => import('@/lessons/4.css.vue'),
+                },
+                {
+                    path: 'practice',
+                    name: 'practice',
+                    component: () => import('@/lessons/5.practice.vue'),
+                },
+                {
+                    path: 'practice2',
+                    name: 'practice2',
+                    component: () => import('@/lessons/6.practice2.vue'),
+                },
+                {
+                    path: 'practice3',
+                    name: 'practice3',
+                    component: () => import('@/lessons/7.practice3.vue'),
+                },
+                {
+                    path: 'RWDpractice',
+                    name: 'RWDpractice',
+                    component: () => import('@/lessons/8.RWDpractice.vue'),
+                },
+                {
+                    path: 'RWDpractice2',
+                    name: 'RWDpractice2',
+                    component: () => import('@/lessons/9.RWDpractice2.vue'),
                 }
             ]
         },
