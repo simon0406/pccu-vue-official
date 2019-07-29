@@ -1,5 +1,6 @@
 <template>
-  <div class="pb-5">
+  <div class="css__RWD">
+    <div class="pb-5">
     <div class="Commission-Rectangle">
       <div class="My-Commission">
         <span>MyCommission</span>
@@ -65,16 +66,16 @@
       <span class="Button-Number2">10</span>
       <span class="Showing">Showing 1-10 of 58</span>
     </div>
-    
+      
 
-    
-
-
+      
 
 
 
+
+
+    </div>
   </div>
-
 </template>
 
 
@@ -91,7 +92,10 @@ export default {
 
 
 <style lang="scss" scoped>
-  .Commission-Rectangle{
+  .css__RWD{
+    width:100%;
+    padding:0px 2rem;
+    .Commission-Rectangle{
     width: 184px;
     height: 40px;
     padding-top:20px;
@@ -538,7 +542,7 @@ export default {
 @media (min-width: 1440px) {
 
 }
-
+  }
 
   
 
