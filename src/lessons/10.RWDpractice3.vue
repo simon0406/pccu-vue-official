@@ -10,44 +10,48 @@
     </div>
 
 
-    <div class="Personal-Rectangle2">
+    <div class="Contact-Rectangle3">
       <div class="row justify-content-left p-4">
           <span class="Collapse"><img src="@/assets/test3.jpg"></span>
-          <span class="Personal-Profile2">Personal Profile</span>
+          <span class="Contact-Datails3">Contact Datails</span>
       </div>
-      <div class="FName-Rectangle" >
-        <p class="First-Name">First Name</p>
-        <p class="Susan">Susan</p>
+      <div class="Email-Rectangle" >
+        <p class="Email">Email</p>
+        <p class="susan_towsonoutlook">susan_towson@outlook.com</p>
       </div>
-      <div class="LName-Rectangle">
-        <p class="Last-Name">Last Name</p>
-        <p class="Towson">Towson</p>
+      <div class="PhoneContact-Rectangle">
+        <p class="Telephone-Contact">Telephone(Contact)</p>
+        <p class="Number-Contact">(852)98889888</p>
       </div>
-      <div class="ID-Rectangle">
-        <p class="Client-ID">Client ID</p>
-        <p class="NC8500018">NC8500018</p>
+      <div class="PhoneHome-Rectangle">
+        <p class="Telephone-Home">Telephone(Home)</p>
+        <p class="Number-Home">(857)27888888</p>
       </div>
-      <div class="Date-Rectangle">
-        <p class="Date-of-Birth">Date of Birth</p>
-        <p class="Date-Date">1985/03/03</p>
+      <div class="Address1-Rectangle">
+        <p class="Address-1">Address-1</p>
+        <p class="F-Sunshin">Flat A,12/F Sunshine Mansion</p>
+      </div>
+      <div class="Address2-Rectangle">
+        <p class="Address-2">Country-of-Birth</p>
+        <p class="-Ocean-Road-Quarr">62 Ocean Road, Quarry Bay</p>
+      </div>
+      <div class="Town-Rectangle">
+        <p class="City">Town/City</p>
+        <p class="Hong-Kong">Hong Kong</p>
+      </div>
+      <div class="PostCode-Rectangle">
+        <p class="Post-Code">Post Code</p>
+        <p class="Number-PostCode">0000</p>
       </div>
       <div class="Country-Rectangle">
-        <p class="Country-of-Birth">Country-of-Birth</p>
-        <p class="Australian">Australian</p>
+        <p class="Country">Country</p>
+        <p class="China">China</p>
       </div>
-      <div class="Nationality-Rectangle">
-        <p class="Nationality">Nationality</p>
-        <p class="Australian2">Australian2</p>
-      </div>
-      <div class="Passport-Rectangle">
-        <p class="Passport-Number">Passport-Number</p>
-        <p class="L6587876">L6587876</p>
-      </div>
-      <div class="space">
+      <div class="space3">
       </div>
     </div>
-
-    <div class="Circle-Rectangle2">
+      
+    <div class="Circle-Rectangle3">
       <span class="circle-one"><img src="@/assets/test3.jpg"></span>
       <span class="circle-two"><img src="@/assets/test3.jpg"></span>
       <span class="circle-three"><img src="@/assets/test3.jpg"></span>
@@ -107,16 +111,19 @@ export default {
   background-color: #ffffff;
   padding-left:24px;
 }
-.Personal-Rectangle2 {
+.Contact-Rectangle3 {
   width: 736px;
-  height: 797px;
+  height: 894px;
   border-radius: 4px;
   box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
   background-color: #ffffff;
   margin:16px auto 0px auto;
 }
-.Personal-Profile2 {
-  width: 139px;
+
+//Contact-Rectangle內容移至RWD
+
+.Contact-Datails3 {
+  width: 245px;
   height: 24px;
   font-family: InterUI;
   font-size: 16px;
@@ -129,8 +136,7 @@ export default {
   margin-left: 6px;
   padding-top:4px;
 }
-
-.First-Name {
+.Email {
   width: 73px;
   height: 35px;
   opacity: 0.5;
@@ -145,9 +151,9 @@ export default {
   margin-left: 48px;
   padding-top:20px;
 }
-.Susan {
-  width: 46px;
-  height: 21px;
+.susan_towsonoutlook {
+  width: 196px;
+  height: 56px;
   font-family: InterUI;
   font-size: 14px;
   font-weight: normal;
@@ -158,8 +164,8 @@ export default {
   color: var(--charcoal-grey);
   margin-left: 48px;
 }
-.Last-Name {
-  width: 71px;
+.Telephone-Contact {
+  width: 181px;
   height: 35px;
   opacity: 0.5;
   font-family: InterUI;
@@ -173,9 +179,9 @@ export default {
   margin-left: 48px;
   padding-top:20px;
 }
-.Towson {
-  width: 117px;
-  height: 21px;
+.Number-Contact{
+  width: 226px;
+  height: 56px;
   font-family: InterUI;
   font-size: 14px;
   font-weight: normal;
@@ -185,10 +191,9 @@ export default {
   letter-spacing: normal;
   color: var(--charcoal-grey);
   margin-left: 48px;
-  
 }
-.Client-ID {
-  width: 57px;
+.Telephone-Home {
+  width: 217px;
   height: 35px;
   opacity: 0.5;
   font-family: InterUI;
@@ -202,21 +207,49 @@ export default {
   margin-left: 48px;
   padding-top:20px;
 }
-.NC8500018 {
+.Number-Home{
+  width: 157px;
+  height: 56px;
+  font-family: InterUI;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+  margin-left: 48px;
+}
+.Address-1 {
+  width: 270px;
+  height: 35px;
+  opacity: 0.5;
+  font-family: InterUI;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+  margin-left: 48px;
+  padding-top:20px;
+}
+.F-Sunshin {
+  width: 251px;
+  height: 56px;
+  font-family: InterUI;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+  margin-left: 48px;
+}
+.Address-2 {
   width: 107px;
-  height: 21px;
-  font-family: InterUI;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.07;
-  letter-spacing: normal;
-  color: var(--charcoal-grey);
-  margin-left:48px;
-}
-.Date-of-Birth {
-  width: 85px;
   height: 35px;
   opacity: 0.5;
   font-family: InterUI;
@@ -230,9 +263,9 @@ export default {
   margin-left: 48px;
   padding-top:20px;
 }
-.Date-Date{
-  width: 91px;
-  height: 21px;
+.-Ocean-Road-Quarr {
+  width: 226px;
+  height: 56px;
   font-family: InterUI;
   font-size: 14px;
   font-weight: normal;
@@ -243,8 +276,8 @@ export default {
   color: var(--charcoal-grey);
   margin-left: 48px;
 }
-.Country-of-Birth {
-  width: 107px;
+.City {
+  width: 147px;
   height: 35px;
   opacity: 0.5;
   font-family: InterUI;
@@ -258,9 +291,9 @@ export default {
   margin-left: 48px;
   padding-top:20px;
 }
-.Australian {
-  width: 91px;
-  height: 21px;
+.Hong-Kong {
+  width: 157px;
+  height: 56px;
   font-family: InterUI;
   font-size: 14px;
   font-weight: normal;
@@ -271,35 +304,7 @@ export default {
   color: var(--charcoal-grey);
   margin-left: 48px;
 }
-.Nationality {
-  width: 71px;
-  height: 35px;
-  opacity: 0.5;
-  font-family: InterUI;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.14;
-  letter-spacing: normal;
-  color: var(--charcoal-grey);
-  margin-left: 48px;
-  padding-top:20px;
-}
-.Australian2 {
-  width: 68px;
-  height: 21px;
-  font-family: InterUI;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.07;
-  letter-spacing: normal;
-  color: var(--charcoal-grey);
-  margin-left: 48px;
-}
-.Passport-Number {
+.Post-Code {
   width: 117px;
   height: 35px;
   opacity: 0.5;
@@ -314,9 +319,9 @@ export default {
   margin-left: 48px;
   padding-top:20px;
 }
-.L6587876 {
+.Number-PostCode{
   width: 83px;
-  height: 21px;
+  height: 56px;
   font-family: InterUI;
   font-size: 14px;
   font-weight: normal;
@@ -327,11 +332,37 @@ export default {
   color: var(--charcoal-grey);
   margin-left: 48px;
 }
-
-
+.Country {
+  width: 181px;
+  height: 35px;
+  opacity: 0.5;
+  font-family: InterUI;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+  margin-left: 48px;
+  padding-top:20px;
+}
+.China {
+  width: 188px;
+  height: 56px;
+  font-family: InterUI;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+  margin-left: 48px;
+}
 .Rectangle {
   width: 768px;
-  height: 200px;
+  height: 200px;  
   margin:10px auto 0px auto;
 }
 .Text-Rectangle {
@@ -339,11 +370,13 @@ export default {
   height: 35px;  
   margin:10px auto 0px auto;
 }
-.Social-Rectangle {  
+.Social-Rectangle {
   margin:30px auto 0px auto;
   position: relative;
 }
 .Lorem-ipsum-dolor-si {
+  width: 730px;
+  height: 253px;
   font-family: InterUI;
   font-size: 12px;
   font-weight: 300;
@@ -351,6 +384,7 @@ export default {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  text-align: justify;
   color: #414042;
 }
 .About-Us {
@@ -378,7 +412,7 @@ export default {
   line-height: normal;
   letter-spacing: normal;
   color: var(--charcoal-grey);
-  margin-left: 95px;
+  margin-left: 91px;
   margin-top:24px;
 }
 .Contact-Us {
@@ -392,7 +426,7 @@ export default {
   line-height: normal;
   letter-spacing: normal;
   color: var(--charcoal-grey);
-  margin-left: 95px;
+  margin-left: 91px;
   margin-top:24px;
 }
 .Privacy-Policy {
@@ -406,7 +440,7 @@ export default {
   line-height: normal;
   letter-spacing: normal;
   color: var(--charcoal-grey);
-  margin-left: 95px;
+  margin-left: 91px;
   margin-top:24px;
 }
 .Terms-Conditions {
@@ -420,7 +454,7 @@ export default {
   line-height: normal;
   letter-spacing: normal;
   color: var(--charcoal-grey);
-  margin-left: 95px;
+  margin-left: 91px;
   margin-top:24px;
 }
 .Designed-by-S {
@@ -441,7 +475,8 @@ export default {
 .Path {
   width: 14px;
   height: 7.9px;
-  background-color: #414042;  
+  background-color: #414042;
+  margin-left:653px;
 }
 .Social-facebook {
   width: 20px;
@@ -492,6 +527,8 @@ export default {
   color: var(--charcoal-grey);
 }
 
+
+
 @media (min-width: 500px) {
   .MyProfile-Rectangle {
     max-width: 450px;
@@ -501,27 +538,40 @@ export default {
       max-height: 378px;
     }
   }
-  
-  .Personal-Rectangle2 {
+  .Contact-Rectangle3 {
     max-width: 450px;
-    max-height: 780px;
-    .FName-Rectangle {
-      width: 450px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-      
-    }
-    .LName-Rectangle {
+    max-height: 894px;
+    .Email-Rectangle {
       width: 450px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .ID-Rectangle {
+    .PhoneContact-Rectangle {
       width: 450px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .Date-Rectangle {
+    .PhoneHome-Rectangle {
+      width: 450px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Address1-Rectangle {
+      width: 450px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Address2-Rectangle {
+      width: 450px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Town-Rectangle {
+      width: 450px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .PostCode-Rectangle {
       width: 450px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
@@ -531,23 +581,13 @@ export default {
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .Nationality-Rectangle {
-      width: 450px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .Passport-Rectangle {
-      width: 450px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .space {
+    .space3 {
       width: 450px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
   }
-  .Circle-Rectangle2 {
+  .Circle-Rectangle3 {
     width: 450px;
     height: 35px;  
     margin:88px auto 0px auto;
@@ -641,27 +681,40 @@ export default {
       max-height: 500px;
     }
   }
-  
-  .Personal-Rectangle2 {
+  .Contact-Rectangle3 {
     max-width: 768px;
-    max-height: 780px;
-    .FName-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-      
-    }
-    .LName-Rectangle {
+    max-height: 894px;
+    .Email-Rectangle {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .ID-Rectangle {
+    .PhoneContact-Rectangle {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .Date-Rectangle {
+    .PhoneHome-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Address1-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Address2-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Town-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .PostCode-Rectangle {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
@@ -671,23 +724,13 @@ export default {
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .Nationality-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .Passport-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .space {
+    .space3 {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
   }
-  .Circle-Rectangle2 {
+  .Circle-Rectangle3 {
     width: 768px;
     height: 35px;  
     margin:88px auto 0px auto;
@@ -721,7 +764,7 @@ export default {
   .Lorem-ipsum-dolor-si{
     max-width: 730px;
     max-height: 500px;
-    margin:33px 0px 0px -10px;
+    margin:33px 0px 0px 5px;
   }
   .Text-Rectangle{
     max-width: 768px;
@@ -748,7 +791,7 @@ export default {
     .Designed-by-S{
       width: 768px;
       height: 24px;
-      margin:32px 0px 0px 12px;
+      margin:32px 0px 0px 4px;
     }
     .Social-facebook{
       margin-left:300px;
@@ -776,31 +819,45 @@ export default {
   .MyProfile-Rectangle {
       max-width: 992px;
       max-height: 700px;
-      .My-Profile{
-        max-width: 992px;
-        max-height: 700px;
-    }
   }
-  .Personal-Rectangle2 {
+  .My-Profile{
       max-width: 992px;
-      max-height: 780px;
-      .FName-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-      
-    }
-    .LName-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .ID-Rectangle {
+      max-height: 700px;
+  }
+  .Contact-Rectangle3 {
+      max-width: 992px;
+      max-height: 894px;
+      .Email-Rectangle {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .Date-Rectangle {
+    .PhoneContact-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .PhoneHome-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Address1-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Address2-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Town-Rectangle {
+      width: 736px;
+      height: 88px;
+      box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .PostCode-Rectangle {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
@@ -810,17 +867,7 @@ export default {
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
     }
-    .Nationality-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .Passport-Rectangle {
-      width: 736px;
-      height: 88px;
-      box-shadow: inset 0 1px 0 0 #ecedef;
-    }
-    .space {
+    .space3 {
       width: 736px;
       height: 88px;
       box-shadow: inset 0 1px 0 0 #ecedef;
@@ -830,7 +877,7 @@ export default {
       max-width: 992px;
       max-height: 700px;
   }
-  .Circle-Rectangle2 {
+  .Circle-Rectangle3 {
     width: 768px;
     height: 35px;  
     margin:88px auto 0px auto;
@@ -863,27 +910,27 @@ export default {
       margin:33px 0px 0px 24px;
   }
   .Text-Rectangle{
-        max-width: 992px;
-        max-height: 200px;
-      .About-Us{
-        margin-left:24px;
-      }
-      .Support{
-        margin-left:91px;
-      }
-      .Contact-Us{
-        margin-left:91px;
-      }
-      .Privacy-Policy{
-        margin-left:91px;
-      }
-      .Terms-Conditions{
-        margin-left:91px;
-      }
+      max-width: 992px;
+      max-height: 700px;
+    .About-Us{
+      margin-left:24px;
     }
+    .Support{
+      margin-left:91px;
+    }
+    .Contact-Us{
+      margin-left:91px;
+    }
+    .Privacy-Policy{
+      margin-left:91px;
+    }
+    .Terms-Conditions{
+      margin-left:91px;
+    }
+  }
   .Social-Rectangle{
-      width: 768px;
-      height: 35px;  
+    width: 768px;
+    height: 35px;  
     .Designed-by-S{
       width: 768px;
       height: 24px;
@@ -911,4 +958,5 @@ export default {
     }
   }
 }
+
 </style>

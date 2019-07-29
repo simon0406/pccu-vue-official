@@ -46,6 +46,10 @@ export default {
       {
         name: 'RWDpractice2',
         text: 'RWDpractice2'
+      },
+      {
+        name: 'RWDpractice3',
+        text: 'RWDpractice3'
       }
     ]
   }),

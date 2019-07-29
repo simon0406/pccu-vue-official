@@ -1,7 +1,7 @@
 <template>
   <div class="pt-5 pb-5" >
     <div class="css__RWD">  
-      
+
       <div class="MyProfile-Rectangle">
         <div class="My-Profile">
           <div class="row justify-content-left p-4">
@@ -501,20 +501,20 @@ export default {
       .circle-one {
         height: 24px;
         position: absolute;
-        left:15px;
+        left:5px;
         z-index: 2;
       }
       .circle-two {
         height: 24px;
         position: absolute;
         z-index: 1;
-        left:30px;
+        left:20px;
       }
       .circle-three {
         height: 24px;
         position: absolute;
         z-index: 0;
-        left:45px;
+        left:35px;
       }
     }
     .Text-Rectangle{

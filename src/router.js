@@ -58,6 +58,11 @@ export default new Router({
                     path: 'RWDpractice2',
                     name: 'RWDpractice2',
                     component: () => import('@/lessons/9.RWDpractice2.vue'),
+                },
+                {
+                    path: 'RWDpractice3',
+                    name: 'RWDpractice3',
+                    component: () => import('@/lessons/10.RWDpractice3.vue'),
                 }
             ]
         },

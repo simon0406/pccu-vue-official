@@ -300,6 +300,16 @@ export default {
   .Personal-Rectangle {
     max-width: 450px;
     max-height: 378px;
+    .Personal-Profile {
+      width: 430px;
+      margin-left:10px;
+      line-height:22px;
+    }
+    .Contact-Details {
+      width: 430px;
+      margin-left:10px;
+      line-height:22px;
+    }
     .Contact-Rectangle {
       width: 450px;
       height: 56px;
@@ -475,7 +485,7 @@ export default {
     .Designed-by-S{
       width: 768px;
       height: 24px;
-      margin:32px 0px 0px 4px;
+      margin:32px 0px 0px 12px;
     }
     .Social-facebook{
       margin-left:300px;
@@ -505,7 +515,7 @@ export default {
   .Lorem-ipsum-dolor-si{
     max-width: 730px;
     max-height: 500px;
-    margin:33px 0px 0px 8px;
+    margin:33px 0px 0px -10px;
   }
 }
 @media (min-width: 992px) {

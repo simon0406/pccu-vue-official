@@ -764,7 +764,7 @@ export default {
   .Lorem-ipsum-dolor-si{
     max-width: 730px;
     max-height: 500px;
-    margin:33px 0px 0px 5px;
+    margin:33px 0px 0px -10px;
   }
   .Text-Rectangle{
     max-width: 768px;
@@ -791,7 +791,7 @@ export default {
     .Designed-by-S{
       width: 768px;
       height: 24px;
-      margin:32px 0px 0px 4px;
+      margin:32px 0px 0px 12px;
     }
     .Social-facebook{
       margin-left:300px;
