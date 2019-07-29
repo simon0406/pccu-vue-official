@@ -63,6 +63,11 @@ export default new Router({
                     path: 'RWDpractice3',
                     name: 'RWDpractice3',
                     component: () => import('@/lessons/10.RWDpractice3.vue'),
+                },
+                {
+                    path: 'Commission',
+                    name: 'Commission',
+                    component: () => import('@/lessons/11.Commission.vue'),
                 }
             ]
         },
