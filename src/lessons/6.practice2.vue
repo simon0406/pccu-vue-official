@@ -90,7 +90,7 @@ export default {
 }
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .MyProfile-Rectangle {
   width: 736px;
   height: 120px;

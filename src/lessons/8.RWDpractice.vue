@@ -74,7 +74,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .css__RWD{
   width:100%;
   padding:0px 2rem;
