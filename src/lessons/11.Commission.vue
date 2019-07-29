@@ -179,6 +179,7 @@ export default {
   }
 
   //中間
+  
   .NB1-Rectangle {
     width: 327px;
     height: 120px;
