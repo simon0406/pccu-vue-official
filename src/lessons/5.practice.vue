@@ -301,12 +301,8 @@ export default {
     max-width: 450px;
     max-height: 378px;
     .Personal-Profile {
-      width: 430px;
-      margin-left:10px;
-      line-height:22px;
-    }
-    .Contact-Details {
-      width: 430px;
+      width: 450px;
+      font-size: 16px;
       margin-left:10px;
       line-height:22px;
     }
@@ -314,6 +310,13 @@ export default {
       width: 450px;
       height: 56px;
       box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Contact-Details {
+      width: 450px;
+      font-size: 16px;
+      color: #414042;
+      margin-left:10px;
+      line-height:22px;
     }
     .Collapse{
       margin-left:290px;
@@ -421,10 +424,23 @@ export default {
   .Personal-Rectangle {
     max-width: 768px;
     max-height: 500px;
+    .Personal-Profile {
+      width: 727px;
+      font-size: 16px;
+      margin-left:10px;
+      line-height:22px;
+    }
     .Contact-Rectangle {
       width: 736px;
       height: 56px;
       box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Contact-Details {
+      width: 727px;
+      font-size: 16px;
+      color: #414042;
+      margin-left:10px;
+      line-height:22px;
     }
     .Collapse{
       margin-left:575px;
@@ -530,10 +546,23 @@ export default {
   .Personal-Rectangle {
     max-width: 992px;
     max-height: 700px;
+    .Personal-Profile {
+      width: 727px;
+      font-size: 16px;
+      margin-left:10px;
+      line-height:22px;
+    }
     .Contact-Rectangle {
       width: 736px;
       height: 56px;
       box-shadow: inset 0 1px 0 0 #ecedef;
+    }
+    .Contact-Details {
+      width: 727px;
+      font-size: 16px;
+      color: #414042;
+      margin-left:10px;
+      line-height:22px;
     }
     .Collapse{
       margin-left:574px;
