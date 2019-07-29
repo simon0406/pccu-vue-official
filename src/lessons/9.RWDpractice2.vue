@@ -535,10 +535,7 @@ export default {
     .Rectangle {
       max-height: 378px;
     }
-    .Lorem-ipsum-dolor-si{
-      max-height: 378px;
-      margin:33px 0px 0px 5px;
-    }
+    
     .Text-Rectangle{
       max-height: 200px;
       .About-Us{
@@ -561,27 +558,24 @@ export default {
       height: 35px;  
       .Designed-by-S{
         height: 24px;
-        margin:100px 0px 0px 4px;
+        margin-top:100px;
+        position: relative;
       }
       .Social-facebook{
-        margin-left:140px;
-        position: absolute;
-        left:194px;
+        position: absolute;right:90px;
       }
       .Social-instagram{
-        margin-left:20px;
-        position: absolute;
-        left:345px;
+        position: absolute;right:60px;
       }
       .Social-linkedin{
-        margin-left:20px;
-        position: absolute;
-        left:375px;
+        position: absolute;right:30px;
       }
       .Social-twitter{
-        margin-left:20px;
-        position: absolute;
-        left:405px;
+        position: absolute;right:0px;
+      }
+      .Lorem-ipsum-dolor-si{
+      max-height: 378px;
+      margin:33px 0px 0px 5px;
       }
     }
   }
@@ -655,53 +649,47 @@ export default {
     .Rectangle {
       max-height: 500px;
     }
-    .Lorem-ipsum-dolor-si{
-      max-height: 500px;
-      margin:33px 0px 0px 5px;
-    }
+    
     .Text-Rectangle{
       max-height: 500px;
+      text-align:justify;
       .About-Us{
-        margin-left:12px;
+        text-align:justify;
       }
       .Support{
-        margin-left:90px;
+        text-align:justify;
       }
       .Contact-Us{
-        margin-left:90px;
+        text-align:justify;
       }
       .Privacy-Policy{
-        margin-left:90px;
+        text-align:justify;
       }
       .Terms-Conditions{
-        margin-left:90px;
+        text-align:justify;
       }
     }
     .Social-Rectangle{
-      height: 35px;  
+      height: 35px;
+      .Lorem-ipsum-dolor-si{
+      max-height: 500px;
+      margin:33px 0px 0px 5px;
+      }  
       .Designed-by-S{
-        height: 24px;
-        margin:32px 0px 0px 4px;
+        margin-top:32px;
+        position: relative;
       }
       .Social-facebook{
-        margin-left:300px;
-        position: absolute;
-        left:315px;
+        position: absolute;right:90px;
       }
       .Social-instagram{
-        margin-left:20px;
-        position: absolute;
-        left:625px;
+        position: absolute;right:60px;
       }
       .Social-linkedin{
-        margin-left:20px;
-        position: absolute;
-        left:655px;
+        position: absolute;right:30px;
       }
       .Social-twitter{
-        margin-left:20px;
-        position: absolute;
-        left:685px;
+        position: absolute;right:0px;
       }
     } 
   }
@@ -774,52 +762,46 @@ export default {
         left:45px;
       }
     }
-    .Lorem-ipsum-dolor-si{
-        max-height: 700px;
-        margin:33px 0px 0px 24px;
-    }
+    
     .Text-Rectangle{
           max-height: 200px;
+          text-align:justify;
         .About-Us{
-          margin-left:24px;
+          text-align:justify;
         }
         .Support{
-          margin-left:91px;
+          text-align:justify;
         }
         .Contact-Us{
-          margin-left:91px;
+          text-align:justify;
         }
         .Privacy-Policy{
-          margin-left:91px;
+          text-align:justify;
         }
         .Terms-Conditions{
-          margin-left:91px;
+          text-align:justify;
         }
       }
     .Social-Rectangle{
+      .Lorem-ipsum-dolor-si{
+        max-height: 700px;
+        margin:33px 0px 0px 24px;
+      }
       .Designed-by-S{
-        height: 24px;
-        margin:32px 0px 0px 27px;
+        margin-top:32px;
+        position:relative;
       }
       .Social-facebook{
-        margin-left:300px;
-        position: absolute;
-        left:350px;
+        position: absolute;right:90px;
       }
       .Social-instagram{
-        margin-left:20px;
-        position: absolute;
-        left:660px;
+        position: absolute;right:60px;
       }
       .Social-linkedin{
-        margin-left:20px;
-        position: absolute;
-        left:690px;
+        position: absolute;right:30px;
       }
       .Social-twitter{
-        margin-left:20px;
-        position: absolute;
-        left:720px;
+        position: absolute;right:0px;
       }
     }
   }

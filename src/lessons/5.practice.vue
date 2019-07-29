@@ -1,5 +1,6 @@
 <template>
   <div class="pt-5 pb-5" style="padding-top: 16px;" >
+    
     <div class="MyProfile-Rectangle">
       <div class="My-Profile">
         <div class="row justify-content-left p-4">
@@ -143,7 +144,6 @@ export default {
   margin:30px auto 0px auto;
   position: relative;
 }
-
 .Lorem-ipsum-dolor-si {
   font-family: InterUI;
   font-size: 12px;

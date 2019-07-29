@@ -1,6 +1,7 @@
 <template>
   <div class="pt-5 pb-5" >
     <div class="css__RWD">  
+      
       <div class="MyProfile-Rectangle">
         <div class="My-Profile">
           <div class="row justify-content-left p-4">
@@ -320,6 +321,9 @@ export default {
         left:35px;
       }
     }
+    .Rectangle {
+      max-height: 378px;
+    }
     .Text-Rectangle{
       max-height: 200px;
       text-align:justify;
@@ -347,26 +351,29 @@ export default {
         position: relative;
       }
       .Social-facebook{
-        position: absolute;right:90px;
+        position: absolute;
+        right:90px;
       }
       .Social-instagram{
-        position: absolute;right:60px;
+        position: absolute;
+        right:60px;
       }
       .Social-linkedin{
-        position: absolute;right:30px;
+        position: absolute;
+        right:30px;
       }
       .Social-twitter{
-        position: absolute;right:0px;
+        position: absolute;
+        right:0px;
       }
-    }
-    .Rectangle {
-      max-height: 378px;
     }
     .Lorem-ipsum-dolor-si{
       max-height: 378px;
       margin-top:33px;
     }
   }
+    
+  
 
   @media (min-width: 768px) {
     .MyProfile-Rectangle {
@@ -435,7 +442,7 @@ export default {
       }
     } 
     .Social-Rectangle{
-      height: 35px;    
+      height: 35px;
       .Designed-by-S{
         margin-top:32px;
         position: relative;
@@ -452,14 +459,14 @@ export default {
       .Social-twitter{
         position: absolute;right:0px;
       }
-    }  
-    .Rectangle {
-      max-height: 700px;
-    }
-    .Lorem-ipsum-dolor-si{
+      .Lorem-ipsum-dolor-si{
       max-height: 500px;
       margin-top:33px;
     }
+  }  
+      .Rectangle {
+        max-height: 700px;
+      }
   }
   @media (min-width: 992px) {
     .MyProfile-Rectangle {
@@ -531,10 +538,6 @@ export default {
     }
     .Social-Rectangle{
       height: 35px;  
-      .Lorem-ipsum-dolor-si{
-        max-height: 300px;
-        margin-top:33px;
-      }
       .Designed-by-S{
         margin-top:32px;
         position:relative;
@@ -551,6 +554,10 @@ export default {
           position: absolute;right:0px;
         }
       }
+    }
+    .Lorem-ipsum-dolor-si{
+      max-height: 300px;
+      margin-top:33px;
     }
   }
 }
