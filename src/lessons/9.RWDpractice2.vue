@@ -562,16 +562,20 @@ export default {
         position: relative;
       }
       .Social-facebook{
-        position: absolute;right:90px;
+        position: absolute;
+        right:90px;
       }
       .Social-instagram{
-        position: absolute;right:60px;
+        position: absolute;
+        right:60px;
       }
       .Social-linkedin{
-        position: absolute;right:30px;
+        position: absolute;
+        right:30px;
       }
       .Social-twitter{
-        position: absolute;right:0px;
+        position: absolute;
+        right:0px;
       }
       .Lorem-ipsum-dolor-si{
       max-height: 378px;
@@ -680,16 +684,20 @@ export default {
         position: relative;
       }
       .Social-facebook{
-        position: absolute;right:90px;
+        position: absolute;
+        right:90px;
       }
       .Social-instagram{
-        position: absolute;right:60px;
+        position: absolute;
+        right:60px;
       }
       .Social-linkedin{
-        position: absolute;right:30px;
+        position: absolute;
+        right:30px;
       }
       .Social-twitter{
-        position: absolute;right:0px;
+        position: absolute;
+        right:0px;
       }
     } 
   }
@@ -792,16 +800,20 @@ export default {
         position:relative;
       }
       .Social-facebook{
-        position: absolute;right:90px;
+        position: absolute;
+        right:90px;
       }
       .Social-instagram{
-        position: absolute;right:60px;
+        position: absolute;
+        right:60px;
       }
       .Social-linkedin{
-        position: absolute;right:30px;
+        position: absolute;
+        right:30px;
       }
       .Social-twitter{
-        position: absolute;right:0px;
+        position: absolute;
+        right:0px;
       }
     }
   }
