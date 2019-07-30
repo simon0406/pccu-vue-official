@@ -13,13 +13,12 @@
           </div>
         </div>
       </div>
-
-      <div class="Magnifier-Rectangle--mobile">
-        <span class="Magnifier--moblie"><img src="@/assets/test2.png"></span>
+      
+      <div class="MagnifierRectangle--mobile">
+        <span class="Magnifier--mobile"><img src="@/assets/test2.png"></span>
       </div>
-      <span class="Magnifier-Rectangle--mobile2">
-        <span class="Magnifier--moblie2"><img src="@/assets/test3.jpg"></span>
-      </span>
+
+      
 
       <div class="Account-Rectangle">
         <span class="Account-Number">Account Number</span>
@@ -69,6 +68,14 @@
       <div class="space-Rectangle">
       </div>
 
+      <div class="NB-Rectangle--Tablet NB1-Rectangle--Tablet">
+        <span class="NB-Picture--Tablet NB1-Picture--Tablet"><img src="@/assets/facebook.png"></span>
+        <p class="NB-Cristen--Tablet NB1-Name--Tablet">Cristen Michaelson</p>
+      </div>
+
+
+
+
       <div class="Button-Rectangle">
         <span class="Oval-one"><img src="@/assets/facebook.png"></span>
         <span class="Oval-two"><img src="@/assets/facebook.png"></span>
@@ -107,7 +114,6 @@ export default {
       height: 40px;
       padding-top:20px;
       position: relative;
-      //將title內容移出Commission-Rectangle
     }
     .My-Commission {
       height: 28px;
@@ -163,22 +169,30 @@ export default {
       position: absolute;
     }
     //搜尋的小圖案
-    .Magnifier-Rectangle--mobile{
+    
+    .MagnifierRectangle--mobile{
       height: 24px;
       margin-top:60px;
+      display:block;
     }
-    .Magnifier-Rectangle--mobile2{
+    .MagnifierRectangle--mobile2{
       height: 24px;
       margin-top:60px;
+      display:none;
     }
-    .Magnifier--moblie {
+    
+    .Magnifier--mobile {
       height: 24px;
       object-fit: contain;
+      display:block;
     }
     .Magnifier--mobile2 {
       height: 24px;
       object-fit: contain;
+      display:none;
     }
+    
+    
     //Account Number+圖
     .Account-Rectangle{
       height: 32px;
@@ -209,20 +223,27 @@ export default {
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
     }
+    .NB-Rectangle--Tablet {
+      height: 120px;
+      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
+      position: relative;
+      display: none;
+    }
     .space-Rectangle {
       height: 32px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
     }
-    .NB-Picture{
+    .NB-Picture--Tablet{
       width: 16px;
       height: 16px;
       object-fit: contain;
       position: absolute;
       padding-top: 10px;
       padding-left:5px;
+      display: none;
     }
-      //NB1內容
-    .NB-Name{
+    //NB1內容
+    .NB-Name--Tablet{
       height: 17px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -236,6 +257,7 @@ export default {
       position:absolute;
       padding-top:10px;
       padding-left:30px;
+      display: none;
     }
     .NB-Fee{
       height: 15px;
@@ -293,6 +315,20 @@ export default {
         position: absolute;
         right:0px;
         padding-top:10px;
+    }
+    .NB-Cristen--Tablet {
+      width: 255px;
+      height: 16px;
+      opacity: 0.4;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.08;
+      letter-spacing: normal;
+      color: #414042;
+      display:none;
     }
     .Button-Rectangle{
         height: 32px;
@@ -355,32 +391,81 @@ export default {
         right:110px;
     }
   @media (min-width: 375px) {
-    .Magnifier-Rectangle--mobile{
-      display:block;
-    }
-    .Magnifier-Rectangle--mobile2{
-      display:none;
-    }
-    .Magnifier--moblie {
-      display:block;
-    }
-    .Magnifier--mobile2 {
-      display:none;
-    }
   }
   @media (min-width: 768px) {
-    .Magnifier-Rectangle--mobile{
+    
+    .MagnifierRectangle--mobile{      
       display:none;
     }
-    .Magnifier-Rectangle--mobile2{
+    .MagnifierRectangle--mobile2{
       display:block;
     }
-    .Magnifier--moblie {
+    .Magnifier--mobile {
       display:none;
     }
     .Magnifier--mobile2 {
       display:block;
     }
+    .NB-Rectangle--Tablet {
+      height: 120px;
+      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
+      position: relative;
+      display: block;
+    }
+    .NB-Cristen--Tablet {
+      width: 255px;
+      height: 16px;
+      opacity: 0.4;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.08;
+      letter-spacing: normal;
+      color: #414042;
+      display:block;
+    }
+    
+
+    .NB-Rectangle {
+      height: 120px;
+      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
+      position: relative;
+    }
+    .NB-Rectangle--Tablet {
+      height: 120px;
+      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
+      position: relative;
+      display: none;
+    }
+    .space-Rectangle {
+      display: none;
+    }
+    .NB-Picture--Tablet{
+      display: block;      
+    }
+    //NB1內容
+    .NB-Name--Tablet{
+      display: block;
+    }
+    .NB-Fee{
+      display: none;
+    }
+    .NB-USD{
+      display: none;
+    }
+    .NB-Paydate{
+      display: none;
+    }
+    .NB-Pending {
+      display: none;
+    }
+
+
+
+
+
   }
   @media (min-width: 1440px) {
 
