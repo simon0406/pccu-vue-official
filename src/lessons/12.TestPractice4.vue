@@ -17,7 +17,6 @@
       <div class="MagnifierRectangle--mobile">
         <span class="Magnifier--mobile"><img src="@/assets/test2.png"></span>
       </div>
-
       
 
       <div class="Account-Rectangle">
@@ -70,6 +69,7 @@
 
       <div class="NB-Rectangle--Tablet NB1-Rectangle--Tablet">
         <span class="NB-Picture--Tablet NB1-Picture--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="NB-Name--Tablet NB1-Name--Tablet">NB1200202</span>
         <p class="NB-Cristen--Tablet NB1-Name--Tablet">Cristen Michaelson</p>
       </div>
 
@@ -233,6 +233,14 @@ export default {
       height: 32px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
     }
+    .NB-Picture{
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      position: absolute;
+      padding-top: 10px;
+      padding-left:5px;
+    }
     .NB-Picture--Tablet{
       width: 16px;
       height: 16px;
@@ -258,6 +266,21 @@ export default {
       padding-top:10px;
       padding-left:30px;
       display: none;
+    }
+    .NB-Name{
+      height: 17px;
+      opacity: 0.9;
+      font-family: HelveticaNeue;
+      font-size: 17px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.06;
+      letter-spacing: normal;
+      color: #414042;
+      position:absolute;
+      padding-top:10px;
+      padding-left:30px;
     }
     .NB-Fee{
       height: 15px;
@@ -406,6 +429,7 @@ export default {
     .Magnifier--mobile2 {
       display:block;
     }
+    
     .NB-Rectangle--Tablet {
       height: 120px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
@@ -424,20 +448,21 @@ export default {
       line-height: 1.08;
       letter-spacing: normal;
       color: #414042;
+      padding-top:40px;
+      padding-left:5px;
       display:block;
     }
     
+    
 
     .NB-Rectangle {
-      height: 120px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      position: relative;
+      display:none;
     }
     .NB-Rectangle--Tablet {
       height: 120px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
-      display: none;
+      display: block;
     }
     .space-Rectangle {
       display: none;
@@ -448,6 +473,9 @@ export default {
     //NB1內容
     .NB-Name--Tablet{
       display: block;
+    }
+    .NB-Picture{
+      display:none;
     }
     .NB-Fee{
       display: none;
