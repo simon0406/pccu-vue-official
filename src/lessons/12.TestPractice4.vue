@@ -1,6 +1,7 @@
 <template>
   <div class="pb-5">
     <div class="css__RWD">
+
       <div class="Commission-Rectangle">
         <div class="My-Commission">
           <span>MyCommission</span>
@@ -13,9 +14,27 @@
           </div>
         </div>
       </div>
+
       
-      <div class="MagnifierRectangle--mobile">
-        <span class="Magnifier--mobile"><img src="@/assets/test2.png"></span>
+      <div class="Commission-Rectangle--Tablet">
+        <div class="My-Commission--Tablet">
+          <span>MyCommission</span>
+          <span class="Magnifier--Tablet"><img src="@/assets/test2.png"></span>
+          <span class="Filter-Rectangle--Tablet">
+            <span class="Filter--Tablet">Filter</span>
+            <span class="Filter-picture--Tablet"><img src="@/assets/facebook.png"></span>
+          </span>
+          <div class="Recent-3-months--Tablet">
+          <p>Recent-3-months</p>
+          </div>
+        </div>
+      </div>
+
+
+      
+      
+      <div class="MagnifierRectangle">
+        <span class="Magnifier"><img src="@/assets/test2.png"></span>
       </div>
       
 
@@ -28,7 +47,7 @@
       <div class="Holder-Rectangle--Tablet">
         <span class="Account-Holder--Tablet">Account Holder</span>
         <span class="Fee-Type--Tablet">Fee Type</span>
-        <span class="base-Holder--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="base-Fee--Tablet"><img src="@/assets/facebook.png"></span>
         <span class="Pay-Date--Tablet">Pay Date</span>
         <span class="Status--Tablet">Status</span>
         <span class="base-Status--Tablet"><img src="@/assets/facebook.png"></span>
@@ -124,7 +143,7 @@
         <p class="NB-Date--Tablet NB5-Date--Tablet">Jan 05,2019</p>
         <span class="NB-Pending NB5-Pending--Tablet">Received</span>
       </div>
-      <div class="space-Rectangle">
+      <div class="space-Rectangle--Tablet">
       </div>
 
 
@@ -223,26 +242,16 @@ export default {
     }
     //搜尋的小圖案
     
-    .MagnifierRectangle--mobile{
+    .MagnifierRectangle{
       height: 24px;
       margin-top:60px;
       display:block;
-    }
-    .MagnifierRectangle--mobile2{
-      height: 24px;
-      margin-top:60px;
-      display:none;
     }
     
-    .Magnifier--mobile {
+    .Magnifier{
       height: 24px;
       object-fit: contain;
       display:block;
-    }
-    .Magnifier--mobile2 {
-      height: 24px;
-      object-fit: contain;
-      display:none;
     }
     
     
@@ -402,7 +411,8 @@ export default {
         border-radius: 17px;
         background-color: #9aefaa;
         position:absolute;
-        right:110px;
+        right:120px;
+        text-align:center;
     }
     .Button-Rectangle2{
         height: 32px;
@@ -431,6 +441,31 @@ export default {
 
 
 
+
+    .Commission-Rectangle--Tablet{
+      display:none;
+    }
+    .My-Commission--Tablet {
+      display:none;
+    }
+    .Recent-3-months--Tablet {
+      display:none;
+    }
+    .Filter-Rectangle--Tablet {
+      display:none;
+    }
+    .Filter--Tablet{
+      display:none;     
+    }
+    .Filter-picture--Tablet {
+      display:none;
+    }
+    //搜尋的小圖案
+    
+    .Magnifier--Tablet{
+      display:none;
+    }
+
     .NB-Cristen--Tablet {
       display:none;
     }
@@ -457,7 +492,7 @@ export default {
     .base-SUSD--Tablet{
       display:none;
     }
-    .base-Holder--Tablet {
+    .base-Fee--Tablet {
       display:none;
     }
     .base-Status--Tablet {
@@ -469,6 +504,9 @@ export default {
     .Status--Tablet {
       display:none;
     }
+    .space-Rectangle--Tablet{
+      display:none;
+    }
 
 
 
@@ -477,21 +515,82 @@ export default {
   @media (min-width: 375px) {
   }
   @media (min-width: 768px) {
-    
-    .MagnifierRectangle--mobile{      
-      display:none;
-    }
-    .MagnifierRectangle--mobile2{
+    .Commission-Rectangle--Tablet{
+      height: 40px;
+      padding-top:20px;
+      position: relative;
       display:block;
     }
-    .Magnifier--mobile {
-      display:none;
-    }
-    .Magnifier--mobile2 {
+    .My-Commission--Tablet {
+      height: 28px;
+      font-family: HelveticaNeue;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
       display:block;
     }
+    .Recent-3-months--Tablet {
+      height: 16px;
+      opacity: 0.35;
+      font-family: HelveticaNeue;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      padding-top:5px;
+      display:block;
+    }
+    .Filter-Rectangle--Tablet {
+      width:82px;
+      height: 40px;
+      border-radius: 4px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px rgba(151, 151, 151, 0.2);
+      background-color: #ffffff;
+      position: absolute;
+      right:0px;    
+      margin-top:-30px;
+      display:block;
+    }
+    .Filter--Tablet{
+      height: 16px;
+      opacity: 0.9;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.29;
+      letter-spacing: normal;
+      color: #414042;
+      margin-left:15px;
+      margin-top: 10px;
+      position: absolute;      
+      display:block;
+    }
+    .Filter-picture--Tablet {
+      height: 16px;
+      object-fit: contain;
+      margin-left:55px;
+      margin-top: 10px;
+      position: absolute;
+      display:block;
+    }
+    //搜尋的小圖案
     
-    
+    .Magnifier--Tablet{
+      height: 24px;
+      object-fit: contain;
+      display:block;
+      position: absolute;
+      margin:-25px 0px 0px 160px;
+    }
+
 
     .Account-Rectangle{
       margin-top:50px;
@@ -555,11 +654,11 @@ export default {
       right:180px;
       display:block;
     }
-    .base-Holder--Tablet {
+    .base-Fee--Tablet {
       height: 14px;
       object-fit: contain;
       position: absolute;
-      padding-left: 100px;
+      right:390px;
       display:block;
     }
     .base-Status--Tablet {
@@ -681,6 +780,12 @@ export default {
     .NB-Pending {
       margin-top:10px;
     }
+    .space-Rectangle--Tablet{
+      margin-top:20px;
+      height: 48px;
+      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
+      display:block;
+    }
 
 
 
@@ -689,7 +794,33 @@ export default {
 
 
 
-
+    .Commission-Rectangle{
+      display:none;
+    }
+    .My-Commission {
+      display:none;
+    }
+    .Recent-3-months {
+      display:none;
+    }
+    .Filter-Rectangle {
+      display:none;
+    }
+    .Filter{
+      display:none;  
+    }
+    .Filter-picture {
+      display:none;
+    }
+    //搜尋的小圖案
+    
+    .MagnifierRectangle{
+      display:none;
+    }
+    
+    .Magnifier{
+      display:none;
+    }
 
     .NB-Rectangle {
       display:none;
