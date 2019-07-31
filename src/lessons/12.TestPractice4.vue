@@ -216,35 +216,44 @@
 
       <!--mobile-->
       <div class="Button-Rectangle">
-        <span class="Oval-one"><img src="@/assets/facebook.png"></span>
-        <span class="Oval-two"><img src="@/assets/facebook.png"></span>
+        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
         <span class="Button-Number">2</span>
-        <span class="Oval-three"><img src="@/assets/facebook.png"></span>
-        <span class="Oval-four"><img src="@/assets/facebook.png"></span>
+        <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
       </div>
       <div class="Button-Rectangle2">
-        <span class="Button-Number2"><img src="@/assets/facebook.png"></span>
+        <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
         <span class="Showing">Showing 1-10 of 58</span>
       </div>
       <!--Tablet-->
       <div class="Button-Rectangle--Tablet">
         <span class="EXPORT--Tablet">EXPORT</span>
-        <span class="Oval-one"><img src="@/assets/facebook.png"></span>
-        <span class="Oval-two"><img src="@/assets/facebook.png"></span>
+        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
         <span class="Button-Number">2</span>
-        <span class="Oval-three"><img src="@/assets/facebook.png"></span>
-        <span class="Oval-four"><img src="@/assets/facebook.png"></span>
-        <span class="Button-Number2"><img src="@/assets/facebook.png"></span>
+        <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
+        <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
         <span class="Showing">Showing 1-10 of 58</span>
       </div>
       <!--Desktop-->
       <div class="Button-Rectangle--Desktop">
-        <span class="Oval-one"><img src="@/assets/facebook.png"></span>
-        <span class="Oval-two"><img src="@/assets/facebook.png"></span>
-        <span class="Button-Number">2</span>
-        <span class="Oval-three"><img src="@/assets/facebook.png"></span>
-        <span class="Oval-four"><img src="@/assets/facebook.png"></span>
-        <span class="Button-Number2"><img src="@/assets/facebook.png"></span>
+        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-three">1</span>
+        <span class="Button-Number--Desktop">2</span>
+        <span class="Oval-four">3</span>
+        <span class="Oval-five">4</span>
+        <span class="Oval-six">5</span>
+        <span class="Oval-seven">6</span>
+        <span class="Oval-eight">7</span>
+        <span class="Oval-nine">8</span>
+        <span class="Oval-ten">9</span>
+        <span class="Oval-eleven">10</span>
+        <span class="Oval-twelve"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-thirteen"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-fourteen"><img src="@/assets/test3.jpg"></span>
         <span class="Showing">Showing 1-10 of 58</span>
       </div>
 
@@ -476,28 +485,25 @@ export default {
     }
     .Oval-one {
         height: 32px;
-        background-color: #ebedee;
         position: absolute;
         right:50px;
     }
     .Oval-two {
         height: 32px;
-        background-color: #ebedee;
         position: absolute;
         right:80px;
     }
     .Oval-three {
         height: 32px;
-        background-color: #ebedee;
         position: absolute;
         right:207px;
     }
     .Oval-four {
         height: 32px;
-        background-color: #ebedee;
         position: absolute;
         right:237px;
     }
+    
     //綠色數字
     .Button-Number{
         width:67px;
@@ -1001,49 +1007,38 @@ export default {
       letter-spacing: normal;
       color: #0043ff;
     }
-    .Oval-one--Tablet {
-        height: 32px;
-        background-color: #ebedee;
-        position: absolute;
-        right:50px;
-        display:block;
+    .Oval-one{
+      position: absolute;
+      right:220px;
     }
-    .Oval-two--Tablet {
-        height: 32px;
-        background-color: #ebedee;
-        position: absolute;
-        right:80px;
-        display:block;
+    .Oval-two{
+      position: absolute;
+      right:260px;
     }
-    .Oval-three--Tablet {
-        height: 32px;
-        background-color: #ebedee;
-        position: absolute;
-        right:207px;
-        display:block;
+    .Button-Number{
+      position: absolute;
+      right:295px;
     }
-    .Oval-four--Tablet {
-        height: 32px;
-        background-color: #ebedee;
-        position: absolute;
-        right:237px;
-        display:block;
+    .Oval-three{
+      position: absolute;
+      right:370px;
     }
-    //綠色數字
-    .Button-Number--Tablet{
-        width:67px;
-        height: 32px;
-        border-radius: 17px;
-        background-color: #9aefaa;
-        position:absolute;
-        right:120px;
-        text-align:center;
-        display:block;
+    .Oval-four{
+      position: absolute;
+      right:410px;
     }
     .Button-Rectangle--Tablet{
         height: 32px;
         position: relative;
         display:block;
+    }
+    .Button-Number2{
+      position: absolute;
+      right:100px;
+    }
+    .Showing{
+      position: absolute;
+      right:0px;
     }
 
 
@@ -1186,7 +1181,7 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      right:480px;
+      right:880px;
       display:block;
     }
     .Remuneration-USD--Desktop {
@@ -1202,21 +1197,21 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:280px;
+      right:430px;
       display:block;
     }
     .base-SUSD--Desktop{
       height: 14px;
       object-fit: contain;
       position: absolute;
-      right:260px;
+      right:410px;
       display:block;
     }
     .base-Fee--Desktop {
       height: 14px;
       object-fit: contain;
       position: absolute;
-      right:470px;
+      right:870px;
       display:block;
     }
     .base-Status--Desktop {
@@ -1240,7 +1235,7 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:140px;
+      right:200px;
       display:block;
     }
     .Status--Desktop {
@@ -1329,7 +1324,7 @@ export default {
       letter-spacing: normal;
       color: #414042;
       position: absolute;
-      right:473px;
+      right:873px;
       margin-top:22px;
       display:block;
     }
@@ -1346,7 +1341,7 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:285px;
+      right:435px;
       margin-top:22px;
       display:block;
     }
@@ -1363,7 +1358,7 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:125px;
+      right:182px;
       margin-top:22px;
       display:block;
     }
@@ -1438,7 +1433,96 @@ export default {
         position: relative;
         display:block;
     }
-
+    .Oval-one {
+        height: 32px;
+        position: absolute;
+        left:0px;
+        z-index: 0;
+    }
+    .Oval-two {
+        height: 32px;
+        position: absolute;
+        left:30px;
+        z-index: 1;
+    }
+    .Oval-three {
+        height: 32px;
+        position: absolute;
+        left:70px;
+        z-index: 2;
+    }
+    .Button-Number--Desktop{
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background-color: #9aefaa;
+      left:100px;
+      z-index: 3;
+    }
+    .Oval-four{
+      position: absolute;
+      left:130px;
+      z-index: 4;
+    }
+    .Oval-five {
+        height: 32px;
+        position: absolute;
+        left:160px;
+        z-index: 5;
+    }
+    .Oval-six {
+        height: 32px;
+        position: absolute;
+        left:190px;
+        z-index: 6;
+    }
+    .Oval-seven {
+        height: 32px;
+        position: absolute;
+        left:220px;
+        z-index: 7;
+    }
+    .Oval-eight {
+        height: 32px;
+        position: absolute;
+        left:250px;
+        z-index: 8;
+    }
+    .Oval-nine {
+        height: 32px;
+        position: absolute;
+        left:280px;
+        z-index: 9;
+    }
+    .Oval-ten {
+        height: 32px;
+        position: absolute;
+        left:310px;
+        z-index: 10;
+    }
+    .Oval-eleven {
+        height: 32px;
+        position: absolute;
+        left:340px;
+        z-index: 11;
+    }
+    .Oval-twelve {
+        height: 32px;
+        position: absolute;
+        left:380px;
+        z-index: 12;
+    }
+    .Oval-thirteen{
+        height: 32px;
+        position: absolute;
+        left:410px;
+        z-index: 13;
+    }
+    .Oval-fourteen{
+        height: 32px;
+        position: absolute;
+        right:100px;
+    }
 
 
 
