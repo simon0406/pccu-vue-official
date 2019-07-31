@@ -22,7 +22,19 @@
       <div class="Account-Rectangle">
         <span class="Account-Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration-USD--Tablet">Remuneration(SUSD)</span>
+        <span class="base-SUSD--Tablet"><img src="@/assets/facebook.png"></span>
       </div>
+      <div class="Holder-Rectangle--Tablet">
+        <span class="Account-Holder--Tablet">Account Holder</span>
+        <span class="Fee-Type--Tablet">Fee Type</span>
+        <span class="base-Holder--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="Pay-Date--Tablet">Pay Date</span>
+        <span class="Status--Tablet">Status</span>
+        <span class="base-Status--Tablet"><img src="@/assets/facebook.png"></span>
+      </div>
+
+
 
       <div class="NB-Rectangle NB1-Rectangle">
         <span class="NB-Picture NB1-Picture"><img src="@/assets/facebook.png"></span>
@@ -71,8 +83,49 @@
         <span class="NB-Picture--Tablet NB1-Picture--Tablet"><img src="@/assets/facebook.png"></span>
         <span class="NB-Name--Tablet NB1-Name--Tablet">NB1200202</span>
         <p class="NB-Cristen--Tablet NB1-Name--Tablet">Cristen Michaelson</p>
+        <span class="NB-Fee--Tablet NB1-Fee--Tablet">Contribution Fee</span>
+        <span class="NB-USD--Tablet NB1-USD--Tablet">$000,000,000.000000</span>
+        <p class="NB-Date--Tablet NB1-Date--Tablet">Jan 05,2020</p>
+        <span class="NB-Pending NB1-Pending--Tablet">Pending</span>
       </div>
-
+      <div class="NB-Rectangle--Tablet NB2-Rectangle--Tablet">
+        <span class="NB-Picture--Tablet NB2-Picture--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="NB-Name--Tablet NB2-Name--Tablet">NB1200209</span>
+        <p class="NB-Cristen--Tablet NB2-Name--Tablet">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
+        <span class="NB-Fee--Tablet NB2-Fee--Tablet">Advisor Service Fee</span>
+        <span class="NB-USD--Tablet NB2-USD--Tablet">$342.98</span>
+        <p class="NB-Date--Tablet NB2-Date--Tablet">Jan 05,2020</p>
+        <span class="NB-Pending NB2-Pending--Tablet">Pending</span>
+      </div>
+      <div class="NB-Rectangle--Tablet NB3-Rectangle--Tablet">
+        <span class="NB-Picture--Tablet NB3-Picture--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="NB-Name--Tablet NB3-Name--Tablet">NB1200345</span>
+        <p class="NB-Cristen--Tablet NB3-Name--Tablet">Michael Chang</p>
+        <span class="NB-Fee--Tablet NB3-Fee--Tablet">One-off Advisor Fee</span>
+        <span class="NB-USD--Tablet NB3-USD--Tablet">$20,000.00</span>
+        <p class="NB-Date--Tablet NB3-Date--Tablet">Jan 05,2020</p>
+        <span class="NB-Pending NB3-Pending--Tablet">Pending</span>
+      </div>
+      <div class="NB-Rectangle--Tablet NB4-Rectangle--Tablet">
+        <span class="NB-Picture--Tablet NB4-Picture--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="NB-Name--Tablet NB4-Name--Tablet">NB1200348</span>
+        <p class="NB-Cristen--Tablet NB4-Name--Tablet">Josh Cheung, Lucie Kwan, Chien Hong</p>
+        <span class="NB-Fee--Tablet NB4-Fee--Tablet">Establishment Fee</span>
+        <span class="NB-USD--Tablet NB4-USD--Tablet">$1,000.00</span>
+        <p class="NB-Date--Tablet NB4-Date--Tablet">Jan 05,2020</p>
+        <span class="NB-Pending NB4-Pending--Tablet">Peceived</span>
+      </div>
+      <div class="NB-Rectangle--Tablet NB5-Rectangle--Tablet">
+        <span class="NB-Picture--Tablet NB5-Picture--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="NB-Name--Tablet NB5-Name--Tablet">NB5200202</span>
+        <p class="NB-Cristen--Tablet NB5-Name--Tablet">Frank Collyn Woods Company</p>
+        <span class="NB-Fee--Tablet NB5-Fee--Tablet">Research Fee</span>
+        <span class="NB-USD--Tablet NB5-USD--Tablet">$5,000.00</span>
+        <p class="NB-Date--Tablet NB5-Date--Tablet">Jan 05,2019</p>
+        <span class="NB-Pending NB5-Pending--Tablet">Received</span>
+      </div>
+      <div class="space-Rectangle">
+      </div>
 
 
 
@@ -217,17 +270,17 @@ export default {
         padding-left: 100px;
       }
     }
+    .base--Tablet {
+      display: none;
+    }
+    .Remuneration-USD--Tablet {
+      display:none;
+    }
     //中間
     .NB-Rectangle {
       height: 120px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
-    }
-    .NB-Rectangle--Tablet {
-      height: 120px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      position: relative;
-      display: none;
     }
     .space-Rectangle {
       height: 32px;
@@ -241,32 +294,7 @@ export default {
       padding-top: 10px;
       padding-left:5px;
     }
-    .NB-Picture--Tablet{
-      width: 16px;
-      height: 16px;
-      object-fit: contain;
-      position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
-      display: none;
-    }
-    //NB1內容
-    .NB-Name--Tablet{
-      height: 17px;
-      opacity: 0.9;
-      font-family: HelveticaNeue;
-      font-size: 17px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.06;
-      letter-spacing: normal;
-      color: #414042;
-      position:absolute;
-      padding-top:10px;
-      padding-left:30px;
-      display: none;
-    }
+    
     .NB-Name{
       height: 17px;
       opacity: 0.9;
@@ -339,20 +367,6 @@ export default {
         right:0px;
         padding-top:10px;
     }
-    .NB-Cristen--Tablet {
-      width: 255px;
-      height: 16px;
-      opacity: 0.4;
-      font-family: HelveticaNeue;
-      font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.08;
-      letter-spacing: normal;
-      color: #414042;
-      display:none;
-    }
     .Button-Rectangle{
         height: 32px;
         position: relative;
@@ -413,6 +427,53 @@ export default {
         position: absolute;
         right:110px;
     }
+
+
+
+
+    .NB-Cristen--Tablet {
+      display:none;
+    }
+    
+    .NB-Rectangle--Tablet {
+      display: none;
+    }
+    .NB-Picture--Tablet{
+      display: none;
+    }
+    //NB1內容
+    .NB-Name--Tablet{
+      display: none;
+    }
+    .Holder-Rectangle--Tablet{
+      display:none;
+    }
+    .Account-Holder--Tablet {
+      display:none;
+    }
+    .Fee-Type--Tablet {
+      display:none;
+    }
+    .base-SUSD--Tablet{
+      display:none;
+    }
+    .base-Holder--Tablet {
+      display:none;
+    }
+    .base-Status--Tablet {
+      display:none;
+    }
+    .Pay-Date--Tablet {
+      display:none;
+    }
+    .Status--Tablet {
+      display:none;
+    }
+
+
+
+
+
   @media (min-width: 375px) {
   }
   @media (min-width: 768px) {
@@ -430,11 +491,124 @@ export default {
       display:block;
     }
     
+    
+
+    .Account-Rectangle{
+      margin-top:50px;
+      position: relative;
+    }
+    .Remuneration-USD--Tablet {
+      width: 136px;
+      height: 16px;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #414042;
+      position: absolute;
+      right:200px;
+      display:block;
+    }
+    .Holder-Rectangle--Tablet{
+      position: relative;
+      margin-top:-10px;
+      display: block;
+    }
+    .Account-Holder--Tablet {
+      width: 104px;
+      height: 14px;
+      opacity: 0.35;
+      font-family: HelveticaNeue;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: -0.2px;
+      color: #414042;
+      position: absolute;
+      display:block;
+    }
+    .Fee-Type--Tablet {
+      width: 57px;
+      height: 16px;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.2px;
+      color: #414042;
+      position: absolute;
+      right:400px;
+      display:block;
+    }
+    .base-SUSD--Tablet{
+      height: 14px;
+      object-fit: contain;
+      position: absolute;
+      right:180px;
+      display:block;
+    }
+    .base-Holder--Tablet {
+      height: 14px;
+      object-fit: contain;
+      position: absolute;
+      padding-left: 100px;
+      display:block;
+    }
+    .base-Status--Tablet {
+      height: 14px;
+      object-fit: contain;
+      position: absolute;
+      right:0px;
+      display:block;
+    }
+    .Pay-Date--Tablet {
+      width: 104px;
+      height: 14px;
+      opacity: 0.4;
+      font-family: HelveticaNeue;
+      font-size: 12px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #414042;
+      position: absolute;
+      right:200px;
+      display:block;
+    }
+    .Status--Tablet {
+      width: 43px;
+      height: 16px;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.2px;
+      color: #414042;
+      position: absolute;
+      right:10px;
+      display:block;
+    }
+
+
     .NB-Rectangle--Tablet {
-      height: 120px;
+      height: 50px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
       display: block;
+      margin-top:20px;
     }
     .NB-Cristen--Tablet {
       width: 255px;
@@ -450,30 +624,109 @@ export default {
       color: #414042;
       padding-top:40px;
       padding-left:5px;
+      position: absolute;
       display:block;
     }
     
-    
+    .NB-Fee--Tablet {
+      height: 16px;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.14;
+      letter-spacing: normal;
+      color: #414042;
+      position: absolute;
+      right:363px;
+      margin-top:22px;
+      display:block;
+    }
+    .NB-USD--Tablet{
+      height: 16px;
+      opacity: 0.9;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.3px;
+      text-align: right;
+      color: #414042;
+      position: absolute;
+      right:180px;
+      margin-top:10px;
+      display:block;
+    }
+    .NB-Date--Tablet{
+      height: 16px;
+      opacity: 0.5;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: right;
+      color: #414042;
+      position: absolute;
+      right:180px;
+      margin-top:40px;
+      display:block;
+    }
+
+    .NB-Pending {
+      margin-top:10px;
+    }
+
+
+
+
+
+
+
+
+
 
     .NB-Rectangle {
       display:none;
     }
-    .NB-Rectangle--Tablet {
-      height: 120px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      position: relative;
-      display: block;
-    }
+    
     .space-Rectangle {
       display: none;
     }
     .NB-Picture--Tablet{
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      position: absolute;
+      padding-top: 10px;
+      padding-left:5px;
       display: block;      
     }
     //NB1內容
     .NB-Name--Tablet{
+      height: 17px;
+      opacity: 0.9;
+      font-family: HelveticaNeue;
+      font-size: 17px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.06;
+      letter-spacing: normal;
+      color: #414042;
+      position:absolute;
+      padding-top:10px;
+      padding-left:30px;
       display: block;
     }
+
+
+
     .NB-Picture{
       display:none;
     }
@@ -486,9 +739,7 @@ export default {
     .NB-Paydate{
       display: none;
     }
-    .NB-Pending {
-      display: none;
-    }
+    
 
 
 
