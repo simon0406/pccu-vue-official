@@ -311,6 +311,7 @@ export default {
       padding-top:5px;
     }
     .Filter-Rectangle {
+      width:82px;
       height: 40px;
       border-radius: 4px;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
@@ -396,6 +397,7 @@ export default {
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
     }
     .NB-Picture{
+      width: 16px;
       height: 16px;
       object-fit: contain;
       position: absolute;
@@ -459,6 +461,7 @@ export default {
       margin-left:30px;
     }
     .NB-Pending {
+        width: 49px;
         height: 16px;
         opacity: 0.5;
         font-family: HelveticaNeue;
@@ -710,6 +713,7 @@ export default {
       display:block;
     }
     .Filter-Rectangle--Tablet {
+      width:82px;
       height: 40px;
       border-radius: 4px;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
@@ -760,6 +764,7 @@ export default {
       position: relative;
     }
     .Remuneration-USD--Tablet {
+      width: 136px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -780,6 +785,7 @@ export default {
       display: block;
     }
     .Account-Holder--Tablet {
+      width: 104px;
       height: 14px;
       opacity: 0.35;
       font-family: HelveticaNeue;
@@ -795,6 +801,7 @@ export default {
     }
     
     .Fee-Type--Tablet {
+      width: 57px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -830,6 +837,7 @@ export default {
       display:block;
     }
     .Pay-Date--Tablet {
+      width: 104px;
       height: 14px;
       opacity: 0.4;
       font-family: HelveticaNeue;
@@ -846,6 +854,7 @@ export default {
       display:block;
     }
     .Status--Tablet {
+      width: 43px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -869,6 +878,7 @@ export default {
       margin-top:20px;
     }
     .NB-Cristen--Tablet {
+      width: 255px;
       height: 16px;
       opacity: 0.4;
       font-family: HelveticaNeue;
@@ -935,6 +945,7 @@ export default {
       display:block;
     }
     .NB-Picture--Tablet{
+      width: 16px;
       height: 16px;
       object-fit: contain;
       position: absolute;
@@ -960,6 +971,7 @@ export default {
       display: block;
     }
     .NB-Pending--Tablet {
+      width: 49px;
       height: 16px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -1158,6 +1170,7 @@ export default {
   @media (min-width: 1440px) {
     
     .Fee-Type--Desktop {
+      width: 57px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -1172,6 +1185,7 @@ export default {
       display:block;
     }
     .Remuneration-USD--Desktop {
+      width: 136px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -1208,6 +1222,7 @@ export default {
       display:block;
     }
     .Pay-Date--Desktop {
+      width: 104px;
       height: 14px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -1224,6 +1239,7 @@ export default {
       display:block;
     }
     .Status--Desktop {
+      width: 43px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -1280,6 +1296,7 @@ export default {
       margin-top:20px;
     }
     .NB-Cristen--Desktop {
+      width: 255px;
       height: 16px;
       opacity: 0.4;
       font-family: HelveticaNeue;
@@ -1346,6 +1363,7 @@ export default {
       display:block;
     }
     .NB-Picture--Desktop{
+      width: 16px;
       height: 16px;
       object-fit: contain;
       position: absolute;
@@ -1371,6 +1389,7 @@ export default {
       display: block;
     }
     .NB-Pending--Desktop {
+      width: 49px;
       height: 16px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -1395,6 +1414,7 @@ export default {
       display:block;
     }
     .Account-Holder--Desktop {
+      width: 104px;
       height: 14px;
       opacity: 0.35;
       font-family: HelveticaNeue;
