@@ -61,10 +61,14 @@
       <!--Desktop-->
       <div class="Holder-Rectangle--Desktop">
         <span class="Account-Holder--Desktop">Account Holder</span>
-        <span class="Fee-Type--Desktop">Fee Type</span>
-        <span class="base-Fee--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD--Desktop">Remuneration(SUSD)</span>
-        <span class="base-SUSD--Desktop"><img src="@/assets/facebook.png"></span>
+        <span class="Fee-Type-Rectangle--Desktop">
+          <span class="Fee-Type--Desktop">Fee Type</span>
+          <span class="base-Fee--Desktop"><img src="@/assets/facebook.png"></span>
+        </span>
+        <span class="USD-Rectangle--Desktop">
+          <span class="Remuneration-USD--Desktop">Remuneration($USD)</span>
+          <span class="base-USD--Desktop"><img src="@/assets/facebook.png"></span>
+        </span>
         <span class="Pay-Date--Desktop">Pay Date</span>
         <span class="base-PayDate--Desktop"><img src="@/assets/facebook.png"></span>
         <span class="Status--Desktop">Status</span>
@@ -1020,8 +1024,8 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      left:437px;
       display:block;
+      white-space:nowrap;
     }
     .Remuneration-USD--Desktop {
       height: 16px;
@@ -1035,14 +1039,23 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:430px;
       display:block;
     }
-    .base-SUSD--Desktop{
+    .Fee-Type-Rectangle--Desktop{
+      height: 16px;
+      position: absolute;
+      left:32%;
+    }
+    .USD-Rectangle--Desktop{
+      height: 16px;
+      position: absolute;
+      right:42%;
+    }
+    .base-USD--Desktop{
       height: 14px;
       object-fit: contain;
       position: absolute;
-      right:410px;
+      left:125px;
       display:block;
     }
     .base-PayDate--Desktop{
@@ -1056,7 +1069,7 @@ export default {
       height: 14px;
       object-fit: contain;
       position: absolute;
-      left:490px;
+      left:60px;
       display:block;
     }
     .base-Status--Desktop {
@@ -1164,7 +1177,7 @@ export default {
       letter-spacing: normal;
       color: #414042;
       position: absolute;
-      left:437px;
+      left:32%;
       margin-top:22px;
       display:block;
     }
@@ -1180,7 +1193,7 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:435px;
+      right:32%;
       margin-top:22px;
       display:block;
     }

@@ -40,7 +40,7 @@
         <span class="Account-Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
         <span class="Remuneration-USD--Tablet">Remuneration($USD)</span>
-        <span class="base-SUSD--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="base-USD--Tablet"><img src="@/assets/facebook.png"></span>
       </div>
       <!--Desktop-->
       <div class="Account-Rectangle--Desktop">
@@ -63,8 +63,8 @@
         <span class="Account-Holder--Desktop">Account Holder</span>
         <span class="Fee-Type--Desktop">Fee Type</span>
         <span class="base-Fee--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD--Desktop">Remuneration(SUSD)</span>
-        <span class="base-SUSD--Desktop"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration-USD--Desktop">Remuneration($USD)</span>
+        <span class="base-USD--Desktop"><img src="@/assets/facebook.png"></span>
         <span class="Pay-Date--Desktop">Pay Date</span>
         <span class="base-PayDate--Desktop"><img src="@/assets/facebook.png"></span>
         <span class="Status--Desktop">Status</span>
@@ -470,6 +470,11 @@ export default {
       position: relative;
       display:block;
     }
+    .Button-Rectangle-Change{
+      height:32px;
+      position: absolute;
+      left:50%;
+    }
     .Oval-one {
       height: 32px;
       position: absolute;
@@ -504,11 +509,6 @@ export default {
       left:-35px;
       padding-top:2px;
       text-align:center;
-    }
-    .Button-Rectangle-Change{
-      height:32px;
-      position: absolute;
-      left:50%;
     }
     .Button-Rectangle2-Change{
       height:32px;
@@ -570,7 +570,7 @@ export default {
     .NB-Rectangle--Tablet {
       display: none;
     }
-    .base-SUSD--Tablet{
+    .base-USD--Tablet{
       display:none;
     }
     .space-Rectangle--Tablet{
@@ -727,7 +727,7 @@ export default {
       right:350px;
       display:block;
     }
-    .base-SUSD--Tablet{
+    .base-USD--Tablet{
       height: 14px;
       object-fit: contain;
       position: absolute;
@@ -1020,7 +1020,7 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      left:437px;
+      right:897px;
       display:block;
     }
     .Remuneration-USD--Desktop {
@@ -1038,7 +1038,7 @@ export default {
       right:430px;
       display:block;
     }
-    .base-SUSD--Desktop{
+    .base-USD--Desktop{
       height: 14px;
       object-fit: contain;
       position: absolute;
@@ -1056,7 +1056,7 @@ export default {
       height: 14px;
       object-fit: contain;
       position: absolute;
-      left:490px;
+      right:877px;
       display:block;
     }
     .base-Status--Desktop {
@@ -1164,7 +1164,7 @@ export default {
       letter-spacing: normal;
       color: #414042;
       position: absolute;
-      left:437px;
+      right:877px;
       margin-top:22px;
       display:block;
     }
