@@ -239,21 +239,21 @@
       </div>
       <!--Desktop-->
       <div class="Button-Rectangle--Desktop">
-        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-three">1</span>
+        <span class="Oval-one--Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-two--Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-three--Desktop">1</span>
         <span class="Button-Number--Desktop">2</span>
-        <span class="Oval-four">3</span>
-        <span class="Oval-five">4</span>
-        <span class="Oval-six">5</span>
-        <span class="Oval-seven">6</span>
-        <span class="Oval-eight">7</span>
-        <span class="Oval-nine">8</span>
-        <span class="Oval-ten">9</span>
-        <span class="Oval-eleven">10</span>
-        <span class="Oval-twelve"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-thirteen"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-fourteen"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-four--Desktop">3</span>
+        <span class="Oval-five--Desktop">4</span>
+        <span class="Oval-six--Desktop">5</span>
+        <span class="Oval-seven--Desktop">6</span>
+        <span class="Oval-eight--Desktop">7</span>
+        <span class="Oval-nine--Desktop">8</span>
+        <span class="Oval-ten--Desktop">9</span>
+        <span class="Oval-eleven--Desktop">10</span>
+        <span class="Oval-twelve--Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-thirteen--Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
         <span class="Showing">Showing 1-10 of 58</span>
       </div>
 
@@ -380,12 +380,7 @@ export default {
         padding-left: 100px;
       }
     }
-    .base--Tablet {
-      display: none;
-    }
-    .Remuneration-USD--Tablet {
-      display:none;
-    }
+    
     //中間
     .NB-Rectangle {
       height: 120px;
@@ -524,6 +519,7 @@ export default {
         background-color: #ebedee;
         position: absolute;
         right:237px;
+        top: calc(50% - 12px);
     }
     .Showing {
         height: 32px;
@@ -532,7 +528,7 @@ export default {
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
-        line-height: normal;
+        line-height: 2.5;
         letter-spacing: -0.2px;
         color: #4a4a4a;
         position: absolute;
@@ -542,7 +538,7 @@ export default {
 
 
 
-
+    //@media375px Tablet none;
     .Commission-Rectangle--Tablet{
       display:none;
     }
@@ -562,79 +558,22 @@ export default {
       display:none;
     }
     //搜尋的小圖案
-    
-    .Magnifier--Tablet{
+    .Remuneration-USD--Tablet {
       display:none;
-    }
-
-    .NB-Cristen--Tablet {
-      display:none;
-    }
-    
-    .NB-Rectangle--Tablet {
-      display: none;
-    }
-    .NB-Picture--Tablet{
-      display: none;
-    }
-    //NB1內容
-    .NB-Name--Tablet{
-      display: none;
     }
     .Holder-Rectangle--Tablet{
       display:none;
     }
-    .Account-Holder--Tablet {
-      display:none;
-    }
-    .Fee-Type--Tablet {
-      display:none;
+    .NB-Rectangle--Tablet {
+      display: none;
     }
     .base-SUSD--Tablet{
-      display:none;
-    }
-    .base-Fee--Tablet {
-      display:none;
-    }
-    .base-Status--Tablet {
-      display:none;
-    }
-    .Pay-Date--Tablet {
-      display:none;
-    }
-    .Status--Tablet {
       display:none;
     }
     .space-Rectangle--Tablet{
       display:none;
     }
-    .NB-Pending--Tablet{
-      display:none;
-    }
-    .NB-Pending--Desktop{
-      display:none;
-    }
-    .Fee-Type--Desktop{
-      display:none;
-    }
-    .Remuneration-USD--Desktop{
-      display:none;
-    }
-    .base-SUSD--Desktop{
-      display:none; 
-    }
-    .base-Fee--Desktop{
-      display:none;
-    }
-    .base-Status--Desktop{
-      display:none;
-    }
-    .Pay-Date--Desktop{
-      display:none;
-    }
-    .Status--Desktop{
-      display:none;
-    }
+    //@media375px Desktop none;
     .Account-Rectangle--Desktop{
       display:none;
     }
@@ -644,43 +583,19 @@ export default {
     .NB-Rectangle--Desktop{
       display:none;
     }
-    .NB-Cristen--Desktop{
-      display:none;
-    }
-    .NB-Fee--Desktop{
-      display:none;
-    }
-    .NB-USD--Desktop{
-      display:none;
-    }
-    .NB-Date--Desktop{
-      display:none;
-    }
-    .NB-Picture--Desktop{
-      display:none;
-    }
-    .NB-Name--Desktop{
-      display:none;
-    }
     .space-Rectangle--Desktop{
       display:none;
     }
-    .Account-Holder--Desktop{
-      display:none;
-    }
-    
     .Button-Rectangle--Tablet{
       display:none;
     }
     .Button-Rectangle--Desktop{
       display:none;
     }
-
-
-
-
   @media (min-width: 375px) {
   }
+
+  
   @media (min-width: 768px) {
     .Commission-Rectangle--Tablet{
       height: 40px;
@@ -1035,90 +950,31 @@ export default {
     .Button-Number2{
       position: absolute;
       right:100px;
+      top: calc(50% - 12px);
     }
     .Showing{
       position: absolute;
       right:0px;
     }
 
-
-
-
-
+    //@media768px mobile none;
     .Commission-Rectangle{
-      display:none;
-    }
-    .My-Commission {
-      display:none;
-    }
-    .Recent-3-months {
       display:none;
     }
     .Filter-Rectangle {
       display:none;
     }
-    .Filter{
-      display:none;  
-    }
-    .Filter-picture {
-      display:none;
-    }
     //搜尋的小圖案
-    
     .MagnifierRectangle{
       display:none;
     }
-    
-    .Magnifier{
-      display:none;
-    }
-
     .NB-Rectangle {
       display:none;
     }
-    
     .space-Rectangle {
       display: none;
     }
-    .NB-Picture{
-      display:none;
-    }
-    .NB-Fee{
-      display: none;
-    }
-    .NB-USD{
-      display: none;
-    }
-    .NB-Paydate{
-      display: none;
-    }
-    .NB-Pending{
-      display:none;
-    }
-    .NB-Pending--Desktop{
-      display:none;
-    }
-    .Fee-Type--Desktop{
-      display:none;
-    }
-    .Remuneration-USD--Desktop{
-      display:none;
-    }
-    .base-SUSD--Desktop{
-      display:none; 
-    }
-    .base-Fee--Desktop{
-      display:none;
-    }
-    .base-Status--Desktop{
-      display:none;
-    }
-    .Pay-Date--Desktop{
-      display:none;
-    }
-    .Status--Desktop{
-      display:none;
-    }
+    //@media768px Desktop none;
     .Account-Rectangle--Desktop{
       display:none;
     }
@@ -1128,28 +984,7 @@ export default {
     .NB-Rectangle--Desktop{
       display:none;
     }
-    .NB-Cristen--Desktop{
-      display:none;
-    }
-    .NB-Fee--Desktop{
-      display:none;
-    }
-    .NB-USD--Desktop{
-      display:none;
-    }
-    .NB-Date--Desktop{
-      display:none;
-    }
-    .NB-Picture--Desktop{
-      display:none;
-    }
-    .NB-Name--Desktop{
-      display:none;
-    }
     .space-Rectangle--Desktop{
-      display:none;
-    }
-    .Account-Holder--Desktop{
       display:none;
     }
     .Button-Rectangle{
@@ -1161,14 +996,9 @@ export default {
     .Button-Rectangle--Desktop{
       display:none;
     }
-    
-
-
-
 
   }
   @media (min-width: 1440px) {
-    
     .Fee-Type--Desktop {
       width: 57px;
       height: 16px;
@@ -1433,22 +1263,25 @@ export default {
         position: relative;
         display:block;
     }
-    .Oval-one {
+    .Oval-one--Desktop {
         height: 32px;
         position: absolute;
         left:0px;
+        top: calc(50% - 12px);
         z-index: 0;
     }
-    .Oval-two {
+    .Oval-two--Desktop {
         height: 32px;
         position: absolute;
         left:30px;
+        top: calc(50% - 12px);
         z-index: 1;
     }
-    .Oval-three {
+    .Oval-three--Desktop {
         height: 32px;
         position: absolute;
         left:70px;
+        line-height: 1.75;
         z-index: 2;
     }
     .Button-Number--Desktop{
@@ -1456,81 +1289,95 @@ export default {
       width: 32px;
       height: 32px;
       background-color: #9aefaa;
-      left:100px;
+      left:90px;
+      -moz-border-radius: 16px;
+      -webkit-border-radius: 16px;
+      border-radius: 16px;
+      text-align:center;
+      line-height: 1.75;
       z-index: 3;
     }
-    .Oval-four{
+    .Oval-four--Desktop{
+      height: 32px;
       position: absolute;
       left:130px;
+      line-height: 1.75;
       z-index: 4;
     }
-    .Oval-five {
+    .Oval-five--Desktop {
         height: 32px;
         position: absolute;
         left:160px;
+        line-height: 1.75;
         z-index: 5;
     }
-    .Oval-six {
+    .Oval-six--Desktop {
         height: 32px;
         position: absolute;
         left:190px;
+        line-height: 1.75;
         z-index: 6;
     }
-    .Oval-seven {
+    .Oval-seven--Desktop {
         height: 32px;
         position: absolute;
         left:220px;
+        line-height: 1.75;
         z-index: 7;
     }
-    .Oval-eight {
+    .Oval-eight--Desktop {
         height: 32px;
         position: absolute;
         left:250px;
+        line-height: 1.75;
         z-index: 8;
     }
-    .Oval-nine {
+    .Oval-nine--Desktop {
         height: 32px;
         position: absolute;
         left:280px;
+        line-height: 1.75;
         z-index: 9;
     }
-    .Oval-ten {
+    .Oval-ten--Desktop {
         height: 32px;
         position: absolute;
         left:310px;
+        line-height: 1.75;
         z-index: 10;
     }
-    .Oval-eleven {
+    .Oval-eleven--Desktop {
         height: 32px;
         position: absolute;
         left:340px;
+        line-height: 1.75;
         z-index: 11;
     }
-    .Oval-twelve {
+    .Oval-twelve--Desktop {
         height: 32px;
         position: absolute;
         left:380px;
+        top: calc(50% - 12px);
         z-index: 12;
     }
-    .Oval-thirteen{
+    .Oval-thirteen--Desktop{
         height: 32px;
         position: absolute;
         left:410px;
+        top: calc(50% - 12px);
         z-index: 13;
     }
-    .Oval-fourteen{
+    .Button-Number2{
         height: 32px;
         position: absolute;
         right:100px;
+        top: calc(50% - 12px);
     }
+    
 
 
-
-
-
-
-
-
+    //@media1440px Tablet none;
+    //mobile、Tablet用同一個
     .Account-Rectangle{
       display: none;
     }
@@ -1540,62 +1387,9 @@ export default {
     .NB-Rectangle--Tablet {
       display: none;
     }
-    .NB-Cristen--Tablet {
-      display: none;
-    }
-    
-    .NB-Fee--Tablet {
-      display: none;
-    }
-    .NB-USD--Tablet{
-      display: none;
-    }
-    .NB-Date--Tablet{
-      display: none;
-    }
-    .NB-Picture--Tablet{
-      display: none;     
-    }
-    //NB1內容
-    .NB-Name--Tablet{
-      display: none;
-    }
     .space-Rectangle--Tablet{
       display: none;
     }
-
-
-    .Remuneration-USD--Tablet {
-      display:none;
-    }
-    .Fee-Type--Tablet {
-      display:none;
-    }
-    .base-SUSD--Tablet{
-      display:none;
-    }
-    .base-Fee--Tablet {
-      display:none;
-    }
-    .base-Status--Tablet {
-      display:none;
-    }
-    .Pay-Date--Tablet {
-      display:none;
-    }
-    .Status--Tablet {
-      display:none;
-    }
-    .Account-Holder--Tablet {
-      display:none;
-    }
-    .NB-Pending{
-      display: none;
-    }
-    .NB-Pending--Tablet{
-      display: none;
-    }
-
     .Button-Rectangle{
       display: none;
     }
@@ -1606,8 +1400,6 @@ export default {
       display:none;
     }
     
-
-
   }
 }
 
