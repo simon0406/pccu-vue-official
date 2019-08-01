@@ -4,13 +4,13 @@
       <!--Mobile-->
       <div class="Commission-Rectangle">
         <div class="My-Commission">
-          <span>MyCommission</span>
+          <span>My Commission</span>
           <span class="Filter-Rectangle">
             <span class="Filter">Filter</span>
             <span class="Filter-picture"><img src="@/assets/facebook.png"></span>
           </span>
           <div class="Recent-3-months">
-          <p>Recent-3-months</p>
+          <p>Recent 3 months</p>
           </div>
         </div>
       </div>
@@ -18,14 +18,14 @@
       <!--Tablet+Desktop-->
       <div class="Commission-Rectangle--Tablet">
         <div class="My-Commission--Tablet">
-          <span>MyCommission</span>
+          <span>My Commission</span>
           <span class="Magnifier--Tablet"><img src="@/assets/test2.png"></span>
           <span class="Filter-Rectangle--Tablet">
             <span class="Filter--Tablet">Filter</span>
             <span class="Filter-picture--Tablet"><img src="@/assets/facebook.png"></span>
           </span>
           <div class="Recent-3-months--Tablet">
-          <p>Recent-3-months</p>
+          <p>Recent 3 months</p>
           </div>
         </div>
       </div>
@@ -958,12 +958,12 @@ export default {
       letter-spacing: -0.2px;
       color: #4a4a4a;
       position: absolute;
-      right:110px;
+      right:10px;
     }
     .Button-Number2--Tablet{
       height: 32px;
       position: absolute;
-      right:215px;
+      right:120px;
       top: calc(50% - 12px);
     }
 
@@ -1383,12 +1383,12 @@ export default {
       letter-spacing: -0.2px;
       color: #4a4a4a;
       position: absolute;
-      right:110px;
+      right:10px;
     }
     .Button-Number2--Desktop{
       height: 32px;
       position: absolute;
-      right:215px;
+      right:120px;
       top: calc(50% - 12px);
     }
     

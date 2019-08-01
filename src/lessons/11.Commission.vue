@@ -4,13 +4,13 @@
       <!--Mobile-->
       <div class="Commission-Rectangle">
         <div class="My-Commission">
-          <span>MyCommission</span>
+          <span>My Commission</span>
           <span class="Filter-Rectangle">
             <span class="Filter">Filter</span>
             <span class="Filter-picture"><img src="@/assets/facebook.png"></span>
           </span>
           <div class="Recent-3-months">
-          <p>Recent-3-months</p>
+          <p>Recent 3 months</p>
           </div>
         </div>
       </div>
@@ -18,14 +18,14 @@
       <!--Tablet+Desktop-->
       <div class="Commission-Rectangle--Tablet">
         <div class="My-Commission--Tablet">
-          <span>MyCommission</span>
+          <span>My Commission</span>
           <span class="Magnifier--Tablet"><img src="@/assets/test2.png"></span>
           <span class="Filter-Rectangle--Tablet">
             <span class="Filter--Tablet">Filter</span>
             <span class="Filter-picture--Tablet"><img src="@/assets/facebook.png"></span>
           </span>
           <div class="Recent-3-months--Tablet">
-          <p>Recent-3-months</p>
+          <p>Recent 3 months</p>
           </div>
         </div>
       </div>
@@ -66,6 +66,7 @@
         <span class="Remuneration-USD--Desktop">Remuneration(SUSD)</span>
         <span class="base-SUSD--Desktop"><img src="@/assets/facebook.png"></span>
         <span class="Pay-Date--Desktop">Pay Date</span>
+        <span class="base-PayDate--Desktop"><img src="@/assets/facebook.png"></span>
         <span class="Status--Desktop">Status</span>
         <span class="base-Status--Desktop"><img src="@/assets/facebook.png"></span>
       </div>
@@ -213,15 +214,19 @@
 
       <!--mobile-->
       <div class="Button-Rectangle">
-        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
-        <span class="Button-Number">2</span>
-        <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
+        <span class="Button-Rectangle-Change">
+          <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
+          <span class="Button-Number">2</span>
+          <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
+        </span>
       </div>
       <div class="Button-Rectangle2">
-        <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
-        <span class="Showing">Showing 1-10 of 58</span>
+        <span class="Button-Rectangle2-Change">
+          <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
+          <span class="Showing">Showing 1-10 of 58</span>
+        </span>
       </div>
       <!--Tablet-->
       <div class="Button-Rectangle--Tablet">
@@ -233,8 +238,8 @@
           <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
         </span>
         <span class="EXPORT--Tablet">EXPORT</span>
-        <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
-        <span class="Showing">Showing 1-10 of 58</span>
+        <span class="Button-Number2--Tablet"><img src="@/assets/test3.jpg"></span>
+        <span class="Showing--Tablet">Showing 1-10 of 58</span>
       </div>
       <!--Desktop-->
       <div class="Button-Rectangle--Desktop">
@@ -252,8 +257,8 @@
         <span class="Oval-eleven--Desktop">10</span>
         <span class="Oval-twelve--Desktop"><img src="@/assets/test3.jpg"></span>
         <span class="Oval-thirteen--Desktop"><img src="@/assets/test3.jpg"></span>
-        <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
-        <span class="Showing">Showing 1-10 of 58</span>
+        <span class="Button-Number2--Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Showing--Desktop">Showing 1-10 of 58</span>
       </div>
 
       
@@ -407,7 +412,7 @@ export default {
       height: 15px;
       opacity: 0.5;
       font-family: HelveticaNeue;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -468,26 +473,26 @@ export default {
     .Oval-one {
       height: 32px;
       position: absolute;
-      right:50px;
+      left:75px;
       top: calc(50% - 12px);
     }
     .Oval-two {
       height: 32px;
       position: absolute;
-      right:80px;
+      left:40px;
       top: calc(50% - 12px);
     }
     .Oval-three {
       height: 32px;
       position: absolute;
-      right:207px;
+      left:-70px;
       top: calc(50% - 12px);
     }
     .Oval-four {
       height: 32px;
       position: absolute;
-      right:237px;
       top: calc(50% - 12px);
+      left:-105px;
     }
     //綠色數字
     .Button-Number{
@@ -496,9 +501,19 @@ export default {
       border-radius: 17px;
       background-color: #9aefaa;
       position:absolute;
-      right:120px;
+      left:-35px;
       padding-top:2px;
       text-align:center;
+    }
+    .Button-Rectangle-Change{
+      height:32px;
+      position: absolute;
+      left:50%;
+    }
+    .Button-Rectangle2-Change{
+      height:32px;
+      position: absolute;
+      left:50%;
     }
     .Button-Rectangle2{
       height: 32px;
@@ -508,10 +523,11 @@ export default {
     .Button-Number2{
       height: 32px;
       position: absolute;
-      right:237px;
+      left:-105px;
       top: calc(50% - 12px);
     }
     .Showing {
+      width:100px;
       height: 32px;
       font-family: Inter;
       font-size: 12px;
@@ -522,7 +538,7 @@ export default {
       letter-spacing: -0.2px;
       color: #4a4a4a;
       position: absolute;
-      right:110px;
+      left:-50px;
     }
 
     //@media375px Tablet none;
@@ -931,14 +947,24 @@ export default {
       left:50%;
       display:block;
     }
-    .Button-Number2{
+    .Showing--Tablet {
+      height: 32px;
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.5;
+      letter-spacing: -0.2px;
+      color: #4a4a4a;
       position: absolute;
-      right:100px;
-      top: calc(50% - 12px);
+      right:10px;
     }
-    .Showing{
+    .Button-Number2--Tablet{
+      height: 32px;
       position: absolute;
-      right:0px;
+      right:120px;
+      top: calc(50% - 12px);
     }
 
     //@media768px mobile none;
@@ -994,7 +1020,7 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      right:890px;
+      left:437px;
       display:block;
     }
     .Remuneration-USD--Desktop {
@@ -1019,11 +1045,18 @@ export default {
       right:410px;
       display:block;
     }
+    .base-PayDate--Desktop{
+      height: 14px;
+      object-fit: contain;
+      position: absolute;
+      right:180px;
+      display:block;
+    }
     .base-Fee--Desktop {
       height: 14px;
       object-fit: contain;
       position: absolute;
-      right:870px;
+      left:490px;
       display:block;
     }
     .base-Status--Desktop {
@@ -1131,20 +1164,19 @@ export default {
       letter-spacing: normal;
       color: #414042;
       position: absolute;
-      right:873px;
+      left:437px;
       margin-top:22px;
       display:block;
     }
     .NB-USD--Desktop{
       height: 16px;
-      opacity: 0.9;
       font-family: HelveticaNeue;
       font-size: 14px;
-      font-weight: bold;
+      font-weight: normal;
       font-style: normal;
       font-stretch: normal;
       line-height: normal;
-      letter-spacing: -0.3px;
+      letter-spacing: normal;
       text-align: right;
       color: #414042;
       position: absolute;
@@ -1154,9 +1186,8 @@ export default {
     }
     .NB-Date--Desktop{
       height: 16px;
-      opacity: 0.9;
       font-family: HelveticaNeue;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -1165,7 +1196,7 @@ export default {
       text-align: right;
       color: #414042;
       position: absolute;
-      right:182px;
+      right:178px;
       margin-top:22px;
       display:block;
     }
@@ -1197,9 +1228,8 @@ export default {
     }
     .NB-Pending--Desktop {
       height: 16px;
-      opacity: 0.9;
       font-family: HelveticaNeue;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -1342,10 +1372,23 @@ export default {
       top: calc(50% - 12px);
       z-index: 13;
     }
-    .Button-Number2{
+    .Showing--Desktop {
+      height: 32px;
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.5;
+      letter-spacing: -0.2px;
+      color: #4a4a4a;
+      position: absolute;
+      right:10px;
+    }
+    .Button-Number2--Desktop{
       height: 32px;
       position: absolute;
-      right:100px;
+      right:120px;
       top: calc(50% - 12px);
     }
     
