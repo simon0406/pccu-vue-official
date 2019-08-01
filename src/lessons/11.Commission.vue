@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <!--Tablet-->
+      <!--Tablet+Desktop-->
       <div class="Commission-Rectangle--Tablet">
         <div class="My-Commission--Tablet">
           <span>MyCommission</span>
@@ -39,7 +39,7 @@
       <div class="Account-Rectangle">
         <span class="Account-Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD--Tablet">Remuneration(SUSD)</span>
+        <span class="Remuneration-USD--Tablet">Remuneration($USD)</span>
         <span class="base-SUSD--Tablet"><img src="@/assets/facebook.png"></span>
       </div>
       <!--Desktop-->
@@ -168,7 +168,7 @@
         <span class="NB-Name--Desktop NB1-Name--Desktop">NB1200202</span>
         <p class="NB-Cristen--Desktop NB1-Name--Desktop">Cristen Michaelson</p>
         <span class="NB-Fee--Desktop NB1-Fee--Desktop">Contribution Fee</span>
-        <span class="NB-USD--Desktop NB1-USD--Desktop">$000,000,000.000000</span>
+        <span class="NB-USD--Desktop NB1-USD--Desktop">USD $000,000,000,000.000000</span>
         <span class="NB-Date--Desktop NB1-Date--Desktop">Jan 05,2020</span>
         <span class="NB-Pending--Desktop NB1-Pending--Desktop">Pending</span>
       </div>
@@ -177,7 +177,7 @@
         <span class="NB-Name--Desktop NB2-Name--Desktop">NB1200209</span>
         <p class="NB-Cristen--Desktop NB2-Name--Desktop">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
         <span class="NB-Fee--Desktop NB2-Fee--Desktop">Advisor Service Fee</span>
-        <span class="NB-USD--Desktop NB2-USD--Desktop">$342.98</span>
+        <span class="NB-USD--Desktop NB2-USD--Desktop">USD $342.98</span>
         <p class="NB-Date--Desktop NB2-Date--Desktop">Jan 05,2020</p>
         <span class="NB-Pending--Desktop NB2-Pending--Desktop">Pending</span>
       </div>
@@ -186,7 +186,7 @@
         <span class="NB-Name--Desktop NB3-Name--Desktop">NB1200345</span>
         <p class="NB-Cristen--Desktop NB3-Name--Desktop">Michael Chang</p>
         <span class="NB-Fee--Desktop NB3-Fee--Desktop">One-off Advisor Fee</span>
-        <span class="NB-USD--Desktop NB3-USD--Desktop">$20,000.00</span>
+        <span class="NB-USD--Desktop NB3-USD--Desktop">USD $20,000.00</span>
         <p class="NB-Date--Desktop NB3-Date--Desktop">Jan 05,2020</p>
         <span class="NB-Pending--Desktop NB3-Pending--Desktop">Pending</span>
       </div>
@@ -195,7 +195,7 @@
         <span class="NB-Name--Desktop NB4-Name--Desktop">NB1200348</span>
         <p class="NB-Cristen--Desktop NB4-Name--Desktop">Josh Cheung, Lucie Kwan, Chien Hong</p>
         <span class="NB-Fee--Desktop NB4-Fee--Desktop">Establishment Fee</span>
-        <span class="NB-USD--Desktop NB4-USD--Desktop">$1,000.00</span>
+        <span class="NB-USD--Desktop NB4-USD--Desktop">USD $1,000.00</span>
         <p class="NB-Date--Desktop NB4-Date--Desktop">Jan 05,2020</p>
         <span class="NB-Pending--Desktop NB4-Pending--Desktop">Peceived</span>
       </div>
@@ -211,9 +211,6 @@
       <div class="space-Rectangle--Desktop">
       </div>
 
-
-
-
       <!--mobile-->
       <div class="Button-Rectangle">
         <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
@@ -228,12 +225,14 @@
       </div>
       <!--Tablet-->
       <div class="Button-Rectangle--Tablet">
+        <span class="Button-Rectangle-Change--Tablet">
+          <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
+          <span class="Button-Number">2</span>
+          <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
+        </span>
         <span class="EXPORT--Tablet">EXPORT</span>
-        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
-        <span class="Button-Number">2</span>
-        <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
         <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
         <span class="Showing">Showing 1-10 of 58</span>
       </div>
@@ -257,13 +256,9 @@
         <span class="Showing">Showing 1-10 of 58</span>
       </div>
 
-
-
       
     </div>
-
   </div>
-
 </template>
 
 
@@ -277,7 +272,6 @@ export default {
   })
 }
 </script>
-
 
 <style lang="scss" scoped>
 .css__RWD{
@@ -342,20 +336,16 @@ export default {
       position: absolute;
     }
     //搜尋的小圖案
-    
     .MagnifierRectangle{
       height: 24px;
       margin-top:60px;
       display:block;
     }
-    
     .Magnifier{
       height: 24px;
       object-fit: contain;
       display:block;
     }
-    
-    
     //Account Number+圖
     .Account-Rectangle{
       height: 32px;
@@ -380,7 +370,6 @@ export default {
         padding-left: 100px;
       }
     }
-    
     //中間
     .NB-Rectangle {
       height: 120px;
@@ -399,7 +388,6 @@ export default {
       padding-top: 10px;
       padding-left:5px;
     }
-    
     .NB-Name{
       height: 17px;
       opacity: 0.9;
@@ -456,87 +444,86 @@ export default {
       margin-left:30px;
     }
     .NB-Pending {
-        width: 49px;
-        height: 16px;
-        opacity: 0.5;
-        font-family: HelveticaNeue;
-        font-size: 13px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.31;
-        letter-spacing: normal;
-        text-align: right;
-        color: #414042;
-        position: absolute;
-        right:0px;
-        padding-top:10px;
-        display:block;
+      height: 16px;
+      opacity: 0.5;
+      font-family: HelveticaNeue;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+      text-align: right;
+      color: #414042;
+      position: absolute;
+      right:0px;
+      padding-top:10px;
+      display:block;
     }
     .Button-Rectangle{
-        height: 32px;
-        position: relative;
-        display:block;
+      height: 32px;
+      position: relative;
+      display:block;
     }
     .Oval-one {
-        height: 32px;
-        position: absolute;
-        right:50px;
+      height: 32px;
+      position: absolute;
+      right:50px;
+      top: calc(50% - 12px);
     }
     .Oval-two {
-        height: 32px;
-        position: absolute;
-        right:80px;
+      height: 32px;
+      position: absolute;
+      right:80px;
+      top: calc(50% - 12px);
     }
     .Oval-three {
-        height: 32px;
-        position: absolute;
-        right:207px;
+      height: 32px;
+      position: absolute;
+      right:207px;
+      top: calc(50% - 12px);
     }
     .Oval-four {
-        height: 32px;
-        position: absolute;
-        right:237px;
+      height: 32px;
+      position: absolute;
+      right:237px;
+      top: calc(50% - 12px);
     }
-    
     //綠色數字
     .Button-Number{
-        width:67px;
-        height: 32px;
-        border-radius: 17px;
-        background-color: #9aefaa;
-        position:absolute;
-        right:120px;
-        text-align:center;
+      width:67px;
+      height: 32px;
+      border-radius: 17px;
+      background-color: #9aefaa;
+      position:absolute;
+      right:120px;
+      padding-top:2px;
+      text-align:center;
     }
     .Button-Rectangle2{
-        height: 32px;
-        position: relative;
-        display:blcok;
+      height: 32px;
+      position: relative;
+      display:blcok;
     }
     .Button-Number2{
-        height: 32px;
-        background-color: #ebedee;
-        position: absolute;
-        right:237px;
-        top: calc(50% - 12px);
+      height: 32px;
+      position: absolute;
+      right:237px;
+      top: calc(50% - 12px);
     }
     .Showing {
-        height: 32px;
-        font-family: Inter;
-        font-size: 12px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2.5;
-        letter-spacing: -0.2px;
-        color: #4a4a4a;
-        position: absolute;
-        right:110px;
+      height: 32px;
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.5;
+      letter-spacing: -0.2px;
+      color: #4a4a4a;
+      position: absolute;
+      right:110px;
     }
-
-
-
 
     //@media375px Tablet none;
     .Commission-Rectangle--Tablet{
@@ -594,8 +581,6 @@ export default {
     }
   @media (min-width: 375px) {
   }
-
-  
   @media (min-width: 768px) {
     .Commission-Rectangle--Tablet{
       height: 40px;
@@ -673,13 +658,11 @@ export default {
       margin:-25px 0px 0px 160px;
     }
 
-
     .Account-Rectangle{
       margin-top:70px;
       position: relative;
     }
     .Remuneration-USD--Tablet {
-      width: 136px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -700,7 +683,6 @@ export default {
       display: block;
     }
     .Account-Holder--Tablet {
-      width: 104px;
       height: 14px;
       opacity: 0.35;
       font-family: HelveticaNeue;
@@ -716,7 +698,6 @@ export default {
     }
     
     .Fee-Type--Tablet {
-      width: 57px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -727,7 +708,7 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      right:340px;
+      right:350px;
       display:block;
     }
     .base-SUSD--Tablet{
@@ -752,7 +733,6 @@ export default {
       display:block;
     }
     .Pay-Date--Tablet {
-      width: 104px;
       height: 14px;
       opacity: 0.4;
       font-family: HelveticaNeue;
@@ -769,7 +749,6 @@ export default {
       display:block;
     }
     .Status--Tablet {
-      width: 43px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -780,7 +759,7 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      right:10px;
+      right:20px;
       display:block;
     }
 
@@ -793,7 +772,6 @@ export default {
       margin-top:20px;
     }
     .NB-Cristen--Tablet {
-      width: 255px;
       height: 16px;
       opacity: 0.4;
       font-family: HelveticaNeue;
@@ -886,7 +864,6 @@ export default {
       display: block;
     }
     .NB-Pending--Tablet {
-      width: 49px;
       height: 16px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -936,16 +913,23 @@ export default {
     }
     .Oval-three{
       position: absolute;
-      right:370px;
+      right:375px;
     }
     .Oval-four{
       position: absolute;
-      right:410px;
+      right:415px;
     }
     .Button-Rectangle--Tablet{
-        height: 32px;
-        position: relative;
-        display:block;
+      height: 32px;
+      position: relative;
+      display:block;
+    }
+    .Button-Rectangle-Change--Tablet{
+      width:300px;
+      height: 32px;
+      position: absolute;
+      left:50%;
+      display:block;
     }
     .Button-Number2{
       position: absolute;
@@ -1000,7 +984,6 @@ export default {
   }
   @media (min-width: 1440px) {
     .Fee-Type--Desktop {
-      width: 57px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -1011,11 +994,10 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      right:880px;
+      right:890px;
       display:block;
     }
     .Remuneration-USD--Desktop {
-      width: 136px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -1052,7 +1034,6 @@ export default {
       display:block;
     }
     .Pay-Date--Desktop {
-      width: 104px;
       height: 14px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -1069,7 +1050,6 @@ export default {
       display:block;
     }
     .Status--Desktop {
-      width: 43px;
       height: 16px;
       font-family: HelveticaNeue;
       font-size: 13px;
@@ -1080,11 +1060,9 @@ export default {
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
-      right:10px;
+      right:20px;
       display:block;
     }
-
-
 
     .Account-Rectangle--Desktop{
       height: 32px;
@@ -1126,7 +1104,6 @@ export default {
       margin-top:20px;
     }
     .NB-Cristen--Desktop {
-      width: 255px;
       height: 16px;
       opacity: 0.4;
       font-family: HelveticaNeue;
@@ -1219,7 +1196,6 @@ export default {
       display: block;
     }
     .NB-Pending--Desktop {
-      width: 49px;
       height: 16px;
       opacity: 0.9;
       font-family: HelveticaNeue;
@@ -1244,7 +1220,6 @@ export default {
       display:block;
     }
     .Account-Holder--Desktop {
-      width: 104px;
       height: 14px;
       opacity: 0.35;
       font-family: HelveticaNeue;
@@ -1259,30 +1234,30 @@ export default {
       display:block;
     }
     .Button-Rectangle--Desktop{
-        height: 32px;
-        position: relative;
-        display:block;
+      height: 32px;
+      position: relative;
+      display:block;
     }
     .Oval-one--Desktop {
-        height: 32px;
-        position: absolute;
-        left:0px;
-        top: calc(50% - 12px);
-        z-index: 0;
+      height: 32px;
+      position: absolute;
+      left:0px;
+      top: calc(50% - 12px);
+      z-index: 0;
     }
     .Oval-two--Desktop {
-        height: 32px;
-        position: absolute;
-        left:30px;
-        top: calc(50% - 12px);
-        z-index: 1;
+      height: 32px;
+      position: absolute;
+      left:30px;
+      top: calc(50% - 12px);
+      z-index: 1;
     }
     .Oval-three--Desktop {
-        height: 32px;
-        position: absolute;
-        left:70px;
-        line-height: 1.75;
-        z-index: 2;
+      height: 32px;
+      position: absolute;
+      left:70px;
+      line-height: 1.75;
+      z-index: 2;
     }
     .Button-Number--Desktop{
       position: absolute;
@@ -1305,76 +1280,75 @@ export default {
       z-index: 4;
     }
     .Oval-five--Desktop {
-        height: 32px;
-        position: absolute;
-        left:160px;
-        line-height: 1.75;
-        z-index: 5;
+      height: 32px;
+      position: absolute;
+      left:160px;
+      line-height: 1.75;
+      z-index: 5;
     }
     .Oval-six--Desktop {
-        height: 32px;
-        position: absolute;
-        left:190px;
-        line-height: 1.75;
-        z-index: 6;
+      height: 32px;
+      position: absolute;
+      left:190px;
+      line-height: 1.75;
+      z-index: 6;
     }
     .Oval-seven--Desktop {
-        height: 32px;
-        position: absolute;
-        left:220px;
-        line-height: 1.75;
-        z-index: 7;
+      height: 32px;
+      position: absolute;
+      left:220px;
+      line-height: 1.75;
+      z-index: 7;
     }
     .Oval-eight--Desktop {
-        height: 32px;
-        position: absolute;
-        left:250px;
-        line-height: 1.75;
-        z-index: 8;
+      height: 32px;
+      position: absolute;
+      left:250px;
+      line-height: 1.75;
+      z-index: 8;
     }
     .Oval-nine--Desktop {
-        height: 32px;
-        position: absolute;
-        left:280px;
-        line-height: 1.75;
-        z-index: 9;
+      height: 32px;
+      position: absolute;
+      left:280px;
+      line-height: 1.75;
+      z-index: 9;
     }
     .Oval-ten--Desktop {
-        height: 32px;
-        position: absolute;
-        left:310px;
-        line-height: 1.75;
-        z-index: 10;
+      height: 32px;
+      position: absolute;
+      left:310px;
+      line-height: 1.75;
+      z-index: 10;
     }
     .Oval-eleven--Desktop {
-        height: 32px;
-        position: absolute;
-        left:340px;
-        line-height: 1.75;
-        z-index: 11;
+      height: 32px;
+      position: absolute;
+      left:340px;
+      line-height: 1.75;
+      z-index: 11;
     }
     .Oval-twelve--Desktop {
-        height: 32px;
-        position: absolute;
-        left:380px;
-        top: calc(50% - 12px);
-        z-index: 12;
+      height: 32px;
+      position: absolute;
+      left:380px;
+      top: calc(50% - 12px);
+      z-index: 12;
     }
     .Oval-thirteen--Desktop{
-        height: 32px;
-        position: absolute;
-        left:410px;
-        top: calc(50% - 12px);
-        z-index: 13;
+      height: 32px;
+      position: absolute;
+      left:410px;
+      top: calc(50% - 12px);
+      z-index: 13;
     }
     .Button-Number2{
-        height: 32px;
-        position: absolute;
-        right:100px;
-        top: calc(50% - 12px);
+      height: 32px;
+      position: absolute;
+      right:100px;
+      top: calc(50% - 12px);
     }
     
-
 
     //@media1440px Tablet none;
     //mobile、Tablet用同一個
@@ -1402,8 +1376,5 @@ export default {
     
   }
 }
-
-  
-
 
 </style>
