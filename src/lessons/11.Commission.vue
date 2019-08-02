@@ -210,7 +210,6 @@
         <div class="space-Rectangle">
         </div>
       </div>
-
       <!--mobile-->
       <div class="Button-Rectangle">
         <span class="Button-Rectangle-Change">
@@ -332,22 +331,22 @@ export default {
     .Account-Rectangle{
       height: 20px;
       margin-top:0px;
-      position: relative;
-      .Account-Number {
-        height: 16px;
-        font-size: 13px;
-        font-weight: bold;
-        line-height: 1.23;
-        letter-spacing: -0.2px;
-        color: #414042;     
-        position: absolute;
-      }
-      .base {
-        height: 14px;
-        object-fit: contain;
-        position: absolute;
-        padding-left: 100px;
-      }
+      position: relative; 
+    }
+    .Account-Number {
+      height: 16px;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1.23;
+      letter-spacing: -0.2px;
+      color: #414042;     
+      position: absolute;
+    }
+    .base {
+      height: 14px;
+      object-fit: contain;
+      position: absolute;
+      padding-left: 100px;
     }
     .NB-Rectangle {
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
@@ -361,8 +360,7 @@ export default {
     .NB-Picture{
       object-fit: contain;
       position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
+      padding:10px 0px 0px 5px;
     }
     .NB-Name{
       opacity: 0.9;
@@ -371,8 +369,7 @@ export default {
       line-height: 1.06;
       color: #414042;
       position:absolute;
-      padding-top:10px;
-      padding-left:30px;
+      padding:10px 0px 0px 30px;
     }
     .NB-Fee{
       height: 15px;
@@ -380,16 +377,14 @@ export default {
       font-size: 14px;
       letter-spacing: -0.22px;
       color: #414042;
-      padding-top:40px;
-      padding-left:30px;
+      padding:40px 0px 0px 30px;
     }
     .NB-USD{
       height: 18px;
       font-size: 15px;
       line-height: 1.07;
       color: #414042;
-      padding-top:7px;
-      padding-left:30px;
+      padding:7px 0px 0px 30px;
     }
     .NB-Paydate{
       height: 16px;
@@ -511,7 +506,6 @@ export default {
     .NB-Rectangle--Desktop{
       display:none;
     }
-
   @media (min-width: 375px) {
   }
   @media (min-width: 768px) {
@@ -525,14 +519,11 @@ export default {
       height: 28px;
       display:block;
     }
-    //搜尋的小圖案
-    
     .Magnifier{
       display:block;
       position: absolute;
-      margin:-25px 0px 0px 160px;
+      margin:-25px 0px 0px 180px;
     }
-
     .Account-Rectangle{
       height:32px;
       margin-top:70px;
@@ -564,7 +555,6 @@ export default {
       position: absolute;
       display:block;
     }
-    
     .Fee-Type {
       height: 16px;
       font-size: 13px;
@@ -613,8 +603,6 @@ export default {
       position: absolute;
       right:20px;
     }
-
-
     .NB-Rectangle {
       height: 50px;
       display: block;
@@ -623,21 +611,19 @@ export default {
     .NB-Rectangle--Tablet{
       display:block;
     }
-
     .NB-Cristen {
       height: 16px;
       opacity: 0.4;
       font-size: 13px;
       line-height: 1.08;
       color: #414042;
-      padding-top:40px;
-      padding-left:5px;
+      padding:40px 0px 0px 5px;
       position: absolute;
       display:block;
     }
-    
     .NB-Fee {
       height: 16px;
+      opacity: 1.0;
       line-height: 1.14;
       color: #414042;
       position: absolute;
@@ -680,7 +666,6 @@ export default {
       margin-top:10px;
       display: block;
     }
-
     .EXPORT{
       height: 16px;
       font-size: 13px;
@@ -736,7 +721,6 @@ export default {
       right:120px;
       top: calc(50% - 12px);
     }
-
     //@media768px mobile none;
     .Commission-Rectangle{
       display:none;
@@ -771,29 +755,14 @@ export default {
   }
   @media (min-width: 1440px) {
     .Fee-Type {
-      height: 16px;
-      font-size: 13px;
-      font-weight: bold;
-      letter-spacing: -0.2px;
-      color: #414042;
-      position: absolute;
       right:897px;
       display:block;
     }
     .Remuneration-USD {
-      height: 16px;
-      font-size: 13px;
-      font-weight: bold;
-      text-align: right;
-      color: #414042;
-      position: absolute;
       right:430px;
       display:block;
     }
     .base-USD{
-      height: 14px;
-      object-fit: contain;
-      position: absolute;
       right:410px;
       display:block;
     }
@@ -804,66 +773,23 @@ export default {
       right:180px;
     }
     .base-Fee {
-      height: 14px;
-      object-fit: contain;
-      position: absolute;
       right:877px;
     }
-    .base-Status {
-      height: 14px;
-      object-fit: contain;
-      position: absolute;
-      right:0px;
-    }
     .Pay-Date {
-      height: 14px;
       opacity: 0.9;
-      font-size: 12px;
-      font-weight: bold;
-      text-align: right;
-      color: #414042;
-      position: absolute;
       right:200px;
     }
-    .Status {
-      height: 16px;
-      font-size: 13px;
-      font-weight: bold;
-      letter-spacing: -0.2px;
-      color: #414042;
-      position: absolute;
-      right:20px;
-    }
-
     .Account-Rectangle--Desktop{
       height: 32px;
       margin-top:70px;
       position: relative;
       display: block;
-      .Account-Number {
-        height: 16px;
-        font-size: 13px;
-        font-weight: bold;
-        line-height: 1.23;
-        letter-spacing: -0.2px;
-        color: #414042;     
-        position: absolute;
-        display: block;
-      }
-      .base {
-        height: 14px;
-        object-fit: contain;
-        position: absolute;
-        padding-left: 100px;
-        display: block;
-      }
     }
     .Holder-Rectangle--Desktop{
       position: relative;
       margin-top:-10px;
       display: block;
     }
-    
     .NB-Rectangle {
       height: 50px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
@@ -874,7 +800,6 @@ export default {
     .NB-Rectangle--Desktop{
       display:block;
     }
-    
     .NB-Fee {
       right:877px;
       display:block;
@@ -885,6 +810,7 @@ export default {
       display:block;
     }
     .NB-Date{
+      opacity: 1.0;
       font-size: 14px;
       right:178px;
       margin-top:22px;
@@ -937,7 +863,6 @@ export default {
       -webkit-border-radius: 16px;
       border-radius: 16px;
       text-align:center;
-      
     }
     .Oval-four{
       height: 32px;
@@ -1000,7 +925,6 @@ export default {
       top: calc(50% - 12px);
     }
     .Showing--Desktop {
-      font-family: Inter;
       font-size: 12px;
       line-height: 2.5;
       letter-spacing: -0.2px;
@@ -1040,5 +964,4 @@ export default {
     
   }
 }
-
 </style>

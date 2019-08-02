@@ -59,6 +59,10 @@ export default {
         name: 'TestPractice4',
         text: 'TestPractice4'
       },
+      {
+        name: 'myAction',
+        text: 'myAction'
+      }
     ]
   }),
   components: {

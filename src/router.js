@@ -73,6 +73,11 @@ export default new Router({
                     path: 'TestPractice4',
                     name: 'TestPractice4',
                     component: () => import('@/lessons/12.TestPractice4.vue'),
+                },
+                {
+                    path: 'myAction',
+                    name: 'myAction',
+                    component: () => import('@/lessons/myAction.vue'),
                 }
             ]
         },

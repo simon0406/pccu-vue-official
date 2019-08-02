@@ -16,7 +16,7 @@
                         <hr class="container__hr" />
                         <h3 class="container__segment">Add filters</h3>
                         <h4 class="container__filterName">Account</h4>
-                        <cardDropdown
+                        <!-- <cardDropdown
                             :id="'accountType'"
                             class="container__filter"
                             :value.sync="currentAccountType"
@@ -44,32 +44,32 @@
                             :uniqueKey="'value'"
                             :displayKey="'text'"
                             :placeholder="'Transaction Date from'"
-                        ></cardDropdown>
+                        ></cardDropdown> -->
                     </div>
                 </div>
             </div>
         </div>
-        <searchInput class="myComission__search"></searchInput>
+        <!-- <searchInput class="myComission__search"></searchInput> -->
         <ul class="myComission__table">
             <li class="table__rowItem">
                 <ul class="rowItem__tableHeader">
                     <li class="tableHeader__columnItem">
                         <div class="columnItem__attribute columnItem__attribute--account">
                             <span class="attribute__text">Account Number</span>
-                            <img class="attribute__sort" src="@/assets/svg/base.svg" />
+                            <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                         </div>
                     </li>
                     <li class="tableHeader__columnItem d-none d-768-block">
                         <div class="columnItem__attribute columnItem__attribute--feeType">
                             <span class="attribute__text">Fee Type</span>
-                            <img class="attribute__sort" src="@/assets/svg/base.svg" />
+                            <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                         </div>
                     </li>
                     <li class="tableHeader__columnItem d-none d-768-block">
                         <div class="columnItem__attribute columnItem__attribute--remuneration">
                             <div class="remuneration__primary">
                                 <span class="attribute__text">Remuneration ($USD)</span>
-                                <img class="attribute__sort" src="@/assets/svg/base.svg" />
+                                <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                             </div>
                             <span class="remuneration__secondary d-1210-none">PayDate</span>
                         </div>
@@ -77,13 +77,13 @@
                     <li class="tableHeader__columnItem d-none d-768-block">
                         <div class="columnItem__attribute columnItem__attribute--payDate">
                             <span class="attribute__text">Pay Date</span>
-                            <img class="attribute__sort" src="@/assets/svg/base.svg" />
+                            <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                         </div>
                     </li>
                     <li class="tableHeader__columnItem d-none d-768-block">
                         <div class="columnItem__attribute columnItem__attribute--status">
                             <span class="attribute__text">Status</span>
-                            <img class="attribute__sort" src="@/assets/svg/base.svg" />
+                            <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                         </div>
                     </li>
                 </ul>
@@ -96,7 +96,7 @@
                                 <div class="account__title">
                                     <img
                                         class="title__icon"
-                                        src="@/assets/svg/individual-account.svg"
+                                        
                                     />
                                     <span class="title__accountId">NB1200202</span>
                                 </div>
@@ -134,29 +134,29 @@
                 </li>
             </template>
         </ul>
-        <div class="myComission__pagination">
+        <!-- <div class="myComission__pagination">
             <pagination class="pagination__pagination" :currentPage.sync="currentPage"></pagination>
             <paginationSize
                 class="pagination__paginationSize"
                 :currentPageSize.sync="currentPageSize"
             ></paginationSize>
-        </div>
+        </div> -->
     </div>
 </template>
 <script>
-import searchInput from '@/components/baseInput/searchInput.vue'
-import pagination from '@/components/pagination.vue'
-import paginationSize from '@/components/paginationSize.vue'
-import cardDropdown from '@/components/cardDropdown.vue'
-import cardDropdownCheckboxes from '@/components/cardDropdownCheckboxes.vue'
-import { mapActions } from 'vuex';
+// import searchInput from '@/components/baseInput/searchInput.vue'
+// import pagination from '@/components/pagination.vue'
+// import paginationSize from '@/components/paginationSize.vue'
+// import cardDropdown from '@/components/cardDropdown.vue'
+// import cardDropdownCheckboxes from '@/components/cardDropdownCheckboxes.vue'
+// import { mapActions } from 'vuex';
 export default {
     components: {
-        searchInput,
-        cardDropdown,
-        cardDropdownCheckboxes,
-        pagination,
-        paginationSize,
+        // searchInput,
+        // cardDropdown,
+        // cardDropdownCheckboxes,
+        // pagination,
+        // paginationSize,
     },
     data: () => ({
         // Filter
@@ -235,21 +235,21 @@ export default {
         currentPageSize: 10,
     }),
     async mounted() {
-        // Add Event
-        document.addEventListener("click", this.detectClickOutside);
-        // Request Data
-        const response = await this.getFeeItemList({
-            id: `IFA001`
-        });
-        const manyFeeLists = response.Datas;
-        const { FeeItemList, LumpsumFeeItemList, RSPFeeItemList } = manyFeeLists
-        const allFeeItems = [...FeeItemList, ...LumpsumFeeItemList, ...RSPFeeItemList]
-        this.typeOptions = allFeeItems
+        // // Add Event
+        // document.addEventListener("click", this.detectClickOutside);
+        // // Request Data
+        // const response = await this.getFeeItemList({
+        //     id: `IFA001`
+        // });
+        // const manyFeeLists = response.Datas;
+        // const { FeeItemList, LumpsumFeeItemList, RSPFeeItemList } = manyFeeLists
+        // const allFeeItems = [...FeeItemList, ...LumpsumFeeItemList, ...RSPFeeItemList]
+        // this.typeOptions = allFeeItems
 
-        const accountTypeData = await this.getOptionList({
-            id: "1005/N"
-        });
-        this.accountTypeOptions = accountTypeData.Datas.OptionList
+        // const accountTypeData = await this.getOptionList({
+        //     id: "1005/N"
+        // });
+        // this.accountTypeOptions = accountTypeData.Datas.OptionList
     },
     destroyed() {
         // Add Event
@@ -268,7 +268,7 @@ export default {
                 this.isFilterOpen = false;
             }
         },
-        ...mapActions(["getFeeItemList", "getOptionList"])
+        // ...mapActions(["getFeeItemList", "getOptionList"])
     }
 }
 </script>
@@ -610,4 +610,77 @@ export default {
         }
     }
 }
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-flex {
+  display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+}
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.d-flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .d-768-block {
+    display: block;
+  }
+  .d-768-none {
+    display: none;
+  }
+  .d-md-block {
+    display: block;
+  }
+  .d-md-flex {
+    display: flex;
+  }
+  .d-md-none {
+    display: none;
+  }
+  .d-md-cell {
+    display: table-cell;
+  }
+  .d-768-grid {
+    display: grid;
+  }
+  .d-768-flex {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1210px) {
+  .d-1210-flex {
+    display: flex;
+  }
+  .d-1210-grid {
+    display: grid;
+  }
+  .d-1210-none {
+    display: none;
+  }
+  .d-1210-block {
+    display: block;
+  }
+}
+
+
+
+
 </style>
+
