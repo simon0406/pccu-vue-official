@@ -353,7 +353,7 @@ export default {
     }
     //Account Number+圖
     .Account-Rectangle{
-      height: 32px;
+      height: 20px;
       margin-top:0px;
       position: relative;
       .Account-Number {
@@ -675,6 +675,7 @@ export default {
     }
 
     .Account-Rectangle{
+      height:32px;
       margin-top:70px;
       position: relative;
     }
@@ -815,7 +816,7 @@ export default {
       letter-spacing: normal;
       color: #414042;
       position: absolute;
-      right:303px;
+      right:330px;
       margin-top:22px;
       display:block;
     }

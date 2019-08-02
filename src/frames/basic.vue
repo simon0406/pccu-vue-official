@@ -58,7 +58,7 @@ export default {
       {
         name: 'TestPractice4',
         text: 'TestPractice4'
-      }
+      },
     ]
   }),
   components: {
