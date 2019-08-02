@@ -210,6 +210,7 @@
         <div class="space-Rectangle">
         </div>
       </div>
+
       <!--mobile-->
       <div class="Button-Rectangle">
         <span class="Button-Rectangle-Change">
@@ -299,7 +300,8 @@ export default {
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
       border: solid 1px rgba(151, 151, 151, 0.2);
       background-color: #ffffff;
-      position: absolute;right:0px;    
+      position: absolute;
+      right:0px;    
     }
     .Filter{
       opacity: 0.9;
@@ -521,55 +523,11 @@ export default {
     }
     .My-Commission {
       height: 28px;
-      font-size: 24px;
-      font-weight: 500;
-      display:block;
-    }
-    .Recent-3-months {
-      height: 16px;
-      opacity: 0.35;
-      font-size: 12px;
-      font-weight: bold;
-      padding-top:5px;
-      display:block;
-    }
-    .Filter-Rectangle {
-      width:82px;
-      height: 40px;
-      border-radius: 4px;
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
-      border: solid 1px rgba(151, 151, 151, 0.2);
-      background-color: #ffffff;
-      position: absolute;
-      right:0px;    
-      margin-top:-30px;
-      display:block;
-    }
-    .Filter{
-      height: 16px;
-      opacity: 0.9;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 1.29;
-      color: #414042;
-      margin-left:15px;
-      margin-top: 10px;
-      position: absolute;      
-      display:block;
-    }
-    .Filter-picture {
-      height: 16px;
-      object-fit: contain;
-      margin-left:55px;
-      margin-top: 10px;
-      position: absolute;
       display:block;
     }
     //搜尋的小圖案
     
     .Magnifier{
-      height: 24px;
-      object-fit: contain;
       display:block;
       position: absolute;
       margin:-25px 0px 0px 160px;
@@ -659,8 +617,6 @@ export default {
 
     .NB-Rectangle {
       height: 50px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      position: relative;
       display: block;
       margin-top:20px;
     }
@@ -682,7 +638,6 @@ export default {
     
     .NB-Fee {
       height: 16px;
-      font-size: 14px;
       line-height: 1.14;
       color: #414042;
       position: absolute;
@@ -697,7 +652,6 @@ export default {
       font-weight: bold;
       letter-spacing: -0.3px;
       text-align: right;
-      color: #414042;
       position: absolute;
       right:120px;
       margin-top:10px;
@@ -715,37 +669,14 @@ export default {
       display:block;
     }
     .NB-Picture{
-      width: 16px;
-      height: 16px;
-      object-fit: contain;
-      position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
       display: block;      
     }
     //NB1內容
     .NB-Name{
-      height: 17px;
-      opacity: 0.9;
-      font-size: 17px;
-      font-weight: bold;
-      line-height: 1.06;
-      color: #414042;
-      position:absolute;
-      padding-top:10px;
-      padding-left:30px;
       display: block;
     }
     .NB-Pending {
-      height: 16px;
       opacity: 0.9;
-      font-size: 13px;
-      line-height: 1.31;
-      text-align: right;
-      color: #414042;
-      position: absolute;
-      right:0px;
-      padding-top:10px;
       margin-top:10px;
       display: block;
     }
@@ -943,92 +874,34 @@ export default {
     .NB-Rectangle--Desktop{
       display:block;
     }
-
-    .NB-Cristen {
-      height: 16px;
-      opacity: 0.4;
-      font-size: 13px;
-      line-height: 1.08;
-      color: #414042;
-      padding-top:40px;
-      padding-left:5px;
-      position: absolute;
-      display:block;
-    }
     
     .NB-Fee {
-      height: 16px;
-      font-size: 14px;
-      line-height: 1.14;
-      color: #414042;
-      position: absolute;
       right:877px;
-      margin-top:-10px;
       display:block;
     }
     .NB-USD{
-      height: 16px;
-      font-size: 14px;
-      text-align: right;
-      color: #414042;
-      position: absolute;
       right:435px;
       margin-top:22px;
       display:block;
     }
     .NB-Date{
-      height: 16px;
       font-size: 14px;
-      text-align: right;
-      color: #414042;
-      position: absolute;
       right:178px;
       margin-top:22px;
       display:block;
     }
     .NB-Picture{
-      width: 16px;
-      height: 16px;
-      object-fit: contain;
-      position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
       display: block;      
     }
     //NB1內容
     .NB-Name{
-      height: 17px;
-      opacity: 0.9;
-      font-size: 17px;
-      font-weight: bold;
-      line-height: 1.06;
-      color: #414042;
-      position:absolute;
-      padding-top:10px;
-      padding-left:30px;
       display: block;
     }
     .NB-Pending {
-      height: 16px;
       font-size: 14px;
-      line-height: 1.31;
-      text-align: right;
-      color: #414042;
-      position: absolute;
-      right:0px;
-      padding-top:10px;
-      margin-top:10px;
       display: block;
     }
     .Account-Holder {
-      height: 14px;
-      opacity: 0.35;
-      font-size: 12px;
-      font-weight: bold;
-      line-height: 1.33;
-      letter-spacing: -0.2px;
-      color: #414042;
-      position: absolute;
       display:block;
     }
     .Button-Rectangle--Desktop{
@@ -1140,8 +1013,6 @@ export default {
       right:120px;
       top: calc(50% - 12px);
     }
-    
-
     //@media1440px Tablet none;
     //mobile、Tablet用同一個
     .Account-Rectangle{
