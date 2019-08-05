@@ -14,208 +14,202 @@
           </div>
         </div>
       </div>
-
       <!--Tablet+Desktop-->
       <div class="Commission-Rectangle--Tablet">
-        <div class="My-Commission--Tablet">
+        <div class="My-Commission">
           <span>My Commission</span>
-          <span class="Magnifier--Tablet"><img src="@/assets/test2.png"></span>
-          <span class="Filter-Rectangle--Tablet">
-            <span class="Filter--Tablet">Filter</span>
-            <span class="Filter-picture--Tablet"><img src="@/assets/facebook.png"></span>
+          <span class="Magnifier"><img src="@/assets/test2.png"></span>
+          <span class="Filter-Rectangle">
+            <span class="Filter">Filter</span>
+            <span class="Filter-picture"><img src="@/assets/facebook.png"></span>
           </span>
-          <div class="Recent-3-months--Tablet">
+          <div class="Recent-3-months">
           <p>Recent 3 months</p>
           </div>
         </div>
       </div>
-
       <!--Mobile-->
       <div class="MagnifierRectangle">
         <span class="Magnifier"><img src="@/assets/test2.png"></span>
       </div>
-      
       <!--Mobile+Tablet-->
       <div class="Account-Rectangle">
         <span class="Account-Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD--Tablet">Remuneration($USD)</span>
-        <span class="base-SUSD--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration-USD">Remuneration($USD)</span>
+        <span class="base-USD"><img src="@/assets/facebook.png"></span>
       </div>
       <!--Desktop-->
       <div class="Account-Rectangle--Desktop">
         <span class="Account-Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
       </div>
-
-
       <!--Tablet-->
       <div class="Holder-Rectangle--Tablet">
-        <span class="Account-Holder--Tablet">Account Holder</span>
-        <span class="Fee-Type--Tablet">Fee Type</span>
-        <span class="base-Fee--Tablet"><img src="@/assets/facebook.png"></span>
-        <span class="Pay-Date--Tablet">Pay Date</span>
-        <span class="Status--Tablet">Status</span>
-        <span class="base-Status--Tablet"><img src="@/assets/facebook.png"></span>
+        <span class="Account-Holder">Account Holder</span>
+        <span class="Fee-Type">Fee Type</span>
+        <span class="base-Fee"><img src="@/assets/facebook.png"></span>
+        <span class="Pay-Date">Pay Date</span>
+        <span class="Status">Status</span>
+        <span class="base-Status"><img src="@/assets/facebook.png"></span>
       </div>
       <!--Desktop-->
       <div class="Holder-Rectangle--Desktop">
-        <span class="Account-Holder--Desktop">Account Holder</span>
-        <span class="Fee-Type-Rectangle--Desktop">
-          <span class="Fee-Type--Desktop">Fee Type</span>
-          <span class="base-Fee--Desktop"><img src="@/assets/facebook.png"></span>
-        </span>
-        <span class="USD-Rectangle--Desktop">
-          <span class="Remuneration-USD--Desktop">Remuneration($USD)</span>
-          <span class="base-USD--Desktop"><img src="@/assets/facebook.png"></span>
-        </span>
-        <span class="Pay-Date--Desktop">Pay Date</span>
-        <span class="base-PayDate--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="Status--Desktop">Status</span>
-        <span class="base-Status--Desktop"><img src="@/assets/facebook.png"></span>
+        <span class="Account-Holder">Account Holder</span>
+        <span class="Fee-Type">Fee Type</span>
+        <span class="base-Fee"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration-USD">Remuneration($USD)</span>
+        <span class="base-USD"><img src="@/assets/facebook.png"></span>
+        <span class="Pay-Date">Pay Date</span>
+        <span class="base-PayDate"><img src="@/assets/facebook.png"></span>
+        <span class="Status">Status</span>
+        <span class="base-Status"><img src="@/assets/facebook.png"></span>
       </div>
       <!--Mobile-->
-      <div class="NB-Rectangle NB1-Rectangle">
-        <span class="NB-Picture NB1-Picture"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name NB1-Name">NB1200202</span>
-        <span class="NB-Pending NB1-Pending">Pending</span>
-        <p class="NB-Fee NB1-Fee">Contribution Fee</p>
-        <p class="NB-USD NB1-USD">USD $ 000,000,000,000.000000</p>
-        <p class="NB-Paydate NB1-Paydate">Pay date: Jan 05,2020</p>
+      <div class="NB-Rectangle--mobile">
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200202</span>
+          <span class="NB-Pending">Pending</span>
+          <p class="NB-Fee">Contribution Fee</p>
+          <p class="NB-USD">USD $ 000,000,000,000.000000</p>
+          <p class="NB-Paydate">Pay date: Jan 05,2020</p>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200209</span>
+          <span class="NB-Pending">Pending</span>
+          <p class="NB-Fee">Contribution Fee</p>
+          <p class="NB-USD">USD $ 342.98</p>
+          <p class="NB-Paydate">Pay date: Jan 05,2020</p>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200345</span>
+          <span class="NB-Pending">Peceived</span>
+          <p class="NB-Fee">Contribution Fee</p>
+          <p class="NB-USD">USD $ 20,000.00</p>
+          <p class="NB-Paydate">Pay date: Jan 05,2020</p>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200348</span>
+          <span class="NB-Pending">Peceived</span>
+          <p class="NB-Fee">Contribution Fee</p>
+          <p class="NB-USD">USD $ 1,000.00</p>
+          <p class="NB-Paydate">Pay date: Dec 05,2019</p>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200048</span>
+          <span class="NB-Pending">Peceived</span>
+          <p class="NB-Fee">Contribution Fee</p>
+          <p class="NB-USD">USD $ 5,000.00</p>
+          <p class="NB-Paydate">Pay date: Dec 05,2019</p>
+        </div>
+        <div class="space-Rectangle">
+        </div>
       </div>
-      <div class="NB-Rectangle NB2-Rectangle">
-        <span class="NB-Picture NB2-Picture"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name NB2-Name">NB1200209</span>
-        <span class="NB-Pending NB2-Pending">Pending</span>
-        <p class="NB-Fee NB2-Fee">Contribution Fee</p>
-        <p class="NB-USD NB2-USD">USD $ 342.98</p>
-        <p class="NB-Paydate NB2-Paydate">Pay date: Jan 05,2020</p>
-      </div>
-      <div class="NB-Rectangle NB3-Rectangle">
-        <span class="NB-Picture NB3-Picture"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name NB3-Name">NB1200345</span>
-        <span class="NB-Pending NB3-Pending">Peceived</span>
-        <p class="NB-Fee NB3-Fee">Contribution Fee</p>
-        <p class="NB-USD NB3-USD">USD $ 20,000.00</p>
-        <p class="NB-Paydate NB3-Paydate">Pay date: Jan 05,2020</p>
-      </div>
-      <div class="NB-Rectangle NB4-Rectangle">
-        <span class="NB-Picture NB4-Picture"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name NB4-Name">NB1200348</span>
-        <span class="NB-Pending NB4-Pending">Peceived</span>
-        <p class="NB-Fee NB4-Fee">Contribution Fee</p>
-        <p class="NB-USD NB4-USD">USD $ 1,000.00</p>
-        <p class="NB-Paydate NB4-Paydate">Pay date: Dec 05,2019</p>
-      </div>
-      <div class="NB-Rectangle NB5-Rectangle">
-        <span class="NB-Picture NB5-Picture"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name NB5-Name">NB1200048</span>
-        <span class="NB-Pending NB5-Pending">Peceived</span>
-        <p class="NB-Fee NB5-Fee">Contribution Fee</p>
-        <p class="NB-USD NB5-USD">USD $ 5,000.00</p>
-        <p class="NB-Paydate NB5-Paydate">Pay date: Dec 05,2019</p>
-      </div>
-      <div class="space-Rectangle">
-      </div>
-
       <!--Tablet-->
-      <div class="NB-Rectangle--Tablet NB1-Rectangle--Tablet">
-        <span class="NB-Picture--Tablet NB1-Picture--Tablet"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Tablet NB1-Name--Tablet">NB1200202</span>
-        <p class="NB-Cristen--Tablet NB1-Name--Tablet">Cristen Michaelson</p>
-        <span class="NB-Fee--Tablet NB1-Fee--Tablet">Contribution Fee</span>
-        <span class="NB-USD--Tablet NB1-USD--Tablet">$000,000,000.000000</span>
-        <p class="NB-Date--Tablet NB1-Date--Tablet">Jan 05,2020</p>
-        <span class="NB-Pending--Tablet NB1-Pending--Tablet">Pending</span>
+      <div class="NB-Rectangle--Tablet">
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200202</span>
+          <p class="NB-Cristen">Cristen Michaelson</p>
+          <span class="NB-Fee">Contribution Fee</span>
+          <span class="NB-USD">$000,000,000.000000</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Pending</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200209</span>
+          <p class="NB-Cristen">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
+          <span class="NB-Fee">Advisor Service Fee</span>
+          <span class="NB-USD">$342.98</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Pending</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200345</span>
+          <p class="NB-Cristen">Michael Chang</p>
+          <span class="NB-Fee">One-off Advisor Fee</span>
+          <span class="NB-USD">$20,000.00</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Pending</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200348</span>
+          <p class="NB-Cristen">Josh Cheung, Lucie Kwan, Chien Hong</p>
+          <span class="NB-Fee">Establishment Fee</span>
+          <span class="NB-USD">$1,000.00</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Peceived</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB5200202</span>
+          <p class="NB-Cristen">Frank Collyn Woods Company</p>
+          <span class="NB-Fee">Research Fee</span>
+          <span class="NB-USD">$5,000.00</span>
+          <p class="NB-Date">Jan 05,2019</p>
+          <span class="NB-Pending">Received</span>
+        </div>
+        <div class="space-Rectangle">
+        </div>
       </div>
-      <div class="NB-Rectangle--Tablet NB2-Rectangle--Tablet">
-        <span class="NB-Picture--Tablet NB2-Picture--Tablet"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Tablet NB2-Name--Tablet">NB1200209</span>
-        <p class="NB-Cristen--Tablet NB2-Name--Tablet">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
-        <span class="NB-Fee--Tablet NB2-Fee--Tablet">Advisor Service Fee</span>
-        <span class="NB-USD--Tablet NB2-USD--Tablet">$342.98</span>
-        <p class="NB-Date--Tablet NB2-Date--Tablet">Jan 05,2020</p>
-        <span class="NB-Pending--Tablet NB2-Pending--Tablet">Pending</span>
-      </div>
-      <div class="NB-Rectangle--Tablet NB3-Rectangle--Tablet">
-        <span class="NB-Picture--Tablet NB3-Picture--Tablet"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Tablet NB3-Name--Tablet">NB1200345</span>
-        <p class="NB-Cristen--Tablet NB3-Name--Tablet">Michael Chang</p>
-        <span class="NB-Fee--Tablet NB3-Fee--Tablet">One-off Advisor Fee</span>
-        <span class="NB-USD--Tablet NB3-USD--Tablet">$20,000.00</span>
-        <p class="NB-Date--Tablet NB3-Date--Tablet">Jan 05,2020</p>
-        <span class="NB-Pending--Tablet NB3-Pending--Tablet">Pending</span>
-      </div>
-      <div class="NB-Rectangle--Tablet NB4-Rectangle--Tablet">
-        <span class="NB-Picture--Tablet NB4-Picture--Tablet"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Tablet NB4-Name--Tablet">NB1200348</span>
-        <p class="NB-Cristen--Tablet NB4-Name--Tablet">Josh Cheung, Lucie Kwan, Chien Hong</p>
-        <span class="NB-Fee--Tablet NB4-Fee--Tablet">Establishment Fee</span>
-        <span class="NB-USD--Tablet NB4-USD--Tablet">$1,000.00</span>
-        <p class="NB-Date--Tablet NB4-Date--Tablet">Jan 05,2020</p>
-        <span class="NB-Pending--Tablet NB4-Pending--Tablet">Peceived</span>
-      </div>
-      <div class="NB-Rectangle--Tablet NB5-Rectangle--Tablet">
-        <span class="NB-Picture--Tablet NB5-Picture--Tablet"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Tablet NB5-Name--Tablet">NB5200202</span>
-        <p class="NB-Cristen--Tablet NB5-Name--Tablet">Frank Collyn Woods Company</p>
-        <span class="NB-Fee--Tablet NB5-Fee--Tablet">Research Fee</span>
-        <span class="NB-USD--Tablet NB5-USD--Tablet">$5,000.00</span>
-        <p class="NB-Date--Tablet NB5-Date--Tablet">Jan 05,2019</p>
-        <span class="NB-Pending--Tablet NB5-Pending--Tablet">Received</span>
-      </div>
-      <div class="space-Rectangle--Tablet">
-      </div>
-
       <!--Desktop-->
-      <div class="NB-Rectangle--Desktop NB1-Rectangle--Desktop">
-        <span class="NB-Picture--Desktop NB1-Picture--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Desktop NB1-Name--Desktop">NB1200202</span>
-        <p class="NB-Cristen--Desktop NB1-Name--Desktop">Cristen Michaelson</p>
-        <span class="NB-Fee--Desktop NB1-Fee--Desktop">Contribution Fee</span>
-        <span class="NB-USD--Desktop NB1-USD--Desktop">USD $000,000,000,000.000000</span>
-        <span class="NB-Date--Desktop NB1-Date--Desktop">Jan 05,2020</span>
-        <span class="NB-Pending--Desktop NB1-Pending--Desktop">Pending</span>
+      <div class="NB-Rectangle--Desktop">
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200202</span>
+          <p class="NB-Cristen">Cristen Michaelson</p>
+          <span class="NB-Fee">Contribution Fee</span>
+          <span class="NB-USD">USD $000,000,000,000.000000</span>
+          <span class="NB-Date">Jan 05,2020</span>
+          <span class="NB-Pending">Pending</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200209</span>
+          <p class="NB-Cristen">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
+          <span class="NB-Fee">Advisor Service Fee</span>
+          <span class="NB-USD">USD $342.98</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Pending</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200345</span>
+          <p class="NB-Cristen">Michael Chang</p>
+          <span class="NB-Fee">One-off Advisor Fee</span>
+          <span class="NB-USD">USD $20,000.00</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Pending</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB1200348</span>
+          <p class="NB-Cristen">Josh Cheung, Lucie Kwan, Chien Hong</p>
+          <span class="NB-Fee">Establishment Fee</span>
+          <span class="NB-USD">USD $1,000.00</span>
+          <p class="NB-Date">Jan 05,2020</p>
+          <span class="NB-Pending">Peceived</span>
+        </div>
+        <div class="NB-Rectangle">
+          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
+          <span class="NB-Name">NB5200202</span>
+          <p class="NB-Cristen">Frank Collyn Woods Company</p>
+          <span class="NB-Fee">Research Fee</span>
+          <span class="NB-USD">$5,000.00</span>
+          <p class="NB-Date">Jan 05,2019</p>
+          <span class="NB-Pending">Received</span>
+        </div>
+        <div class="space-Rectangle">
+        </div>
       </div>
-      <div class="NB-Rectangle--Desktop NB2-Rectangle--Desktop">
-        <span class="NB-Picture--Desktop NB2-Picture--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Desktop NB2-Name--Desktop">NB1200209</span>
-        <p class="NB-Cristen--Desktop NB2-Name--Desktop">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
-        <span class="NB-Fee--Desktop NB2-Fee--Desktop">Advisor Service Fee</span>
-        <span class="NB-USD--Desktop NB2-USD--Desktop">USD $342.98</span>
-        <p class="NB-Date--Desktop NB2-Date--Desktop">Jan 05,2020</p>
-        <span class="NB-Pending--Desktop NB2-Pending--Desktop">Pending</span>
-      </div>
-      <div class="NB-Rectangle--Desktop NB3-Rectangle--Desktop">
-        <span class="NB-Picture--Desktop NB3-Picture--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Desktop NB3-Name--Desktop">NB1200345</span>
-        <p class="NB-Cristen--Desktop NB3-Name--Desktop">Michael Chang</p>
-        <span class="NB-Fee--Desktop NB3-Fee--Desktop">One-off Advisor Fee</span>
-        <span class="NB-USD--Desktop NB3-USD--Desktop">USD $20,000.00</span>
-        <p class="NB-Date--Desktop NB3-Date--Desktop">Jan 05,2020</p>
-        <span class="NB-Pending--Desktop NB3-Pending--Desktop">Pending</span>
-      </div>
-      <div class="NB-Rectangle--Desktop NB4-Rectangle--Desktop">
-        <span class="NB-Picture--Desktop NB4-Picture--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Desktop NB4-Name--Desktop">NB1200348</span>
-        <p class="NB-Cristen--Desktop NB4-Name--Desktop">Josh Cheung, Lucie Kwan, Chien Hong</p>
-        <span class="NB-Fee--Desktop NB4-Fee--Desktop">Establishment Fee</span>
-        <span class="NB-USD--Desktop NB4-USD--Desktop">USD $1,000.00</span>
-        <p class="NB-Date--Desktop NB4-Date--Desktop">Jan 05,2020</p>
-        <span class="NB-Pending--Desktop NB4-Pending--Desktop">Peceived</span>
-      </div>
-      <div class="NB-Rectangle--Desktop NB5-Rectangle--Desktop">
-        <span class="NB-Picture--Desktop NB5-Picture--Desktop"><img src="@/assets/facebook.png"></span>
-        <span class="NB-Name--Desktop NB5-Name--Desktop">NB5200202</span>
-        <p class="NB-Cristen--Desktop NB5-Name--Desktop">Frank Collyn Woods Company</p>
-        <span class="NB-Fee--Desktop NB5-Fee--Desktop">Research Fee</span>
-        <span class="NB-USD--Desktop NB5-USD--Desktop">$5,000.00</span>
-        <p class="NB-Date--Desktop NB5-Date--Desktop">Jan 05,2019</p>
-        <span class="NB-Pending--Desktop NB5-Pending--Desktop">Received</span>
-      </div>
-      <div class="space-Rectangle--Desktop">
-      </div>
-
       <!--mobile-->
       <div class="Button-Rectangle">
         <span class="Button-Rectangle-Change">
@@ -234,42 +228,40 @@
       </div>
       <!--Tablet-->
       <div class="Button-Rectangle--Tablet">
-        <span class="Button-Rectangle-Change--Tablet">
+        <span class="Button-Rectangle-Change">
           <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
           <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
           <span class="Button-Number">2</span>
           <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
           <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
         </span>
-        <span class="EXPORT--Tablet">EXPORT</span>
+        <span class="EXPORT">EXPORT</span>
         <span class="Button-Number2--Tablet"><img src="@/assets/test3.jpg"></span>
         <span class="Showing--Tablet">Showing 1-10 of 58</span>
       </div>
       <!--Desktop-->
       <div class="Button-Rectangle--Desktop">
-        <span class="Oval-one--Desktop"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-two--Desktop"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-three--Desktop">1</span>
-        <span class="Button-Number--Desktop">2</span>
-        <span class="Oval-four--Desktop">3</span>
-        <span class="Oval-five--Desktop">4</span>
-        <span class="Oval-six--Desktop">5</span>
-        <span class="Oval-seven--Desktop">6</span>
-        <span class="Oval-eight--Desktop">7</span>
-        <span class="Oval-nine--Desktop">8</span>
-        <span class="Oval-ten--Desktop">9</span>
-        <span class="Oval-eleven--Desktop">10</span>
-        <span class="Oval-twelve--Desktop"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-thirteen--Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-three">1</span>
+        <span class="Button-Number">2</span>
+        <span class="Oval-four">3</span>
+        <span class="Oval-five">4</span>
+        <span class="Oval-six">5</span>
+        <span class="Oval-seven">6</span>
+        <span class="Oval-eight">7</span>
+        <span class="Oval-nine">8</span>
+        <span class="Oval-ten">9</span>
+        <span class="Oval-eleven">10</span>
+        <span class="Oval-twelve"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval-thirteen"><img src="@/assets/test3.jpg"></span>
         <span class="Button-Number2--Desktop"><img src="@/assets/test3.jpg"></span>
         <span class="Showing--Desktop">Showing 1-10 of 58</span>
       </div>
-
       
     </div>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -287,30 +279,17 @@ export default {
   width:100%;
   padding:0 2rem;
   .Commission-Rectangle{
-      height: 40px;
       padding-top:20px;
       position: relative;
     }
     .My-Commission {
-      height: 28px;
-      font-family: HelveticaNeue;
       font-size: 24px;
       font-weight: 500;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
     }
     .Recent-3-months {
-      height: 16px;
       opacity: 0.35;
-      font-family: HelveticaNeue;
       font-size: 12px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
       padding-top:5px;
     }
     .Filter-Rectangle {
@@ -320,133 +299,97 @@ export default {
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
       border: solid 1px rgba(151, 151, 151, 0.2);
       background-color: #ffffff;
-      position: absolute;right:0px;    
+      position: absolute;
+      right:0px;    
     }
     .Filter{
-      height: 16px;
       opacity: 0.9;
-      font-family: HelveticaNeue;
       font-size: 14px;
       font-weight: 500;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.29;
-      letter-spacing: normal;
       color: #414042;
       margin-left:15px;
       margin-top: 10px;
       position: absolute;      
     }
     .Filter-picture {
-      height: 16px;
       object-fit: contain;
       margin-left:55px;
       margin-top: 10px;
       position: absolute;
     }
-    //搜尋的小圖案
+    //放大鏡
     .MagnifierRectangle{
-      height: 24px;
       margin-top:60px;
       display:block;
     }
     .Magnifier{
-      height: 24px;
       object-fit: contain;
       display:block;
     }
     //Account Number+圖
     .Account-Rectangle{
-      height: 32px;
+      height: 20px;
       margin-top:0px;
-      position: relative;
-      .Account-Number {
-        height: 16px;
-        font-family: HelveticaNeue;
-        font-size: 13px;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.23;
-        letter-spacing: -0.2px;
-        color: #414042;     
-        position: absolute;
-      }
-      .base {
-        height: 14px;
-        object-fit: contain;
-        position: absolute;
-        padding-left: 100px;
-      }
+      position: relative; 
     }
-    //中間
+    .Account-Number {
+      height: 16px;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 1.23;
+      letter-spacing: -0.2px;
+      color: #414042;     
+      position: absolute;
+    }
+    .base {
+      height: 14px;
+      object-fit: contain;
+      position: absolute;
+      padding-left: 100px;
+    }
     .NB-Rectangle {
-      height: 120px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
     }
     .space-Rectangle {
       height: 32px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
+      margin-top:20px;
     }
     .NB-Picture{
-      width: 16px;
-      height: 16px;
       object-fit: contain;
       position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
+      padding:10px 0px 0px 5px;
     }
     .NB-Name{
-      height: 17px;
       opacity: 0.9;
-      font-family: HelveticaNeue;
       font-size: 17px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.06;
-      letter-spacing: normal;
       color: #414042;
       position:absolute;
-      padding-top:10px;
-      padding-left:30px;
+      padding:10px 0px 0px 30px;
     }
     .NB-Fee{
       height: 15px;
       opacity: 0.5;
-      font-family: HelveticaNeue;
       font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
       letter-spacing: -0.22px;
       color: #414042;
-      padding-top:40px;
-      padding-left:30px;
+      padding:40px 0px 0px 30px;
     }
     .NB-USD{
       height: 18px;
-      font-family: HelveticaNeue;
       font-size: 15px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.07;
-      letter-spacing: normal;
       color: #414042;
-      padding-top:7px;
-      padding-left:30px;
+      padding:7px 0px 0px 30px;
     }
     .NB-Paydate{
       height: 16px;
       opacity: 0.5;
-      font-family: HelveticaNeue;
       font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.08;
       letter-spacing: -0.22px;
       color: #414042;
@@ -455,13 +398,8 @@ export default {
     .NB-Pending {
       height: 16px;
       opacity: 0.5;
-      font-family: HelveticaNeue;
       font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.31;
-      letter-spacing: normal;
       text-align: right;
       color: #414042;
       position: absolute;
@@ -474,26 +412,28 @@ export default {
       position: relative;
       display:block;
     }
+    //頁碼按鈕
+    .Button-Rectangle-Change{
+      height:32px;
+      position: absolute;
+      left:50%;
+    }
     .Oval-one {
-      height: 32px;
       position: absolute;
       left:75px;
       top: calc(50% - 12px);
     }
     .Oval-two {
-      height: 32px;
       position: absolute;
       left:40px;
       top: calc(50% - 12px);
     }
     .Oval-three {
-      height: 32px;
       position: absolute;
       left:-70px;
       top: calc(50% - 12px);
     }
     .Oval-four {
-      height: 32px;
       position: absolute;
       top: calc(50% - 12px);
       left:-105px;
@@ -508,11 +448,6 @@ export default {
       left:-35px;
       padding-top:2px;
       text-align:center;
-    }
-    .Button-Rectangle-Change{
-      height:32px;
-      position: absolute;
-      left:50%;
     }
     .Button-Rectangle2-Change{
       height:32px;
@@ -531,53 +466,25 @@ export default {
       top: calc(50% - 12px);
     }
     .Showing {
-      width:100px;
-      height: 32px;
-      font-family: Inter;
       font-size: 12px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 2.5;
       letter-spacing: -0.2px;
       color: #4a4a4a;
       position: absolute;
       left:-50px;
+      white-space: nowrap;
     }
-
     //@media375px Tablet none;
     .Commission-Rectangle--Tablet{
       display:none;
     }
-    .My-Commission--Tablet {
-      display:none;
-    }
-    .Recent-3-months--Tablet {
-      display:none;
-    }
-    .Filter-Rectangle--Tablet {
-      display:none;
-    }
-    .Filter--Tablet{
-      display:none;     
-    }
-    .Filter-picture--Tablet {
-      display:none;
-    }
-    //搜尋的小圖案
-    .Remuneration-USD--Tablet {
+    .Remuneration-USD {
       display:none;
     }
     .Holder-Rectangle--Tablet{
       display:none;
     }
-    .NB-Rectangle--Tablet {
-      display: none;
-    }
-    .base-SUSD--Tablet{
-      display:none;
-    }
-    .space-Rectangle--Tablet{
+    .base-USD{
       display:none;
     }
     //@media375px Desktop none;
@@ -587,16 +494,16 @@ export default {
     .Holder-Rectangle--Desktop{
       display:none;
     }
-    .NB-Rectangle--Desktop{
-      display:none;
-    }
-    .space-Rectangle--Desktop{
-      display:none;
-    }
     .Button-Rectangle--Tablet{
       display:none;
     }
     .Button-Rectangle--Desktop{
+      display:none;
+    }
+    .NB-Rectangle--Tablet{
+      display:none;
+    }
+    .NB-Rectangle--Desktop{
       display:none;
     }
   @media (min-width: 375px) {
@@ -608,89 +515,24 @@ export default {
       position: relative;
       display:block;
     }
-    .My-Commission--Tablet {
+    .My-Commission {
       height: 28px;
-      font-family: HelveticaNeue;
-      font-size: 24px;
-      font-weight: 500;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
       display:block;
     }
-    .Recent-3-months--Tablet {
-      height: 16px;
-      opacity: 0.35;
-      font-family: HelveticaNeue;
-      font-size: 12px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      padding-top:5px;
-      display:block;
-    }
-    .Filter-Rectangle--Tablet {
-      width:82px;
-      height: 40px;
-      border-radius: 4px;
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
-      border: solid 1px rgba(151, 151, 151, 0.2);
-      background-color: #ffffff;
-      position: absolute;
-      right:0px;    
-      margin-top:-30px;
-      display:block;
-    }
-    .Filter--Tablet{
-      height: 16px;
-      opacity: 0.9;
-      font-family: HelveticaNeue;
-      font-size: 14px;
-      font-weight: 500;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.29;
-      letter-spacing: normal;
-      color: #414042;
-      margin-left:15px;
-      margin-top: 10px;
-      position: absolute;      
-      display:block;
-    }
-    .Filter-picture--Tablet {
-      height: 16px;
-      object-fit: contain;
-      margin-left:55px;
-      margin-top: 10px;
-      position: absolute;
-      display:block;
-    }
-    //搜尋的小圖案
-    
-    .Magnifier--Tablet{
-      height: 24px;
-      object-fit: contain;
+    .Magnifier{
       display:block;
       position: absolute;
-      margin:-25px 0px 0px 160px;
+      margin:-25px 0px 0px 180px;
     }
-
     .Account-Rectangle{
+      height:32px;
       margin-top:70px;
       position: relative;
     }
-    .Remuneration-USD--Tablet {
+    .Remuneration-USD {
       height: 16px;
-      font-family: HelveticaNeue;
       font-size: 13px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
       text-align: right;
       color: #414042;
       position: absolute;
@@ -702,154 +544,109 @@ export default {
       margin-top:-10px;
       display: block;
     }
-    .Account-Holder--Tablet {
+    .Account-Holder {
       height: 14px;
       opacity: 0.35;
-      font-family: HelveticaNeue;
       font-size: 12px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.33;
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
       display:block;
     }
-    
-    .Fee-Type--Tablet {
+    .Fee-Type {
       height: 16px;
-      font-family: HelveticaNeue;
       font-size: 13px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
       right:350px;
       display:block;
     }
-    .base-SUSD--Tablet{
+    .base-USD{
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:120px;
       display:block;
     }
-    .base-Fee--Tablet {
+    .base-Fee {
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:330px;
-      display:block;
     }
-    .base-Status--Tablet {
+    .base-Status {
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:0px;
-      display:block;
     }
-    .Pay-Date--Tablet {
+    .Pay-Date {
       height: 14px;
       opacity: 0.4;
-      font-family: HelveticaNeue;
       font-size: 12px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
       text-align: right;
       color: #414042;
       position: absolute;
       right:140px;
-      display:block;
     }
-    .Status--Tablet {
+    .Status {
       height: 16px;
-      font-family: HelveticaNeue;
       font-size: 13px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
       letter-spacing: -0.2px;
       color: #414042;
       position: absolute;
       right:20px;
-      display:block;
     }
-
-
-    .NB-Rectangle--Tablet {
+    .NB-Rectangle {
       height: 50px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      position: relative;
       display: block;
       margin-top:20px;
     }
-    .NB-Cristen--Tablet {
+    .NB-Rectangle--Tablet{
+      display:block;
+    }
+    .NB-Cristen {
       height: 16px;
       opacity: 0.4;
-      font-family: HelveticaNeue;
       font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.08;
-      letter-spacing: normal;
       color: #414042;
-      padding-top:40px;
-      padding-left:5px;
+      padding:40px 0px 0px 5px;
       position: absolute;
       display:block;
     }
-    
-    .NB-Fee--Tablet {
+    .NB-Fee {
       height: 16px;
-      font-family: HelveticaNeue;
-      font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
+      opacity: 1.0;
       line-height: 1.14;
-      letter-spacing: normal;
       color: #414042;
       position: absolute;
-      right:303px;
-      margin-top:22px;
+      right:330px;
+      margin-top:-10px;
       display:block;
     }
-    .NB-USD--Tablet{
+    .NB-USD{
       height: 16px;
       opacity: 0.9;
-      font-family: HelveticaNeue;
       font-size: 14px;
       font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
       letter-spacing: -0.3px;
       text-align: right;
-      color: #414042;
       position: absolute;
       right:120px;
       margin-top:10px;
       display:block;
     }
-    .NB-Date--Tablet{
+    .NB-Date{
       height: 16px;
       opacity: 0.5;
-      font-family: HelveticaNeue;
       font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
       text-align: right;
       color: #414042;
       position: absolute;
@@ -857,66 +654,22 @@ export default {
       margin-top:40px;
       display:block;
     }
-    .NB-Picture--Tablet{
-      width: 16px;
-      height: 16px;
-      object-fit: contain;
-      position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
+    .NB-Picture{
       display: block;      
     }
     //NB1內容
-    .NB-Name--Tablet{
-      height: 17px;
-      opacity: 0.9;
-      font-family: HelveticaNeue;
-      font-size: 17px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.06;
-      letter-spacing: normal;
-      color: #414042;
-      position:absolute;
-      padding-top:10px;
-      padding-left:30px;
+    .NB-Name{
       display: block;
     }
-    .NB-Pending--Tablet {
-      height: 16px;
+    .NB-Pending {
       opacity: 0.9;
-      font-family: HelveticaNeue;
-      font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.31;
-      letter-spacing: normal;
-      text-align: right;
-      color: #414042;
-      position: absolute;
-      right:0px;
-      padding-top:10px;
       margin-top:10px;
       display: block;
     }
-    .space-Rectangle--Tablet{
-      margin-top:20px;
-      height: 48px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      display:block;
-    }
-
-    .EXPORT--Tablet{
+    .EXPORT{
       height: 16px;
-      font-family: HelveticaNeue;
       font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 1.08;
-      letter-spacing: normal;
       color: #0043ff;
     }
     .Oval-one{
@@ -944,7 +697,8 @@ export default {
       position: relative;
       display:block;
     }
-    .Button-Rectangle-Change--Tablet{
+    //頁碼按鈕
+    .Button-Rectangle-Change{
       width:300px;
       height: 32px;
       position: absolute;
@@ -955,9 +709,6 @@ export default {
       height: 32px;
       font-family: Inter;
       font-size: 12px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 2.5;
       letter-spacing: -0.2px;
       color: #4a4a4a;
@@ -970,35 +721,19 @@ export default {
       right:120px;
       top: calc(50% - 12px);
     }
-
     //@media768px mobile none;
     .Commission-Rectangle{
-      display:none;
-    }
-    .Filter-Rectangle {
       display:none;
     }
     //搜尋的小圖案
     .MagnifierRectangle{
       display:none;
     }
-    .NB-Rectangle {
-      display:none;
-    }
-    .space-Rectangle {
-      display: none;
-    }
     //@media768px Desktop none;
     .Account-Rectangle--Desktop{
       display:none;
     }
     .Holder-Rectangle--Desktop{
-      display:none;
-    }
-    .NB-Rectangle--Desktop{
-      display:none;
-    }
-    .space-Rectangle--Desktop{
       display:none;
     }
     .Button-Rectangle{
@@ -1010,270 +745,89 @@ export default {
     .Button-Rectangle--Desktop{
       display:none;
     }
+    .NB-Rectangle--mobile{
+      display:none;
+    }
+    .NB-Rectangle--Desktop{
+      display:none;
+    }
 
   }
   @media (min-width: 1440px) {
-    .Fee-Type--Desktop {
-      height: 16px;
-      font-family: HelveticaNeue;
-      font-size: 13px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: -0.2px;
-      color: #414042;
-      position: absolute;
-      display:block;
-      white-space:nowrap;
-    }
-    .Remuneration-USD--Desktop {
-      height: 16px;
-      font-family: HelveticaNeue;
-      font-size: 13px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-      color: #414042;
-      position: absolute;
+    .Fee-Type {
+      right:897px;
       display:block;
     }
-    .Fee-Type-Rectangle--Desktop{
-      height: 16px;
-      position: absolute;
-      left:32%;
-    }
-    .USD-Rectangle--Desktop{
-      height: 16px;
-      position: absolute;
-      right:42%;
-    }
-    .base-USD--Desktop{
-      height: 14px;
-      object-fit: contain;
-      position: absolute;
-      left:125px;
+    .Remuneration-USD {
+      right:430px;
       display:block;
     }
-    .base-PayDate--Desktop{
+    .base-USD{
+      right:410px;
+      display:block;
+    }
+    .base-PayDate{
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:180px;
-      display:block;
     }
-    .base-Fee--Desktop {
-      height: 14px;
-      object-fit: contain;
-      position: absolute;
-      left:60px;
-      display:block;
+    .base-Fee {
+      right:877px;
     }
-    .base-Status--Desktop {
-      height: 14px;
-      object-fit: contain;
-      position: absolute;
-      right:0px;
-      display:block;
-    }
-    .Pay-Date--Desktop {
-      height: 14px;
+    .Pay-Date {
       opacity: 0.9;
-      font-family: HelveticaNeue;
-      font-size: 12px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-      color: #414042;
-      position: absolute;
       right:200px;
-      display:block;
     }
-    .Status--Desktop {
-      height: 16px;
-      font-family: HelveticaNeue;
-      font-size: 13px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: -0.2px;
-      color: #414042;
-      position: absolute;
-      right:20px;
-      display:block;
-    }
-
     .Account-Rectangle--Desktop{
       height: 32px;
       margin-top:70px;
       position: relative;
       display: block;
-      .Account-Number {
-        height: 16px;
-        font-family: HelveticaNeue;
-        font-size: 13px;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.23;
-        letter-spacing: -0.2px;
-        color: #414042;     
-        position: absolute;
-        display: block;
-      }
-      .base {
-        height: 14px;
-        object-fit: contain;
-        position: absolute;
-        padding-left: 100px;
-        display: block;
-      }
     }
     .Holder-Rectangle--Desktop{
       position: relative;
       margin-top:-10px;
       display: block;
     }
-    
-    .NB-Rectangle--Desktop {
+    .NB-Rectangle {
       height: 50px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
       display: block;
       margin-top:20px;
     }
-    .NB-Cristen--Desktop {
-      height: 16px;
-      opacity: 0.4;
-      font-family: HelveticaNeue;
-      font-size: 13px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.08;
-      letter-spacing: normal;
-      color: #414042;
-      padding-top:40px;
-      padding-left:5px;
-      position: absolute;
+    .NB-Rectangle--Desktop{
       display:block;
     }
-    
-    .NB-Fee--Desktop {
-      height: 16px;
-      font-family: HelveticaNeue;
-      font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.14;
-      letter-spacing: normal;
-      color: #414042;
-      position: absolute;
-      left:32%;
+    .NB-Fee {
+      right:877px;
+      display:block;
+    }
+    .NB-USD{
+      right:435px;
       margin-top:22px;
       display:block;
     }
-    .NB-USD--Desktop{
-      height: 16px;
-      font-family: HelveticaNeue;
+    .NB-Date{
+      opacity: 1.0;
       font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-      color: #414042;
-      position: absolute;
-      right:32%;
-      margin-top:22px;
-      display:block;
-    }
-    .NB-Date--Desktop{
-      height: 16px;
-      font-family: HelveticaNeue;
-      font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-      color: #414042;
-      position: absolute;
       right:178px;
       margin-top:22px;
       display:block;
     }
-    .NB-Picture--Desktop{
-      width: 16px;
-      height: 16px;
-      object-fit: contain;
-      position: absolute;
-      padding-top: 10px;
-      padding-left:5px;
+    .NB-Picture{
       display: block;      
     }
     //NB1內容
-    .NB-Name--Desktop{
-      height: 17px;
-      opacity: 0.9;
-      font-family: HelveticaNeue;
-      font-size: 17px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.06;
-      letter-spacing: normal;
-      color: #414042;
-      position:absolute;
-      padding-top:10px;
-      padding-left:30px;
+    .NB-Name{
       display: block;
     }
-    .NB-Pending--Desktop {
-      height: 16px;
-      font-family: HelveticaNeue;
+    .NB-Pending {
       font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.31;
-      letter-spacing: normal;
-      text-align: right;
-      color: #414042;
-      position: absolute;
-      right:0px;
-      padding-top:10px;
-      margin-top:10px;
       display: block;
     }
-    .space-Rectangle--Desktop{
-      margin-top:20px;
-      height: 48px;
-      box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
-      display:block;
-    }
-    .Account-Holder--Desktop {
-      height: 14px;
-      opacity: 0.35;
-      font-family: HelveticaNeue;
-      font-size: 12px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.33;
-      letter-spacing: -0.2px;
-      color: #414042;
-      position: absolute;
+    .Account-Holder {
       display:block;
     }
     .Button-Rectangle--Desktop{
@@ -1281,28 +835,25 @@ export default {
       position: relative;
       display:block;
     }
-    .Oval-one--Desktop {
+    .Oval-one {
       height: 32px;
       position: absolute;
       left:0px;
-      top: calc(50% - 12px);
-      z-index: 0;
+      top: calc(50% - 14px);
     }
-    .Oval-two--Desktop {
+    .Oval-two {
       height: 32px;
       position: absolute;
       left:30px;
-      top: calc(50% - 12px);
-      z-index: 1;
+      top: calc(50% - 14px);
     }
-    .Oval-three--Desktop {
+    .Oval-three {
       height: 32px;
       position: absolute;
       left:70px;
-      line-height: 1.75;
-      z-index: 2;
+      top: calc(50% - 14px);
     }
-    .Button-Number--Desktop{
+    .Button-Number{
       position: absolute;
       width: 32px;
       height: 32px;
@@ -1312,86 +863,69 @@ export default {
       -webkit-border-radius: 16px;
       border-radius: 16px;
       text-align:center;
-      line-height: 1.75;
-      z-index: 3;
     }
-    .Oval-four--Desktop{
+    .Oval-four{
       height: 32px;
       position: absolute;
       left:130px;
-      line-height: 1.75;
-      z-index: 4;
+      top: calc(50% - 14px);
     }
-    .Oval-five--Desktop {
+    .Oval-five {
       height: 32px;
       position: absolute;
       left:160px;
       line-height: 1.75;
-      z-index: 5;
     }
-    .Oval-six--Desktop {
+    .Oval-six {
       height: 32px;
       position: absolute;
       left:190px;
       line-height: 1.75;
-      z-index: 6;
     }
-    .Oval-seven--Desktop {
+    .Oval-seven {
       height: 32px;
       position: absolute;
       left:220px;
       line-height: 1.75;
-      z-index: 7;
     }
-    .Oval-eight--Desktop {
+    .Oval-eight {
       height: 32px;
       position: absolute;
       left:250px;
       line-height: 1.75;
-      z-index: 8;
     }
-    .Oval-nine--Desktop {
+    .Oval-nine {
       height: 32px;
       position: absolute;
       left:280px;
       line-height: 1.75;
-      z-index: 9;
     }
-    .Oval-ten--Desktop {
+    .Oval-ten {
       height: 32px;
       position: absolute;
       left:310px;
       line-height: 1.75;
-      z-index: 10;
     }
-    .Oval-eleven--Desktop {
+    .Oval-eleven {
       height: 32px;
       position: absolute;
       left:340px;
       line-height: 1.75;
-      z-index: 11;
     }
-    .Oval-twelve--Desktop {
+    .Oval-twelve {
       height: 32px;
       position: absolute;
       left:380px;
       top: calc(50% - 12px);
-      z-index: 12;
     }
-    .Oval-thirteen--Desktop{
+    .Oval-thirteen{
       height: 32px;
       position: absolute;
       left:410px;
       top: calc(50% - 12px);
-      z-index: 13;
     }
     .Showing--Desktop {
-      height: 32px;
-      font-family: Inter;
       font-size: 12px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 2.5;
       letter-spacing: -0.2px;
       color: #4a4a4a;
@@ -1399,25 +933,16 @@ export default {
       right:10px;
     }
     .Button-Number2--Desktop{
-      height: 32px;
       position: absolute;
       right:120px;
       top: calc(50% - 12px);
     }
-    
-
     //@media1440px Tablet none;
     //mobile、Tablet用同一個
     .Account-Rectangle{
       display: none;
     }
     .Holder-Rectangle--Tablet{
-      display: none;
-    }
-    .NB-Rectangle--Tablet {
-      display: none;
-    }
-    .space-Rectangle--Tablet{
       display: none;
     }
     .Button-Rectangle{
@@ -1429,8 +954,14 @@ export default {
     .Button-Rectangle--Tablet{
       display:none;
     }
+    //擋前mobile、Tablet NB內容，否則會重複
+    .NB-Rectangle--mobile{
+      display:none;
+    }
+    .NB-Rectangle--Tablet{
+      display:none;
+    }
     
   }
 }
-
 </style>

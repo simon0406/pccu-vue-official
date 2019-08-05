@@ -78,6 +78,11 @@ export default new Router({
                     path: 'myAction',
                     name: 'myAction',
                     component: () => import('@/lessons/myAction.vue'),
+                },
+                {
+                    path: 'Valuation',
+                    name: 'Valuation',
+                    component: () => import('@/lessons/13.Valuation.vue'),
                 }
             ]
         },

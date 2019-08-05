@@ -62,6 +62,10 @@ export default {
       {
         name: 'myAction',
         text: 'myAction'
+      },
+      {
+        name: 'Valuation',
+        text: 'Valuation'
       }
     ]
   }),

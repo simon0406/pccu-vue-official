@@ -506,8 +506,6 @@ export default {
     .NB-Rectangle--Desktop{
       display:none;
     }
-  @media (min-width: 375px) {
-  }
   @media (min-width: 768px) {
     .Commission-Rectangle--Tablet{
       height: 40px;
