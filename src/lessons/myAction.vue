@@ -59,12 +59,12 @@
                             <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                         </div>
                     </li>
-                    <li class="tableHeader__columnItem d-none d-768-block">
+                    <id class="tableHeader__columnItem d-none d-768-block">
                         <div class="columnItem__attribute columnItem__attribute--feeType">
                             <span class="attribute__text">Fee Type</span>
                             <!-- <img class="attribute__sort" src="@/assets/svg/base.svg" /> -->
                         </div>
-                    </li>
+                    </id>
                     <li class="tableHeader__columnItem d-none d-768-block">
                         <div class="columnItem__attribute columnItem__attribute--remuneration">
                             <div class="remuneration__primary">

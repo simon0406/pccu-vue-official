@@ -3,7 +3,7 @@
     <div class="css__RWD">
       <!--Mobile-->
       <div class="Commission-Rectangle">
-        <div class="My-Commission">
+        <div class="MyCommission__header">
           <span>My Commission</span>
           <span class="Filter-Rectangle">
             <span class="Filter">Filter</span>
@@ -16,7 +16,7 @@
       </div>
       <!--Tablet+Desktop-->
       <div class="Commission-Rectangle--Tablet">
-        <div class="My-Commission">
+        <div class="MyCommission__header">
           <span>My Commission</span>
           <span class="Magnifier"><img src="@/assets/test2.png"></span>
           <span class="Filter-Rectangle">
@@ -282,7 +282,7 @@ export default {
       padding-top:20px;
       position: relative;
     }
-    .My-Commission {
+    .MyCommission__header {
       font-size: 24px;
       font-weight: 500;
     }
@@ -515,7 +515,7 @@ export default {
       position: relative;
       display:block;
     }
-    .My-Commission {
+    .MyCommission__header {
       height: 28px;
       display:block;
     }
