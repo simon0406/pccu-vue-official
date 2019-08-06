@@ -673,6 +673,7 @@
       object-fit: contain;
       position: absolute;
       right:180px;
+      display: block;
     }
     .base-Fee {
       right:877px;
