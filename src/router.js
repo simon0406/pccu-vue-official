@@ -83,6 +83,11 @@ export default new Router({
                     path: 'Valuation',
                     name: 'Valuation',
                     component: () => import('@/lessons/13.Valuation.vue'),
+                },
+                {
+                    path: 'Valuationtest',
+                    name: 'Valuationtest',
+                    component: () => import('@/lessons/14.Valuationtest.vue'),
                 }
             ]
         },

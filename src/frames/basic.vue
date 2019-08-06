@@ -66,6 +66,10 @@ export default {
       {
         name: 'Valuation',
         text: 'Valuation'
+      },
+      {
+        name: 'Valuationtest',
+        text: 'Valuationtest'
       }
     ]
   }),

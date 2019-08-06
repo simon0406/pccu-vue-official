@@ -2,7 +2,7 @@
   <div class="pb-5">
     <div class="css__RWD">
       <!--Mobile-->
-      <div class="Commission-Rectangle">
+      <div class="Commission-Rectangle d-768-none">
         <div class="MyCommission__header">
           <span>My Commission</span>
           <span class="Filter-Rectangle">
@@ -15,7 +15,7 @@
         </div>
       </div>
       <!--Tablet+Desktop-->
-      <div class="Commission-Rectangle--Tablet">
+      <div class="Commission-Rectangle d-375-none d-768-block">
         <div class="MyCommission__header">
           <span>My Commission</span>
           <span class="Magnifier"><img src="@/assets/test2.png"></span>
@@ -506,10 +506,16 @@ export default {
     .NB-Rectangle--Desktop{
       display:none;
     }
+    .d-375-block{
+      display:block;
+    }
+    .d-375-none{
+      display:none;
+    }
   @media (min-width: 375px) {
   }
   @media (min-width: 768px) {
-    .Commission-Rectangle--Tablet{
+    .Commission-Rectangle{
       height: 40px;
       padding-top:20px;
       position: relative;
@@ -722,9 +728,7 @@ export default {
       top: calc(50% - 12px);
     }
     //@media768px mobile none;
-    .Commission-Rectangle{
-      display:none;
-    }
+    
     //搜尋的小圖案
     .MagnifierRectangle{
       display:none;
@@ -749,6 +753,12 @@ export default {
       display:none;
     }
     .NB-Rectangle--Desktop{
+      display:none;
+    }
+    .d-768-block{
+      display:block;
+    }
+    .d-768-none{
       display:none;
     }
 
@@ -961,7 +971,12 @@ export default {
     .NB-Rectangle--Tablet{
       display:none;
     }
-    
+    .d-1440-block{
+      display:block;
+    }
+    .d-1440-none{
+      display:none;
+    }
   }
 }
 </style>
