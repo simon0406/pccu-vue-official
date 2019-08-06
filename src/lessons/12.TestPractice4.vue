@@ -1,24 +1,10 @@
 <template>
   <div class="pb-5">
     <div class="css__RWD">
-      <!--Mobile-->
-      <div class="Commission-Rectangle d-768-none">
+      <div class="Commission-Rectangle">
         <div class="MyCommission__header">
           <span>My Commission</span>
-          <span class="Filter-Rectangle">
-            <span class="Filter">Filter</span>
-            <span class="Filter-picture"><img src="@/assets/facebook.png"></span>
-          </span>
-          <div class="Recent-3-months">
-          <p>Recent 3 months</p>
-          </div>
-        </div>
-      </div>
-      <!--Tablet+Desktop-->
-      <div class="Commission-Rectangle d-375-none d-768-block">
-        <div class="MyCommission__header">
-          <span>My Commission</span>
-          <span class="Magnifier"><img src="@/assets/test2.png"></span>
+          <span class="Magnifier d-375-none"><img src="@/assets/test2.png"></span>
           <span class="Filter-Rectangle">
             <span class="Filter">Filter</span>
             <span class="Filter-picture"><img src="@/assets/facebook.png"></span>
@@ -29,45 +15,31 @@
         </div>
       </div>
       <!--Mobile-->
-      <div class="MagnifierRectangle">
+      <div class="MagnifierRectangle d-768-none">
         <span class="Magnifier"><img src="@/assets/test2.png"></span>
       </div>
-      <!--Mobile+Tablet-->
+
       <div class="Account-Rectangle">
         <span class="Account-Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD">Remuneration($USD)</span>
-        <span class="base-USD"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration-USD d-375-none d-1440-none">Remuneration($USD)</span>
+        <span class="base-USD d-375-none d-1440-none"><img src="@/assets/facebook.png"></span>
       </div>
-      <!--Desktop-->
-      <div class="Account-Rectangle--Desktop">
-        <span class="Account-Number">Account Number</span>
-        <span class="base"><img src="@/assets/facebook.png"></span>
-      </div>
-      <!--Tablet-->
-      <div class="Holder-Rectangle--Tablet">
+      
+      <div class="Holder-Rectangle d-375-none">
         <span class="Account-Holder">Account Holder</span>
         <span class="Fee-Type">Fee Type</span>
         <span class="base-Fee"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration-USD d-768-none">Remuneration($USD)</span>
+        <span class="base-USD d-768-none"><img src="@/assets/facebook.png"></span>
         <span class="Pay-Date">Pay Date</span>
+        <span class="base-PayDate d-768-none"><img src="@/assets/facebook.png"></span>
         <span class="Status">Status</span>
         <span class="base-Status"><img src="@/assets/facebook.png"></span>
       </div>
-      <!--Desktop-->
-      <div class="Holder-Rectangle--Desktop">
-        <span class="Account-Holder">Account Holder</span>
-        <span class="Fee-Type">Fee Type</span>
-        <span class="base-Fee"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD">Remuneration($USD)</span>
-        <span class="base-USD"><img src="@/assets/facebook.png"></span>
-        <span class="Pay-Date">Pay Date</span>
-        <span class="base-PayDate"><img src="@/assets/facebook.png"></span>
-        <span class="Status">Status</span>
-        <span class="base-Status"><img src="@/assets/facebook.png"></span>
-      </div>
+
       <!--Mobile-->
-      <div class="NB-Rectangle--mobile">
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-768-none d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200202</span>
           <span class="NB-Pending">Pending</span>
@@ -75,7 +47,7 @@
           <p class="NB-USD">USD $ 000,000,000,000.000000</p>
           <p class="NB-Paydate">Pay date: Jan 05,2020</p>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-768-none d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200209</span>
           <span class="NB-Pending">Pending</span>
@@ -83,7 +55,7 @@
           <p class="NB-USD">USD $ 342.98</p>
           <p class="NB-Paydate">Pay date: Jan 05,2020</p>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-768-none d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200345</span>
           <span class="NB-Pending">Peceived</span>
@@ -91,7 +63,7 @@
           <p class="NB-USD">USD $ 20,000.00</p>
           <p class="NB-Paydate">Pay date: Jan 05,2020</p>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-768-none d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200348</span>
           <span class="NB-Pending">Peceived</span>
@@ -99,7 +71,7 @@
           <p class="NB-USD">USD $ 1,000.00</p>
           <p class="NB-Paydate">Pay date: Dec 05,2019</p>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-768-none d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200048</span>
           <span class="NB-Pending">Peceived</span>
@@ -107,12 +79,10 @@
           <p class="NB-USD">USD $ 5,000.00</p>
           <p class="NB-Paydate">Pay date: Dec 05,2019</p>
         </div>
-        <div class="space-Rectangle">
+        <div class="space-Rectangle d-768-none d-1440-none">
         </div>
-      </div>
       <!--Tablet-->
-      <div class="NB-Rectangle--Tablet">
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200202</span>
           <p class="NB-Cristen">Cristen Michaelson</p>
@@ -121,7 +91,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Pending</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200209</span>
           <p class="NB-Cristen">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
@@ -130,7 +100,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Pending</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200345</span>
           <p class="NB-Cristen">Michael Chang</p>
@@ -139,7 +109,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Pending</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200348</span>
           <p class="NB-Cristen">Josh Cheung, Lucie Kwan, Chien Hong</p>
@@ -148,7 +118,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Peceived</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB5200202</span>
           <p class="NB-Cristen">Frank Collyn Woods Company</p>
@@ -157,12 +127,10 @@
           <p class="NB-Date">Jan 05,2019</p>
           <span class="NB-Pending">Received</span>
         </div>
-        <div class="space-Rectangle">
+        <div class="space-Rectangle d-375-none d-768-block d-1440-none">
         </div>
-      </div>
       <!--Desktop-->
-      <div class="NB-Rectangle--Desktop">
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200202</span>
           <p class="NB-Cristen">Cristen Michaelson</p>
@@ -171,7 +139,7 @@
           <span class="NB-Date">Jan 05,2020</span>
           <span class="NB-Pending">Pending</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200209</span>
           <p class="NB-Cristen">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
@@ -180,7 +148,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Pending</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200345</span>
           <p class="NB-Cristen">Michael Chang</p>
@@ -189,7 +157,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Pending</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB1200348</span>
           <p class="NB-Cristen">Josh Cheung, Lucie Kwan, Chien Hong</p>
@@ -198,7 +166,7 @@
           <p class="NB-Date">Jan 05,2020</p>
           <span class="NB-Pending">Peceived</span>
         </div>
-        <div class="NB-Rectangle">
+        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
           <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
           <span class="NB-Name">NB5200202</span>
           <p class="NB-Cristen">Frank Collyn Woods Company</p>
@@ -207,11 +175,10 @@
           <p class="NB-Date">Jan 05,2019</p>
           <span class="NB-Pending">Received</span>
         </div>
-        <div class="space-Rectangle">
+        <div class="space-Rectangle d-375-none d-768-none d-1440-block">
         </div>
-      </div>
       <!--mobile-->
-      <div class="Button-Rectangle">
+      <div class="Button-Rectangle d-768-none d-1440-none">
         <span class="Button-Rectangle-Change">
           <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
           <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
@@ -220,14 +187,14 @@
           <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
         </span>
       </div>
-      <div class="Button-Rectangle2">
+      <div class="Button-Rectangle2 d-768-none d-1440-none">
         <span class="Button-Rectangle2-Change">
           <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
           <span class="Showing">Showing 1-10 of 58</span>
         </span>
       </div>
       <!--Tablet-->
-      <div class="Button-Rectangle--Tablet">
+      <div class="Button-Rectangle d-375-none d-1440-none">
         <span class="Button-Rectangle-Change">
           <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
           <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
@@ -240,7 +207,7 @@
         <span class="Showing--Tablet">Showing 1-10 of 58</span>
       </div>
       <!--Desktop-->
-      <div class="Button-Rectangle--Desktop">
+      <div class="Button-Rectangle d-375-none d-768-none">
         <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
         <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
         <span class="Oval-three">1</span>
@@ -258,22 +225,11 @@
         <span class="Button-Number2--Desktop"><img src="@/assets/test3.jpg"></span>
         <span class="Showing--Desktop">Showing 1-10 of 58</span>
       </div>
-      
     </div>
   </div>
 </template>
-
 <script>
-export default {
-  components: {
-    
-  },
-  data: () => ({
-    imageUrl: require("@/assets/temple.jpg")
-  })
-}
 </script>
-
 <style lang="scss" scoped>
 .css__RWD{
   width:100%;
@@ -438,7 +394,7 @@ export default {
       top: calc(50% - 12px);
       left:-105px;
     }
-    //綠色數字
+    //綠色頁碼
     .Button-Number{
       width:67px;
       height: 32px;
@@ -473,38 +429,6 @@ export default {
       position: absolute;
       left:-50px;
       white-space: nowrap;
-    }
-    //@media375px Tablet none;
-    .Commission-Rectangle--Tablet{
-      display:none;
-    }
-    .Remuneration-USD {
-      display:none;
-    }
-    .Holder-Rectangle--Tablet{
-      display:none;
-    }
-    .base-USD{
-      display:none;
-    }
-    //@media375px Desktop none;
-    .Account-Rectangle--Desktop{
-      display:none;
-    }
-    .Holder-Rectangle--Desktop{
-      display:none;
-    }
-    .Button-Rectangle--Tablet{
-      display:none;
-    }
-    .Button-Rectangle--Desktop{
-      display:none;
-    }
-    .NB-Rectangle--Tablet{
-      display:none;
-    }
-    .NB-Rectangle--Desktop{
-      display:none;
     }
     .d-375-block{
       display:block;
@@ -545,7 +469,7 @@ export default {
       right:140px;
       display:block;
     }
-    .Holder-Rectangle--Tablet{
+    .Holder-Rectangle{
       position: relative;
       margin-top:-10px;
       display: block;
@@ -613,9 +537,6 @@ export default {
       height: 50px;
       display: block;
       margin-top:20px;
-    }
-    .NB-Rectangle--Tablet{
-      display:block;
     }
     .NB-Cristen {
       height: 16px;
@@ -698,7 +619,7 @@ export default {
       position: absolute;
       right:415px;
     }
-    .Button-Rectangle--Tablet{
+    .Button-Rectangle{
       height: 32px;
       position: relative;
       display:block;
@@ -727,41 +648,12 @@ export default {
       right:120px;
       top: calc(50% - 12px);
     }
-    //@media768px mobile none;
-    
-    //搜尋的小圖案
-    .MagnifierRectangle{
-      display:none;
-    }
-    //@media768px Desktop none;
-    .Account-Rectangle--Desktop{
-      display:none;
-    }
-    .Holder-Rectangle--Desktop{
-      display:none;
-    }
-    .Button-Rectangle{
-      display: none;
-    }
-    .Button-Rectangle2{
-      display: none;
-    }
-    .Button-Rectangle--Desktop{
-      display:none;
-    }
-    .NB-Rectangle--mobile{
-      display:none;
-    }
-    .NB-Rectangle--Desktop{
-      display:none;
-    }
     .d-768-block{
       display:block;
     }
     .d-768-none{
       display:none;
     }
-
   }
   @media (min-width: 1440px) {
     .Fee-Type {
@@ -789,13 +681,13 @@ export default {
       opacity: 0.9;
       right:200px;
     }
-    .Account-Rectangle--Desktop{
+    .Account-Rectangle{
       height: 32px;
       margin-top:70px;
       position: relative;
       display: block;
     }
-    .Holder-Rectangle--Desktop{
+    .Holder-Rectangle{
       position: relative;
       margin-top:-10px;
       display: block;
@@ -806,9 +698,6 @@ export default {
       position: relative;
       display: block;
       margin-top:20px;
-    }
-    .NB-Rectangle--Desktop{
-      display:block;
     }
     .NB-Fee {
       right:877px;
@@ -840,7 +729,7 @@ export default {
     .Account-Holder {
       display:block;
     }
-    .Button-Rectangle--Desktop{
+    .Button-Rectangle{
       height: 32px;
       position: relative;
       display:block;
@@ -934,6 +823,28 @@ export default {
       left:410px;
       top: calc(50% - 12px);
     }
+    .Button-Number{
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background-color: #9aefaa;
+      left:90px;
+      -moz-border-radius: 16px;
+      -webkit-border-radius: 16px;
+      border-radius: 16px;
+      text-align:center;
+    }
+    .Button-Number{
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background-color: #9aefaa;
+      left:90px;
+      -moz-border-radius: 16px;
+      -webkit-border-radius: 16px;
+      border-radius: 16px;
+      text-align:center;
+    }
     .Showing--Desktop {
       font-size: 12px;
       line-height: 2.5;
@@ -946,30 +857,6 @@ export default {
       position: absolute;
       right:120px;
       top: calc(50% - 12px);
-    }
-    //@media1440px Tablet none;
-    //mobile、Tablet用同一個
-    .Account-Rectangle{
-      display: none;
-    }
-    .Holder-Rectangle--Tablet{
-      display: none;
-    }
-    .Button-Rectangle{
-      display: none;
-    }
-    .Button-Rectangle2{
-      display: none;
-    }
-    .Button-Rectangle--Tablet{
-      display:none;
-    }
-    //擋前mobile、Tablet NB內容，否則會重複
-    .NB-Rectangle--mobile{
-      display:none;
-    }
-    .NB-Rectangle--Tablet{
-      display:none;
     }
     .d-1440-block{
       display:block;
