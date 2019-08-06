@@ -56,8 +56,8 @@ export default {
         text: 'Commission'
       },
       {
-        name: 'TestPractice4',
-        text: 'TestPractice4'
+        name: 'MyCommission',
+        text: 'MyCommission'
       },
       {
         name: 'myAction',

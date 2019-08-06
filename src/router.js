@@ -70,6 +70,11 @@ export default new Router({
                     component: () => import('@/lessons/11.Commission.vue'),
                 },
                 {
+                    path: 'MyCommission',
+                    name: 'MyCommission',
+                    component: () => import('@/lessons/12.MyCommission.vue'),
+                },
+                {
                     path: 'TestPractice4',
                     name: 'TestPractice4',
                     component: () => import('@/lessons/12.TestPractice4.vue'),
