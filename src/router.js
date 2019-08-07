@@ -83,6 +83,11 @@ export default new Router({
                     path: 'History',
                     name: 'History',
                     component: () => import('@/lessons/13.History.vue'),
+                },
+                {
+                    path: 'HistoryTest',
+                    name: 'HistoryTest',
+                    component: () => import('@/lessons/14.HistoryTest.vue'),
                 }
             ]
         },

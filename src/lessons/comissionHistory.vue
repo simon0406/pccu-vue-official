@@ -1,14 +1,14 @@
 <template>
     <div class="comissionHistory">
         <h1 class="comissionHistory__header">Commission Hostory</h1>
-        <cardNavs
+        <!-- <cardNavs
             class="comissionHistory__navs d-none d-768-block"
             :id="'invertal'"
             :value.sync="currentInterval"
             :options="intervalOptions"
-        ></cardNavs>
+        ></cardNavs> -->
         <div id="bar-chart" ref="bar-chart" class="comissionHistory__chart"></div>
-        <div class="comissionHistory__toggle">
+        <!-- <div class="comissionHistory__toggle">
             <button
                 class="toggle__button button--analysis"
                 :class="{'toggle__button--active': currentToggleIndex==='0'}"
@@ -19,7 +19,7 @@
                 :class="{'toggle__button--active': currentToggleIndex==='1'}"
                 @click="switchToTotal()"
             >Total</button>
-        </div>
+        </div> -->
     </div>
 </template>
 <script>

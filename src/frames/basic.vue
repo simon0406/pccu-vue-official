@@ -66,6 +66,10 @@ export default {
       {
         name: 'History',
         text: 'History'
+      },
+      {
+        name: 'HistoryTest',
+        text: 'HistoryTest'
       }
     ]
   }),
