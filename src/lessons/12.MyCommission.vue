@@ -171,7 +171,7 @@
           <span class="NB-Name">NB5200202</span>
           <p class="NB-Cristen">Frank Collyn Woods Company</p>
           <span class="NB-Fee">Research Fee</span>
-          <span class="NB-USD">$5,000.00</span>
+          <span class="NB-USD">USD $5,000.00</span>
           <p class="NB-Date">Jan 05,2019</p>
           <span class="NB-Pending">Received</span>
         </div>
@@ -229,6 +229,14 @@
   </div>
 </template>
 <script>
+export default {
+  components: {
+    
+  },
+  data: () => ({
+    imageUrl: require("@/assets/temple.jpg")
+  })
+}
 </script>
 <style lang="scss" scoped>
 .css__RWD{

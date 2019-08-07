@@ -59,7 +59,7 @@
     height: 40px;
     border-radius: 2px;
     background-color: #f2f4ff;
-    padding:25px 10px 0px 0px;
+    margin:20px 10px 0px 0px;
     position: absolute;
     right:0px;
   }
@@ -72,8 +72,9 @@
     height: 16px;
     opacity: 0.9;
     font-size: 14px;
-    text-align: center;
     color: #414042;
+    position: absolute;
+    margin:10px 0px 0px 5px;
   }
   .M__copy{
     height:19px;
