@@ -64,12 +64,8 @@ export default {
         text: 'myAction'
       },
       {
-        name: 'Valuation',
-        text: 'Valuation'
-      },
-      {
-        name: 'Valuationtest',
-        text: 'Valuationtest'
+        name: 'History',
+        text: 'History'
       }
     ]
   }),
