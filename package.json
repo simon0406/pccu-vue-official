@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "echarts": "^4.2.1",
     "jquery": "^3.4.0",
     "popper.js": "^1.15.0",
     "smooth-scroll": "^16.0.3",

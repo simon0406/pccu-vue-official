@@ -7,11 +7,15 @@
 
 
 <script>
-
+import $echarts from 'echarts'
 export default {
+    mounted(){
+        this.renderAnalysisChart();
+    },
     methods: {
-        abc() {
+        renderAnalysisChart() {
            this.echart = $echarts.init(document.querySelector("#bar-chart")); 
+           
            var xAxisData = [];
            var data1 = [];
            var data2 = [];
@@ -32,7 +36,7 @@ export default {
                     shadowColor: 'rgba(0,0,0,0.5)'
                 }
             };
-            option = {
+            var option = {
                 backgroundColor: '#eee',
                 legend: {
                     data: ['Upfront', 'Recurring'],
