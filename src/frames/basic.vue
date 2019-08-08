@@ -74,6 +74,10 @@ export default {
       {
         name: 'Top',
         text: 'Top'
+      },
+      {
+        name: 'WatchList',
+        text: 'WatchList'
       }
     ]
   }),

@@ -93,6 +93,11 @@ export default new Router({
                     path: 'Top',
                     name: 'Top',
                     component: () => import('@/lessons/15.Top.vue'),
+                },
+                {
+                    path: 'WatchList',
+                    name: 'WatchList',
+                    component: () => import('@/lessons/16.WatchList.vue'),
                 }
             ]
         },
