@@ -65,9 +65,9 @@ export default new Router({
                     component: () => import('@/lessons/10.RWDpractice3.vue'),
                 },
                 {
-                    path: 'Commission',
-                    name: 'Commission',
-                    component: () => import('@/lessons/11.Commission.vue'),
+                    path: 'Valuation',
+                    name: 'Valuation',
+                    component: () => import('@/lessons/11.Valuation.vue'),
                 },
                 {
                     path: 'MyCommission',
@@ -98,6 +98,11 @@ export default new Router({
                     path: 'WatchList',
                     name: 'WatchList',
                     component: () => import('@/lessons/16.WatchList.vue'),
+                },
+                {
+                    path: 'MyActionLog',
+                    name: 'MyActionLog',
+                    component: () => import('@/lessons/17.MyActionLog.vue'),
                 }
             ]
         },

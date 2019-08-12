@@ -52,8 +52,8 @@ export default {
         text: 'RWDpractice3'
       },
       {
-        name: 'Commission',
-        text: 'Commission'
+        name: 'Valuation',
+        text: 'Valuation'
       },
       {
         name: 'MyCommission',
@@ -78,6 +78,10 @@ export default {
       {
         name: 'WatchList',
         text: 'WatchList'
+      },
+      {
+        name: 'MyActionLog',
+        text: 'MyActionLog'
       }
     ]
   }),

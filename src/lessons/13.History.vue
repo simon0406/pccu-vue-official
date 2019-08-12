@@ -16,28 +16,28 @@ export default {
         renderAnalysisChart() {
            this.echart = $echarts.init(document.querySelector("#bar-chart")); 
            
-           var xAxisData = [];
-           var data1 = [];
-           var data2 = [];
+           const xAxisData = [];
+           const data1 = [];
+           const data2 = [];
            for (var i = 0; i < 10; i++) {
-                xAxisData.push('Class' + i);
+                xAxisData.push("Jan 19'");
                 data1.push((Math.random() * 2).toFixed(2));
                 data2.push(-Math.random().toFixed(2));
             }
 
-            var itemStyle = {
+            const itemStyle = {
                 normal: {
+                    barborderRadius: 9,
+                    color: '#79eaa6'
                 },
-                emphasis: {
-                    barBorderWidth: 1,
-                    shadowBlur: 10,
-                    shadowOffsetX: 0,
-                    shadowOffsetY: 0,
-                    shadowColor: 'rgba(0,0,0,0.5)'
-                }
             };
-            var option = {
-                backgroundColor: '#eee',
+            const itemStyle2={
+                normal:{
+                    barborderRadius:9,
+                    color:'#ffe323'
+                }
+            }
+            const option = {
                 legend: {
                     data: ['Upfront', 'Recurring'],
                     align: 'left',
@@ -45,30 +45,26 @@ export default {
                 },
             xAxis: {
                 data: xAxisData,
-                name: 'X Axis',
-                silent: false,
-                axisLine: {onZero: true},
-                splitLine: {show: false},
-                splitArea: {show: false}
             },
             yAxis: {
-                inverse: true,
-                splitArea: {show: false}
+                name: '($K)'
             },
             series: [
                 {
                     name: 'Upfront',
                     type: 'bar',
                     stack: 'one',
-                    itemStyle: itemStyle,
-                    data: data1
+                    itemStyle: itemStyle2,
+                    data: data2,
+                    barWidth:18
                 },
                 {
                     name: 'Recurring',
                     type: 'bar',
                     stack: 'one',
                     itemStyle: itemStyle,
-                    data: data2
+                    data: data1,
+                    barWidth:18
                 }
             ]
             };
