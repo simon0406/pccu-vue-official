@@ -1,6 +1,6 @@
 <template>
   <div class="comissionHistory">
-    <h1 class="commissionHistory__header">Commission Hostory</h1>
+    <h1 class="commissionHistory__header">Commission History</h1>
     <div id="bar-chart" ref="bar-chart" class="comissionHistory__chart"></div>
   </div>
 </template>
@@ -11,6 +11,7 @@ import $echarts from 'echarts'
 export default {
     mounted(){
         this.renderAnalysisChart();
+        window.addEventListener('resize', this.resizeEchart)
     },
     methods: {
         renderAnalysisChart() {
@@ -70,7 +71,12 @@ export default {
             };
             this.echart.clear();
             this.echart.setOption(option);
-        }
+        },
+          resizeEchart() {
+            this.echart.resize();
+            const divContainer = this.$refs['bar-chart'].firstChild
+            divContainer.style.width = "100%"
+        },
     }
 }
 
