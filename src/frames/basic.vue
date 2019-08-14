@@ -82,6 +82,10 @@ export default {
       {
         name: 'MyActionLog',
         text: 'MyActionLog'
+      },
+      {
+        name: 'AUM',
+        text: 'AUM'
       }
     ]
   }),

@@ -13,6 +13,9 @@ export default {
         this.renderAnalysisChart();
         window.addEventListener('resize', this.resizeEchart)
     },
+    destroyed() {
+        window.removeEventListener('resize', this.resizeEchart)
+    },
     methods: {
         renderAnalysisChart() {
            this.echart = $echarts.init(document.querySelector("#bar-chart")); 
@@ -22,19 +25,20 @@ export default {
            const data2 = [];
            for (var i = 0; i < 10; i++) {
                 xAxisData.push("Jan 19'");
-                data1.push((Math.random() * 2).toFixed(2));
-                data2.push(-Math.random().toFixed(2));
+                data1.push((Math.random()).toFixed(2));
+                data2.push((-Math.random()).toFixed(2));
             }
 
             const itemStyle = {
                 normal: {
-                    barborderRadius: 9,
-                    color: '#79eaa6'
+                    barBorderRadius: 9,
+                    color: '#79ea8f'
+
                 },
             };
             const itemStyle2={
                 normal:{
-                    barborderRadius:9,
+                    barBorderRadius:9,
                     color:'#ffe323'
                 }
             }
@@ -46,6 +50,11 @@ export default {
                 },
             xAxis: {
                 data: xAxisData,
+            },
+            axisLabel:{
+                    formatter: function(test) {
+                            return Math.abs(test);
+                        }
             },
             yAxis: {
                 name: '($K)'
@@ -86,7 +95,7 @@ export default {
 
 </script>
 <style lang="scss" scoped>
-  .commissionHistory{
+  .comissionHistory{
     position: relative;
   }
   .commissionHistory__header{

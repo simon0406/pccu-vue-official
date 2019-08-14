@@ -1,6 +1,10 @@
 <template>
   <div class="valuationHistory__headerGroup">
-    <h1 class="valuationHistory__header">Valuation History</h1>
+    <span class="valuationHistory__header">Valuation History</span>
+    <span class="monthly__rectangle">
+        <span class="monthly">Monthly</span>
+        <span class="monthly__icon"><img src="@/assets/facebook.png"></span>
+    </span>
     <div id="bar-chart" ref="bar-chart" class="valuationHistory__chart"></div>
   </div>
 </template>
@@ -10,105 +14,79 @@
 <script>
 import $echarts from 'echarts'
 export default {
-  mounted(){
+    mounted(){
         this.renderAnalysisChart();
         window.addEventListener('resize', this.resizeEchart)
     },
+    destroyed() {
+        window.removeEventListener('resize', this.resizeEchart)
+    },
     methods: {
         renderAnalysisChart() {
-           this.echart = $echarts.init(document.querySelector("#bar-chart"));
+            this.echart = $echarts.init(document.querySelector("#bar-chart")); 
 
-           var base = +new Date(1968, 9, 3);
-            var oneDay = 24 * 3600 * 1000;
-            var date = [];
-
-            var data = [Math.random() * 300];
-
-            for (var i = 1; i < 20000; i++) {
-                var now = new Date(base += oneDay);
-                date.push([now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/'));
-                data.push(Math.round((Math.random() - 0.5) * 20 + data[i - 1]));
-            }
-
-            var option = {
-                tooltip: {
-                    trigger: 'axis',
-                    position: function (pt) {
-                        return [pt[0], '10%'];
-                    }
+            const option = {
+                legend: {
+                    data:['直接访问','搜索引擎']
                 },
-                title: {
-                    left: 'center',
-                    text: '大数据量面积图',
+                
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true
                 },
-                toolbox: {
-                    feature: {
-                        dataZoom: {
-                            yAxisIndex: 'none'
-                        },
-                        restore: {},
-                        saveAsImage: {}
-                    }
-                },
-                xAxis: {
-                    type: 'category',
-                    boundaryGap: false,
-                    data: date
-                },
-                yAxis: {
-                    type: 'value',
-                    boundaryGap: [0, '100%']
-                },
-                dataZoom: [{
-                    type: 'inside',
-                    start: 0,
-                    end: 10
-                }, {
-                    start: 0,
-                    end: 10,
-                    handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
-                    handleSize: '80%',
-                    handleStyle: {
-                        color: '#fff',
-                        shadowBlur: 3,
-                        shadowColor: 'rgba(0, 0, 0, 0.6)',
-                        shadowOffsetX: 2,
-                        shadowOffsetY: 2
-                    }
-                }],
-                series: [
+                xAxis : [
                     {
-                        name:'模拟数据',
+                        type : 'category',
+                        boundaryGap : false,
+                        data : ['周一','周二','周三','周四','周五','周六','周日']
+                    }
+                ],
+                yAxis : [
+                    {
+                        type : 'value'
+                    }
+                ],
+                series : [
+                    {
+                        name:'直接访问',
                         type:'line',
-                        smooth:true,
-                        symbol: 'none',
-                        sampling: 'average',
-                        itemStyle: {
-                            color: 'rgb(255, 70, 131)'
+                        stack: '总量',
+                        areaStyle: {normal: {}},
+                        data:[320, 332, 301, 334, 390, 330, 320]
+                    },
+                    {
+                        name:'搜索引擎',
+                        type:'line',
+                        stack: '总量',
+                        label: {
+                            normal: {
+                                show: true,
+                                position: 'top'
+                            }
                         },
-                        areaStyle: {
-                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                                offset: 0,
-                                color: 'rgb(255, 158, 68)'
-                            }, {
-                                offset: 1,
-                                color: 'rgb(255, 70, 131)'
-                            }])
-                        },
-                        data: data
+                        areaStyle: {normal: {}},
+                        data:[820, 932, 901, 934, 1290, 1330, 1320]
                     }
                 ]
             };
             this.echart.clear();
             this.echart.setOption(option);
-        }
-    } 
+        },
+        resizeEchart() {
+            this.echart.resize();
+            const divContainer = this.$refs['bar-chart'].firstChild
+            divContainer.style.width = "100%"
+        },
+    }
 }
 </script>
 <style lang="scss" scoped>
-  .valuation__headerGroup{
+  .valuationHistory__headerGroup{
     height:28px;
     position: relative;
+    padding:10px 0px 0px 10px;
   }
   .valuationHistory__header{
     height: 28px;
@@ -116,10 +94,12 @@ export default {
     font-weight: 500;
     color: #282828;
   }
-  .monthly__Rectangle{
+  .monthly__rectangle{
     height: 40px;
     border-radius: 2px;
     background-color: #f2f4ff;
+    position: relative;
+    margin-left: 100px;
   }
   .monthly{
     height: 16px;
@@ -127,12 +107,17 @@ export default {
     font-size: 14px;
     font-weight: bold;
     color: #414042;
+    position: absolute;
   }
   .monthly__icon{
     width: 12px;
     height: 7px;
     background-color: #414042;
+    position: absolute;
   }
+
+
+
   .valuationHistory__chart{
     width: 100%;
     height: 400px;

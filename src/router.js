@@ -103,6 +103,11 @@ export default new Router({
                     path: 'MyActionLog',
                     name: 'MyActionLog',
                     component: () => import('@/lessons/17.MyActionLog.vue'),
+                },
+                {
+                    path: 'AUM',
+                    name: 'AUM',
+                    component: () => import('@/lessons/18.AUM.vue'),
                 }
             ]
         },
