@@ -68,10 +68,6 @@ export default {
         text: 'History'
       },
       {
-        name: 'HistoryTest',
-        text: 'HistoryTest'
-      },
-      {
         name: 'Top',
         text: 'Top'
       },
