@@ -3,7 +3,6 @@
     <!-- aum -->
     <div class="css__RWD">
       <div class="aum__group">
-
         <div class="aum__headerGroup">
           <span class="aum__header">AUM</span>
           <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
@@ -12,13 +11,11 @@
             <span class="columnItem__percent">00.00%(ytd)</span>
           </span>
         </div>
-
         <div class="table__rowItem">
           <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
           <span class="tablebody__price">$10,768,773.66</span>
           <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
         </div>
-
         <div class="table__rowItem">
           <div class="tablebody__columnItem d-768-none d-1440-block">
             <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
@@ -29,7 +26,6 @@
         <div class="table__rowItem d-375-none d-768-none d-1440-block">
           <div class="ytd__header">+$12,765,912(ytd)</div>
         </div>
-
         <div class="table__rowItem d-768-none">
           <span class="oval__one "><img src="@/assets/facebook.png"></span>
           <span class="oval__two "><img src="@/assets/facebook.png"></span>
