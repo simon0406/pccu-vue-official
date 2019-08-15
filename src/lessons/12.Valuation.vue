@@ -4,8 +4,12 @@
         <span class="valuationHistory__header">Valuation History</span>
         <div class="monthly__rectangle">
             <span class="monthly">Monthly</span>
-            <span class="monthly__icon"><img src="@/assets/facebook.png"></span>
+            <span class="monthly__icon d-768-none"><img src="@/assets/facebook.png"></span>
         </div>
+        <div class="yearly__rectangle d-375-none d-768-block">
+            <span class="yearly">Yearly</span>
+        </div>
+        
         <div id="bar-chart" ref="bar-chart" class="valuationHistory__chart"></div>
     </div>
   </div>
@@ -28,7 +32,15 @@ export default {
             this.echart = $echarts.init(document.querySelector("#bar-chart")); 
 
             const option = {
-                
+                tooltip : {
+                    trigger: 'axis',
+                    axisPointer: {
+                        type: 'cross',
+                        label: {
+                            backgroundColor: '#6a7985'
+                        }
+                    }
+                },
                 grid: {
                     left: '3%',
                     right: '4%',
@@ -39,11 +51,12 @@ export default {
                     {
                         type : 'category',
                         boundaryGap : false,
-                        data : ['11/18','12/18','01/19','02/19','03/19','04/19','05/19']
+                        data : ['11/18','12/18','01/19','02/19','03/19','04/19','05/19','06/19','07/19']
                     }
                 ],
                 yAxis : [
                     {
+                        name:'$M',
                         type : 'value'
                     }
                 ],
@@ -66,24 +79,35 @@ export default {
                 }],
                 series : [
                     {
+                        name:'AUM',
                         type:'line',
                         stack: '总量',
+                        symbol:'circle',
+                        symbolSize:10,
                         areaStyle: {
                             color:'#FFFF82'
+                        },
+                        itemStyle: {
+                            color: 'rgb(255, 255, 0)'
                         },
                         data:[320, 332, 301, 334, 390, 330, 320,330,340]
                     },
                     {
+                        name:'Net Contribution',
                         type:'line',
                         stack: '总量',
+                        symbol:'circle',
+                        symbolSize:10,
                         label: {
                             normal: {
-                                show: true,
                                 position: 'top'
                             }
                         },
                         areaStyle: {
                             color:'#FFFFAB'
+                        },
+                        itemStyle: {
+                            color: 'rgb(255, 255, 0)'
                         },
                         data:[820, 932, 901, 934, 1290, 1330, 1320,1200,1310]
                     }
@@ -153,6 +177,49 @@ export default {
         width: 100%;
     }
   }
+    .d-375-block{   
+        display:block;
+    }
+    .d-375-none{
+        display:none;
+    }
+
+@media (min-width: 768px) {
+    .monthly__rectangle{
+        position: relative;
+    }
+    .monthly{
+        margin: 7px 0px 0px 22px;
+    }
+    .yearly__rectangle{
+        max-width: 100px;
+        height: 35px;
+        position: absolute;
+    }
+    .yearly{
+        height: 16px;
+        opacity: 0.9;
+        font-size: 14px;
+        font-weight: bold;
+        color: #414042;
+        position: absolute;
+        left: 0px;
+    }
+    .d-768-block{
+        display:block;
+    }
+    .d-768-none{
+        display:none;
+    }
+}
+@media (min-width: 1440px) {
+    .d-1440-block{
+        display:block;
+    }
+    .d-1440-none{
+        display:none;
+    }
+}
 }
 
 </style>

@@ -24,7 +24,46 @@
         <div class="tablebody__content">Custom Rebalance</div>
         <div class="tablebody__details">view instruction details</div>
       </div>
-      
+      <div class="tablebody__group">
+        <div class="tablebody__month">Nov 28</div>
+        <div class="tablebody__year">2019</div>
+        <div class="tablebody__line"></div>
+        <div class="green__icon"></div>
+        <div class="tablebody__icon"><img src="@/assets/facebook.png"></div>
+        <div class="tablebody__name">NB1200178</div>
+        <div class="tablebody__content">Custom Rebalance</div>
+        <div class="tablebody__details">view instruction details</div>
+      </div>
+      <div class="tablebody__group">
+        <div class="tablebody__month">Nov 28</div>
+        <div class="tablebody__year">2019</div>
+        <div class="tablebody__line"></div>
+        <div class="green__icon"></div>
+        <div class="tablebody__icon"><img src="@/assets/facebook.png"></div>
+        <div class="tablebody__name">NB1200178</div>
+        <div class="tablebody__content">Custom Rebalance</div>
+        <div class="tablebody__details">view instruction details</div>
+      </div>
+      <div class="tablebody__group">
+        <div class="tablebody__month">Nov 28</div>
+        <div class="tablebody__year">2019</div>
+        <div class="tablebody__line"></div>
+        <div class="green__icon"></div>
+        <div class="tablebody__icon"><img src="@/assets/facebook.png"></div>
+        <div class="tablebody__name">NB1200178</div>
+        <div class="tablebody__content">Custom Rebalance</div>
+        <div class="tablebody__details">view instruction details</div>
+      </div>
+      <div class="tablebody__group">
+        <div class="tablebody__month">Nov 28</div>
+        <div class="tablebody__year">2019</div>
+        <div class="tablebody__line"></div>
+        <div class="green__icon"></div>
+        <div class="tablebody__icon"><img src="@/assets/facebook.png"></div>
+        <div class="tablebody__name">NB1200178</div>
+        <div class="tablebody__content">Custom Rebalance</div>
+        <div class="tablebody__details">view instruction details</div>
+      </div>
       
       <div class="tablebody__arrow"><img src="@/assets/facebook.png"></div>
     </div>

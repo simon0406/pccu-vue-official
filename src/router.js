@@ -65,14 +65,14 @@ export default new Router({
                     component: () => import('@/lessons/10.RWDpractice3.vue'),
                 },
                 {
-                    path: 'Valuation',
-                    name: 'Valuation',
-                    component: () => import('@/lessons/11.Valuation.vue'),
+                    path: 'AUM',
+                    name: 'AUM',
+                    component: () => import('@/lessons/11.AUM.vue'),
                 },
                 {
-                    path: 'MyCommission',
-                    name: 'MyCommission',
-                    component: () => import('@/lessons/12.MyCommission.vue'),
+                    path: 'Valuation',
+                    name: 'Valuation',
+                    component: () => import('@/lessons/12.Valuation.vue'),
                 },
                 {
                     path: 'myAction',
@@ -80,9 +80,14 @@ export default new Router({
                     component: () => import('@/lessons/myAction.vue'),
                 },
                 {
-                    path: 'History',
-                    name: 'History',
-                    component: () => import('@/lessons/13.History.vue'),
+                    path: 'MyCommission',
+                    name: 'MyCommission',
+                    component: () => import('@/lessons/13.MyCommission.vue'),
+                },
+                {
+                    path: 'MyActionLog',
+                    name: 'MyActionLog',
+                    component: () => import('@/lessons/14.MyActionLog.vue'),
                 },
                 {
                     path: 'Top',
@@ -95,14 +100,9 @@ export default new Router({
                     component: () => import('@/lessons/16.WatchList.vue'),
                 },
                 {
-                    path: 'MyActionLog',
-                    name: 'MyActionLog',
-                    component: () => import('@/lessons/17.MyActionLog.vue'),
-                },
-                {
-                    path: 'AUM',
-                    name: 'AUM',
-                    component: () => import('@/lessons/18.AUM.vue'),
+                    path: 'History',
+                    name: 'History',
+                    component: () => import('@/lessons/17.History.vue'),
                 }
             ]
         },

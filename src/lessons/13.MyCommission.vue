@@ -444,8 +444,6 @@ export default {
     .d-375-none{
       display:none;
     }
-  @media (min-width: 375px) {
-  }
   @media (min-width: 768px) {
     .Commission-Rectangle{
       height: 40px;

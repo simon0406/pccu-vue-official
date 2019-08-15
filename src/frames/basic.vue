@@ -52,6 +52,10 @@ export default {
         text: 'RWDpractice3'
       },
       {
+        name: 'AUM',
+        text: 'AUM'
+      },
+      {
         name: 'Valuation',
         text: 'Valuation'
       },
@@ -60,28 +64,24 @@ export default {
         text: 'MyCommission'
       },
       {
-        name: 'myAction',
-        text: 'myAction'
-      },
-      {
-        name: 'History',
-        text: 'History'
+        name: 'MyActionLog',
+        text: 'MyActionLog'
       },
       {
         name: 'Top',
         text: 'Top'
       },
       {
+        name: 'History',
+        text: 'History'
+      },
+      {
         name: 'WatchList',
         text: 'WatchList'
       },
       {
-        name: 'MyActionLog',
-        text: 'MyActionLog'
-      },
-      {
-        name: 'AUM',
-        text: 'AUM'
+        name: 'myAction',
+        text: 'myAction'
       }
     ]
   }),
