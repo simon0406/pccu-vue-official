@@ -82,6 +82,10 @@ export default {
       {
         name: 'myAction',
         text: 'myAction'
+      },
+      {
+        name: 'TestTest',
+        text: 'TestTest'
       }
     ]
   }),

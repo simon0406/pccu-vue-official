@@ -2,38 +2,213 @@
   <div class="css__RWD">
     <!-- aum -->
     <div class="css__RWD">
-      <div class="aum__group">
-        <div class="aum__headerGroup">
-          <span class="aum__header">AUM</span>
-          <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
-          <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
-            <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
-            <span class="columnItem__percent">00.00%(ytd)</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
-          <span class="tablebody__price">$10,768,773.66</span>
-          <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
-        </div>
-        <div class="table__rowItem">
-          <div class="tablebody__columnItem d-768-none d-1440-block">
-            <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
-            <span class="columnItem__percent">00.00%(ytd)</span>
+      <!-- aum -->
+      <div class="all__group">
+        <div class="aum__group">
+          <div class="title__headerGroup">
+            <span class="title__header">AUM</span>
+            <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
+            <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </span>
           </div>
-          <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          <div class="table__rowItem">
+            <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
+            <span class="tablebody__price">$10,768,773.66</span>
+            <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
+          </div>
+          <div class="table__rowItem">
+            <div class="tablebody__columnItem d-768-none d-1440-block">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </div>
+            <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-375-none d-768-none d-1440-block">
+            <div class="ytd__header">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-768-none">
+            <span class="oval__one "><img src="@/assets/facebook.png"></span>
+            <span class="oval__two "><img src="@/assets/facebook.png"></span>
+            <span class="oval__three "><img src="@/assets/facebook.png"></span>
+            <span class="oval__four "><img src="@/assets/facebook.png"></span>
+            <span class="oval__five "><img src="@/assets/facebook.png"></span>
+            <span class="oval__six "><img src="@/assets/facebook.png"></span>
+          </div>
         </div>
-        <div class="table__rowItem d-375-none d-768-none d-1440-block">
-          <div class="ytd__header">+$12,765,912(ytd)</div>
+        <!-- client -->
+        <div class="client__group d-375-none d-768-block">
+          <div class="title__headerGroup">
+            <span class="title__header">AUM</span>
+            <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
+            <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </span>
+          </div>
+          <div class="table__rowItem">
+            <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
+            <span class="tablebody__price">$10,768,773.66</span>
+            <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
+          </div>
+          <div class="table__rowItem">
+            <div class="tablebody__columnItem d-768-none d-1440-block">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </div>
+            <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-375-none d-768-none d-1440-block">
+            <div class="ytd__header">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-768-none">
+            <span class="oval__one "><img src="@/assets/facebook.png"></span>
+            <span class="oval__two "><img src="@/assets/facebook.png"></span>
+            <span class="oval__three "><img src="@/assets/facebook.png"></span>
+            <span class="oval__four "><img src="@/assets/facebook.png"></span>
+            <span class="oval__five "><img src="@/assets/facebook.png"></span>
+            <span class="oval__six "><img src="@/assets/facebook.png"></span>
+          </div>
         </div>
-        <div class="table__rowItem d-768-none">
-          <span class="oval__one "><img src="@/assets/facebook.png"></span>
-          <span class="oval__two "><img src="@/assets/facebook.png"></span>
-          <span class="oval__three "><img src="@/assets/facebook.png"></span>
-          <span class="oval__four "><img src="@/assets/facebook.png"></span>
-          <span class="oval__five "><img src="@/assets/facebook.png"></span>
-          <span class="oval__six "><img src="@/assets/facebook.png"></span>
+        <!-- Net Contribution -->
+        <div class="netcontribution__group d-375-none d-768-block">
+          <div class="title__headerGroup">
+            <span class="title__header">AUM</span>
+            <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
+            <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </span>
+          </div>
+          <div class="table__rowItem">
+            <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
+            <span class="tablebody__price">$10,768,773.66</span>
+            <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
+          </div>
+          <div class="table__rowItem">
+            <div class="tablebody__columnItem d-768-none d-1440-block">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </div>
+            <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-375-none d-768-none d-1440-block">
+            <div class="ytd__header">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-768-none">
+            <span class="oval__one "><img src="@/assets/facebook.png"></span>
+            <span class="oval__two "><img src="@/assets/facebook.png"></span>
+            <span class="oval__three "><img src="@/assets/facebook.png"></span>
+            <span class="oval__four "><img src="@/assets/facebook.png"></span>
+            <span class="oval__five "><img src="@/assets/facebook.png"></span>
+            <span class="oval__six "><img src="@/assets/facebook.png"></span>
+          </div>
         </div>
+        <!-- Total Return -->
+        <div class="totalreturn__group d-375-none d-768-block">
+          <div class="title__headerGroup">
+            <span class="title__header">AUM</span>
+            <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
+            <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </span>
+          </div>
+          <div class="table__rowItem">
+            <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
+            <span class="tablebody__price">$10,768,773.66</span>
+            <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
+          </div>
+          <div class="table__rowItem">
+            <div class="tablebody__columnItem d-768-none d-1440-block">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </div>
+            <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-375-none d-768-none d-1440-block">
+            <div class="ytd__header">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-768-none">
+            <span class="oval__one "><img src="@/assets/facebook.png"></span>
+            <span class="oval__two "><img src="@/assets/facebook.png"></span>
+            <span class="oval__three "><img src="@/assets/facebook.png"></span>
+            <span class="oval__four "><img src="@/assets/facebook.png"></span>
+            <span class="oval__five "><img src="@/assets/facebook.png"></span>
+            <span class="oval__six "><img src="@/assets/facebook.png"></span>
+          </div>
+        </div>
+        <!-- Applications -->
+        <div class="application__group d-375-none d-768-block">
+          <div class="title__headerGroup">
+            <span class="title__header">AUM</span>
+            <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
+            <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </span>
+          </div>
+          <div class="table__rowItem">
+            <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
+            <span class="tablebody__price">$10,768,773.66</span>
+            <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
+          </div>
+          <div class="table__rowItem">
+            <div class="tablebody__columnItem d-768-none d-1440-block">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </div>
+            <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-375-none d-768-none d-1440-block">
+            <div class="ytd__header">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-768-none">
+            <span class="oval__one "><img src="@/assets/facebook.png"></span>
+            <span class="oval__two "><img src="@/assets/facebook.png"></span>
+            <span class="oval__three "><img src="@/assets/facebook.png"></span>
+            <span class="oval__four "><img src="@/assets/facebook.png"></span>
+            <span class="oval__five "><img src="@/assets/facebook.png"></span>
+            <span class="oval__six "><img src="@/assets/facebook.png"></span>
+          </div>
+        </div>
+        <!-- Account -->
+        <div class="account__group d-375-none d-768-block">
+          <div class="title__headerGroup">
+            <span class="title__header">AUM</span>
+            <span class="ytd__header d-768-none">+$12,765,912(ytd)</span>
+            <span class="tablebody__columnItem d-375-none d-768-block d-1440-none">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </span>
+          </div>
+          <div class="table__rowItem">
+            <span class="left__icon d-768-none"><img src="@/assets/facebook.png"></span>
+            <span class="tablebody__price">$10,768,773.66</span>
+            <span class="right__icon d-768-none"><img src="@/assets/facebook.png"></span>
+          </div>
+          <div class="table__rowItem">
+            <div class="tablebody__columnItem d-768-none d-1440-block">
+              <span class="columnItem__icon"><img src="@/assets/facebook.png"></span>
+              <span class="columnItem__percent">00.00%(ytd)</span>
+            </div>
+            <div class="ytd__header d-375-none d-768-block d-1440-none">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-375-none d-768-none d-1440-block">
+            <div class="ytd__header">+$12,765,912(ytd)</div>
+          </div>
+          <div class="table__rowItem d-768-none">
+            <span class="oval__one "><img src="@/assets/facebook.png"></span>
+            <span class="oval__two "><img src="@/assets/facebook.png"></span>
+            <span class="oval__three "><img src="@/assets/facebook.png"></span>
+            <span class="oval__four "><img src="@/assets/facebook.png"></span>
+            <span class="oval__five "><img src="@/assets/facebook.png"></span>
+            <span class="oval__six "><img src="@/assets/facebook.png"></span>
+          </div>
+        </div>
+
+
       </div>
 
 
@@ -61,7 +236,13 @@ export default {
 <style lang="scss" scoped>
 .css__RWD{
   width:100%;
-  padding:0 2rem;
+  padding:0 1rem;
+  .all__group{
+    max-width:768px;
+    height:600px;
+    position: relative;
+    padding-top: 20px;
+  }
   .aum__group{
     max-width: 343px;
     height: 200px;
@@ -69,12 +250,12 @@ export default {
     box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
     background-color: #ffffff;
   }
-  .aum__headerGroup{
+  .title__headerGroup{
     height: 23px;
     padding-top: 10px;
     padding-bottom:30px;
   }
-  .aum__header {
+  .title__header {
     height: 23px;
     opacity: 0.5;
     font-size: 20px;
@@ -188,15 +369,62 @@ export default {
   
 @media (min-width: 768px) {
   .aum__group{
-    max-width: 360px;
+    position: absolute;
+    max-width: unset;
+    width: 350px;
     height: 128px;
-    margin-left:300px;
+    margin-left:360px;
+  }
+  .client__group{
+    position: absolute;
+    width: 350px;
+    height: 128px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+  }
+  .netcontribution__group{
+    position: absolute;
+    width: 350px;
+    height: 128px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    margin: 140px 0px 0px 0px;
+  }
+  .totalreturn__group{
+    position: absolute;
+    width: 350px;
+    height: 128px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    margin: 140px 0px 0px 360px;
+  }
+  .application__group{
+    position: absolute;
+    width: 350px;
+    height: 128px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    margin: 280px 0px 0px 0px;
+  }
+  .account__group{
+    position: absolute;
+    width: 350px;
+    height: 128px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    margin: 280px 0px 0px 360px;
   }
   .tablebody__price{
     font-size: 26px;
+    margin:0px 0px 0px 10px;
   }
   .ytd__header{
-    margin-left:130px; 
+    margin-left:60px; 
   }
   .table__rowItem{
     margin: unset;
@@ -204,7 +432,7 @@ export default {
   }
   .tablebody__columnItem{
     position: absolute;
-    margin-left: 230px;
+    margin-left: 180px;
     
   }
   .columnItem__percent{
@@ -229,7 +457,32 @@ export default {
     height: 176px;
     margin: unset;
   }
-  .aum__header{
+  .client__group{
+    max-width: 240px;
+    height: 176px;
+    margin: 0px 0px 0px 260px;
+  }
+  .totalreturn__group{
+    max-width: 240px;
+    height: 176px;
+    margin: 190px 0px 0px 0px;
+  }
+  .account__group{
+    max-width: 240px;
+    height: 176px;
+    margin: 190px 0px 0px 260px;
+  }
+  .netcontribution__group{
+    max-width: 240px;
+    height: 176px;
+    margin: 380px 0px 0px 0px;
+  }
+  .application__group{
+    max-width: 240px;
+    height: 176px;
+    margin: 380px 0px 0px 260px;
+  }
+  .title__header{
     margin:0px 0px 0px 100px; 
   }
   .table__rowItem{
