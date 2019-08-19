@@ -72,20 +72,16 @@ export default {
         text: 'Top'
       },
       {
-        name: 'History',
-        text: 'History'
-      },
-      {
         name: 'WatchList',
         text: 'WatchList'
       },
       {
-        name: 'myAction',
-        text: 'myAction'
+        name: 'History',
+        text: 'History'
       },
       {
-        name: 'TestTest',
-        text: 'TestTest'
+        name: 'myAction',
+        text: 'myAction'
       }
     ]
   }),

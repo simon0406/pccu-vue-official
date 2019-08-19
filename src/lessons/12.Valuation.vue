@@ -77,15 +77,45 @@ export default {
                             }],
                 series : [
                     {
+                        name:'Net Contribution',
+                        type:'line',
+                        smooth:true,
+                        stack: '总量',
+                        symbol:'circle',
+                        symbolSize:15,
+                        showSymbol:false,
+                        gridIndex: 1,
+                        label: {
+                            normal: {
+                                position: 'top'
+                            }
+                        },
+                        itemStyle: {
+                            normal:{
+                                color: 'rgb(255,255,255)',
+                                    lineStyle:{
+                                        type:'solid',
+                                        color:'rgb(255,255,0)'
+                                    }
+                                }
+                            },
+                        areaStyle: {
+                                        color:'#FFFF82'
+                                    },
+                                    
+                        data:[320, 332, 301, 334, 390, 330,320,330,340,360,320,290,270]
+                    },
+                    {
                         name:'AUM',
                         type:'line',
+                        smooth:true,
                         stack: '总量',
                         symbol:'circle',
                         symbolSize:10,
-                        showAllSymbol:false,
+                        showSymbol:false,
                         itemStyle: {
                             normal:{
-                                color: 'rgb(0,0,0)',
+                                color: 'rgb(255,255,0)',
                                     lineStyle:{
                                         type:'solid',
                                         color:'rgb(255,255,0)'
@@ -95,36 +125,12 @@ export default {
                     
                                     
                         areaStyle: {
-                                        color:'#FFFF82'
-                                    },
-                        data:[320, 332, 301, 334, 390, 330, 320,330,340,360,320,290,270]
-                    },
-                    {
-                        name:'Net Contribution',
-                        type:'line',
-                        stack: '总量',
-                        symbol:'circle',
-                        symbolSize:10,
-                        label: {
-                            normal: {
-                                position: 'top'
-                            }
-                        },
-                        itemStyle: {
-                            normal:{
-                                color: 'rgb(0,0,0)',
-                                    lineStyle:{
-                                        type:'solid',
-                                        color:'rgb(255,255,0)'
-                                    }
-                                }
-                            },
-                        areaStyle: {
                                         color:'#FFFFAB'
                                     },
-                                    
-                        data:[820, 932, 901, 934, 980, 1130, 1220,1150,1310,900,980,1100,1200]
-                    }
+                        data:[820, 932, 901, 934, 980, 1130, 1220,1150,1310,1120,1130,1100,1200]
+                        
+                    },
+                    
                 ]
                 
             };

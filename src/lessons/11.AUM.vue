@@ -1,8 +1,8 @@
 <template>
   <div class="css__RWD">
-    <!-- aum -->
+    
     <div class="css__RWD">
-      <!-- aum -->
+      
       <div class="all__group">
         <div class="aum__group">
           <div class="title__headerGroup">
@@ -37,7 +37,7 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-        <!-- client -->
+        
         <div class="client__group d-375-none d-768-block">
           <div class="title__headerGroup">
             <span class="title__header">AUM</span>
@@ -71,7 +71,7 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-        <!-- Net Contribution -->
+        
         <div class="netcontribution__group d-375-none d-768-block">
           <div class="title__headerGroup">
             <span class="title__header">AUM</span>
@@ -105,7 +105,7 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-        <!-- Total Return -->
+        
         <div class="totalreturn__group d-375-none d-768-block">
           <div class="title__headerGroup">
             <span class="title__header">AUM</span>
@@ -139,7 +139,7 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-        <!-- Applications -->
+        
         <div class="application__group d-375-none d-768-block">
           <div class="title__headerGroup">
             <span class="title__header">AUM</span>
@@ -173,7 +173,7 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-        <!-- Account -->
+        
         <div class="account__group d-375-none d-768-block">
           <div class="title__headerGroup">
             <span class="title__header">AUM</span>

@@ -138,7 +138,7 @@
     color: #282828;
     position: absolute;
   }
-  //命名
+  
   .model__rectangle{
     width:94px;
     height:50px;
