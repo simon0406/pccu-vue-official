@@ -2,6 +2,20 @@
   <div class="comissionHistory">
     <h1 class="commissionHistory__header">Commission History</h1>
     <div id="bar-chart" ref="bar-chart" class="comissionHistory__chart"></div>
+        
+        <div class="comissionHistory__toggle">
+            <button
+                class="toggle__button button--analysis"
+                :class="{'toggle__button--active': currentToggleIndex==='0'}"
+                @click="switchToAnalysis()"
+            >Analysis</button>
+            <button
+                class="toggle__button button--total"
+                :class="{'toggle__button--active': currentToggleIndex==='1'}"
+                @click="switchToTotal()"
+            >Total</button>
+        </div>
+
   </div>
 </template>
 
@@ -9,6 +23,22 @@
 <script>
 import $echarts from 'echarts'
 export default {
+    data: () => ({
+        currentInterval: "",
+        intervalOptions: [
+            {
+                text: 'Monthly',
+                value: ''
+            },
+            {
+                text: 'Yearly',
+                value: '2'
+            },
+        ],
+        // Echart
+        echart: null,
+        currentToggleIndex: '0'
+    }),
     mounted(){
         this.renderAnalysisChart();
         window.addEventListener('resize', this.resizeEchart)
@@ -87,6 +117,58 @@ export default {
             const divContainer = this.$refs['bar-chart'].firstChild
             divContainer.style.width = "100%"
         },
+        renderTotalChart() {
+            this.echart = $echarts.init(document.querySelector("#bar-chart"));
+
+            const xAxisData = [];
+            const dataTotal = [];
+
+            for (let i = 0; i < 10; i++) {
+                xAxisData.push("Jan 19'");
+                dataTotal.push(Math.random().toFixed(2));
+            }
+
+            const itemStyle = {
+                normal: {
+                    color: '#486bff',
+                    barBorderRadius: 9
+                },
+            };
+
+            const option = {
+                xAxis: {
+                    data: xAxisData,
+                },
+                yAxis: {
+                    name: '($K)'
+                },
+                series: [
+                    {
+                        name: 'Upfront',
+                        type: 'bar',
+                        stack: 'one',
+                        itemStyle,
+                        data: dataTotal,
+                        barWidth: 18
+                    },
+                ]
+            };
+            this.echart.clear();
+            this.echart.setOption(option);
+        },
+        switchToAnalysis() {
+            this.currentToggleIndex = "0"
+            this.renderAnalysisChart();
+        },
+        switchToTotal() {
+            this.currentToggleIndex = "1"
+            this.renderTotalChart();
+        },
+        resizeEchart() {
+            this.echart.resize();
+            const divContainer = this.$refs['bar-chart'].firstChild
+            divContainer.style.width = "100%"
+        },
     }
 }
 
@@ -113,5 +195,21 @@ export default {
     div {
         width: 100%;
     }
+    .comissionHistory__toggle {
+    display: flex;
+    justify-content: center;
+    .toggle__button {
+        width: 131px;
+        height: 24px;
+        border-radius: 4px;
+        border: solid 1px #486bff;
+        color: #486bff;
+        transition: 300ms;
+    }
+    .toggle__button--active {
+        background-color: #486bff;
+        color: white;
+    }
+}
 }
 </style>
