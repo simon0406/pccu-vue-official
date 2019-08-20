@@ -3,7 +3,7 @@
     <div class="css__RWD">
       <div class="watchlist__headerGroup">
         <span class="watchlist__header">Watchlist</span>
-        <span class="Magnifier d-375-none d-768-block">
+        <span class="magnifier d-375-none d-768-block">
           <img src="@/assets/test2.png" />
         </span>
         <span class="model__rectangle">
@@ -16,8 +16,8 @@
         <span class="mutualfund d-375-none d-768-block">Mutual Fund</span>
       </div>
 
-      <div class="MagnifierRectangle d-768-none">
-        <span class="Magnifier">
+      <div class="magnifierRectangle d-768-none">
+        <span class="magnifier">
           <img src="@/assets/test2.png" />
         </span>
       </div>
@@ -79,131 +79,35 @@
 
       <div class="space__Rectangle d-375-none d-1440-block"></div>
 
+      <template v-for="number in 6">
+        <div class="table__rowItem__all" :key="number">
+          <div class="table__rowItem d-1440-none">
+            <div class="tablebody__columnItem__name d-768-none">EWAE</div>
+            <div class="tablebody__columnItem__name d-375-none d-768-block d-1440-none">EWAEMF</div>
+            <div class="tablebody__columnItem__allname">Evolve Wealth Asia Emerging Market Finance</div>
+          </div>
+          <div class="table__rowItem__percent d-1440-none">
+            <span class="rectangle d-768-none"></span>
+            <div class="month d-1440-none">1 Mth</div>
+            <div class="percent">0.65%</div>
+            <div class="month__two d-1440-none">3 Mth</div>
+            <div class="percent__two">1.50%</div>
+            <div class="month__three d-1440-none">6 Mths</div>
+            <div class="percent__three">7.26%</div>
+            <div class="month__four d-1440-none">1 Yr</div>
+            <div class="percent__four">16.20%</div>
+            <div class="month__five d-375-none d-768-block d-1440-none">3 Yr</div>
+            <div class="percent__five d-375-none d-768-block">24.25%</div>
+            <div class="month__six d-375-none d-768-block d-1440-none">5 Yr</div>
+            <div class="percent__six d-375-none d-768-block">43.28%</div>
+            <div class="month__seven d-375-none d-768-block d-1440-none">Since Incept</div>
+            <div class="percent__seven d-375-none d-768-block">167.12%</div>
+            <div class="month__eight d-375-none d-768-block d-1440-none">Incept Date</div>
+            <div class="percent__eight d-375-none d-768-block">Jan 25, 1996</div>
+          </div>
+        </div>
+      </template>
 
-    
-      <div class="table__rowItem d-1440-none">
-        <div class="tablebody__columnItem__name d-768-none">EWAE</div>
-        <div class="tablebody__columnItem__name d-375-none d-768-block d-1440-none">EWAEMF</div>
-        <div class="tablebody__columnItem__allname">Evolve Wealth Asia Emerging Market Finance</div>
-      </div>
-      <div class="table__rowItem__percent d-1440-none">
-        <span class="rectangle d-768-none"></span>
-        <div class="month d-1440-none">1 Mth</div>
-        <div class="percent">0.65%</div>
-        <div class="month__two d-1440-none">3 Mth</div>
-        <div class="percent__two">1.50%</div>
-        <div class="month__three d-1440-none">6 Mths</div>
-        <div class="percent__three">7.26%</div>
-        <div class="month__four d-1440-none">1 Yr</div>
-        <div class="percent__four">16.20%</div>
-        <div class="month__five d-375-none d-768-block d-1440-none">3 Yr</div>
-        <div class="percent__five d-375-none d-768-block">24.25%</div>
-        <div class="month__six d-375-none d-768-block d-1440-none">5 Yr</div>
-        <div class="percent__six d-375-none d-768-block">43.28%</div>
-        <div class="month__seven d-375-none d-768-block d-1440-none">Since Incept</div>
-        <div class="percent__seven d-375-none d-768-block">167.12%</div>
-        <div class="month__eight d-375-none d-768-block d-1440-none">Incept Date</div>
-        <div class="percent__eight d-375-none d-768-block">Jan 25, 1996</div>
-      </div>
-
-
-
-      <div class="table__rowItem d-1440-none">
-        <div class="tablebody__columnItem__name d-768-none">EWAE</div>
-        <div class="tablebody__columnItem__name d-375-none d-768-block d-1440-none">EWAEMF</div>
-        <div class="tablebody__columnItem__allname">Evolve Wealth Asia Emerging Market Finance</div>
-      </div>
-      <div class="table__rowItem__percent d-1440-none">
-        <span class="rectangle d-768-none"></span>
-        <div class="month d-1440-none">1 Mth</div>
-        <div class="percent">0.65%</div>
-        <div class="month__two d-1440-none">3 Mth</div>
-        <div class="percent__two">1.50%</div>
-        <div class="month__three d-1440-none">6 Mths</div>
-        <div class="percent__three">7.26%</div>
-        <div class="month__four d-1440-none">1 Yr</div>
-        <div class="percent__four">16.20%</div>
-        <div class="month__five d-375-none d-768-block d-1440-none">3 Yr</div>
-        <div class="percent__five d-375-none d-768-block">24.25%</div>
-        <div class="month__six d-375-none d-768-block d-1440-none">5 Yr</div>
-        <div class="percent__six d-375-none d-768-block">43.28%</div>
-        <div class="month__seven d-375-none d-768-block d-1440-none">Since Incept</div>
-        <div class="percent__seven d-375-none d-768-block">167.12%</div>
-        <div class="month__eight d-375-none d-768-block d-1440-none">Incept Date</div>
-        <div class="percent__eight d-375-none d-768-block">Jan 25, 1996</div>
-      </div>
-      <div class="table__rowItem d-1440-none">
-        <div class="tablebody__columnItem__name d-768-none">EWAE</div>
-        <div class="tablebody__columnItem__name d-375-none d-768-block d-1440-none">EWAEMF</div>
-        <div class="tablebody__columnItem__allname">Evolve Wealth Asia Emerging Market Finance</div>
-      </div>
-      <div class="table__rowItem__percent d-1440-none">
-        <span class="rectangle d-768-none"></span>
-        <div class="month d-1440-none">1 Mth</div>
-        <div class="percent">0.65%</div>
-        <div class="month__two d-1440-none">3 Mth</div>
-        <div class="percent__two">1.50%</div>
-        <div class="month__three d-1440-none">6 Mths</div>
-        <div class="percent__three">7.26%</div>
-        <div class="month__four d-1440-none">1 Yr</div>
-        <div class="percent__four">16.20%</div>
-        <div class="month__five d-375-none d-768-block d-1440-none">3 Yr</div>
-        <div class="percent__five d-375-none d-768-block">24.25%</div>
-        <div class="month__six d-375-none d-768-block d-1440-none">5 Yr</div>
-        <div class="percent__six d-375-none d-768-block">43.28%</div>
-        <div class="month__seven d-375-none d-768-block d-1440-none">Since Incept</div>
-        <div class="percent__seven d-375-none d-768-block">167.12%</div>
-        <div class="month__eight d-375-none d-768-block d-1440-none">Incept Date</div>
-        <div class="percent__eight d-375-none d-768-block">Jan 25, 1996</div>
-      </div>
-      <div class="table__rowItem d-1440-none">
-        <div class="tablebody__columnItem__name d-768-none">EWAE</div>
-        <div class="tablebody__columnItem__name d-375-none d-768-block d-1440-none">EWAEMF</div>
-        <div class="tablebody__columnItem__allname">Evolve Wealth Asia Emerging Market Finance</div>
-      </div>
-      <div class="table__rowItem__percent d-1440-none">
-        <span class="rectangle d-768-none"></span>
-        <div class="month d-1440-none">1 Mth</div>
-        <div class="percent">0.65%</div>
-        <div class="month__two d-1440-none">3 Mth</div>
-        <div class="percent__two">1.50%</div>
-        <div class="month__three d-1440-none">6 Mths</div>
-        <div class="percent__three">7.26%</div>
-        <div class="month__four d-1440-none">1 Yr</div>
-        <div class="percent__four">16.20%</div>
-        <div class="month__five d-375-none d-768-block d-1440-none">3 Yr</div>
-        <div class="percent__five d-375-none d-768-block">24.25%</div>
-        <div class="month__six d-375-none d-768-block d-1440-none">5 Yr</div>
-        <div class="percent__six d-375-none d-768-block">43.28%</div>
-        <div class="month__seven d-375-none d-768-block d-1440-none">Since Incept</div>
-        <div class="percent__seven d-375-none d-768-block">167.12%</div>
-        <div class="month__eight d-375-none d-768-block d-1440-none">Incept Date</div>
-        <div class="percent__eight d-375-none d-768-block">Jan 25, 1996</div>
-      </div>
-      <div class="table__rowItem d-1440-none">
-        <div class="tablebody__columnItem__name d-768-none">EWAE</div>
-        <div class="tablebody__columnItem__name d-375-none d-768-block d-1440-none">EWAEMF</div>
-        <div class="tablebody__columnItem__allname">Evolve Wealth Asia Emerging Market Finance</div>
-      </div>
-      <div class="table__rowItem__percent d-1440-none">
-        <span class="rectangle d-768-none"></span>
-        <div class="month d-1440-none">1 Mth</div>
-        <div class="percent">0.65%</div>
-        <div class="month__two d-1440-none">3 Mth</div>
-        <div class="percent__two">1.50%</div>
-        <div class="month__three d-1440-none">6 Mths</div>
-        <div class="percent__three">7.26%</div>
-        <div class="month__four d-1440-none">1 Yr</div>
-        <div class="percent__four">16.20%</div>
-        <div class="month__five d-375-none d-768-block d-1440-none">3 Yr</div>
-        <div class="percent__five d-375-none d-768-block">24.25%</div>
-        <div class="month__six d-375-none d-768-block d-1440-none">5 Yr</div>
-        <div class="percent__six d-375-none d-768-block">43.28%</div>
-        <div class="month__seven d-375-none d-768-block d-1440-none">Since Incept</div>
-        <div class="percent__seven d-375-none d-768-block">167.12%</div>
-        <div class="month__eight d-375-none d-768-block d-1440-none">Incept Date</div>
-        <div class="percent__eight d-375-none d-768-block">Jan 25, 1996</div>
-      </div>
 
       <div class="Button__Rectangle d-768-none d-1440-none">
         <span class="Button__Rectangle__Change">
@@ -222,6 +126,7 @@
           </span>
         </span>
       </div>
+
       <div class="Button__Rectangle2 d-768-none d-1440-none">
         <span class="Button__Rectangle2__Change">
           <span class="Button__Number2">
@@ -329,11 +234,11 @@
     position: absolute;
     margin: 15px 0px 0px 55px;
   }
-  .MagnifierRectangle {
+  .magnifierRectangle {
     margin-top: 60px;
     display: block;
   }
-  .Magnifier {
+  .magnifier {
     object-fit: contain;
     display: block;
   }
@@ -574,7 +479,7 @@
     .model__rectangle {
       right: 170px;
     }
-    .Magnifier {
+    .magnifier {
       position: absolute;
       margin: 8px 0px 0px 120px;
     }

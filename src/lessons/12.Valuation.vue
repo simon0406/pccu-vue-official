@@ -12,9 +12,6 @@
     </div>
   </div>
 </template>
-
-
-
 <script>
 import $echarts from 'echarts'
 export default {
@@ -173,7 +170,6 @@ export default {
     margin: 5px 0px 0px 0px;
     position: absolute;
     right: 30px;
-    
   }
   .monthly{
     height: 16px;
@@ -190,9 +186,6 @@ export default {
     margin: 8px 0px 0px 70px;
     position: absolute;
   }
-
-
-
   .valuationHistory__chart{
     width: 100%;
     height: 400px;
@@ -239,5 +232,4 @@ export default {
     }
 }
 }
-
 </style>

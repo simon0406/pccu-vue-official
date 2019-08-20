@@ -23,96 +23,19 @@
           <div class="tableheader__aum d-375-none d-768-block">AUM</div>
           <span class="tableheader__netflow d-375-none d-768-block">Net Flow</span>
         </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
-        <div class="table__rowItem">
-          <div class="oval__icon">1</div>
-          <span class="tablebody__columnItem">Morningstar High Growth</span>
-          <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
-          <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
-          <span class="clientNumber__rectangle">
-            <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
-          </span>
-        </div>
+        
+        <template v-for="number in 10">
+          <div class="table__rowItem" :key="number">
+            <div class="oval__icon">1</div>
+            <span class="tablebody__columnItem">Morningstar High Growth</span>
+            <div class="tablebody__columnItem__usd__one d-375-none d-768-block">USD $2,398,700.12</div>
+            <div class="tablebody__columnItem__usd ">USD $2,398,700.12</div>
+            <span class="clientNumber__rectangle">
+              <span class="tablebody__clientNumber d-375-none d-768-block">45</span>
+            </span>
+          </div>
+        </template>
+        
         <div class="space-rowItem">
         </div>
       </div>
@@ -235,14 +158,6 @@
       height: 32px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
     }
-
-
-
-
-
-
-
-
   .d-375-none{
     display:none;
   }
@@ -363,11 +278,6 @@
     right: 0px;
     margin-top:40px;
   }
-
-
-
-
-
   .d-768-none{
     display:none;
   }
@@ -375,12 +285,5 @@
     display:block;
   }
 }
-
-
-
-
-
-
-
 }
 </style>

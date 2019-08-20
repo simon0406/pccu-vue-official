@@ -1,229 +1,131 @@
 <template>
   <div class="pb-5">
     <div class="css__RWD">
-      <div class="Commission-Rectangle">
+      <div class="Commission__Rectangle">
         <div class="MyCommission__header">
           <span>My Commission</span>
           <span class="Magnifier d-375-none"><img src="@/assets/test2.png"></span>
-          <span class="Filter-Rectangle">
+          <span class="Filter__Rectangle">
             <span class="Filter">Filter</span>
-            <span class="Filter-picture"><img src="@/assets/facebook.png"></span>
+            <span class="Filter__picture"><img src="@/assets/facebook.png"></span>
           </span>
           <div class="Recent-3-months">
           <p>Recent 3 months</p>
           </div>
         </div>
       </div>
-      <!--Mobile-->
+      <!--375-->
       <div class="MagnifierRectangle d-768-none">
         <span class="Magnifier"><img src="@/assets/test2.png"></span>
       </div>
 
-      <div class="Account-Rectangle">
-        <span class="Account-Number">Account Number</span>
+      <div class="Account__Rectangle">
+        <span class="Account__Number">Account Number</span>
         <span class="base"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD d-375-none d-1440-none">Remuneration($USD)</span>
-        <span class="base-USD d-375-none d-1440-none"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration__USD d-375-none d-1440-none">Remuneration($USD)</span>
+        <span class="base__USD d-375-none d-1440-none"><img src="@/assets/facebook.png"></span>
       </div>
       
-      <div class="Holder-Rectangle d-375-none">
-        <span class="Account-Holder">Account Holder</span>
-        <span class="Fee-Type">Fee Type</span>
-        <span class="base-Fee"><img src="@/assets/facebook.png"></span>
-        <span class="Remuneration-USD d-768-none">Remuneration($USD)</span>
-        <span class="base-USD d-768-none"><img src="@/assets/facebook.png"></span>
-        <span class="Pay-Date">Pay Date</span>
-        <span class="base-PayDate d-768-none"><img src="@/assets/facebook.png"></span>
+      <div class="Holder__Rectangle d-375-none">
+        <span class="Account__Holder">Account Holder</span>
+        <span class="Fee__Type">Fee Type</span>
+        <span class="base__Fee"><img src="@/assets/facebook.png"></span>
+        <span class="Remuneration__USD d-768-none">Remuneration($USD)</span>
+        <span class="base__USD d-768-none"><img src="@/assets/facebook.png"></span>
+        <span class="Pay__Date">Pay Date</span>
+        <span class="base__PayDate d-768-none"><img src="@/assets/facebook.png"></span>
         <span class="Status">Status</span>
-        <span class="base-Status"><img src="@/assets/facebook.png"></span>
+        <span class="base__Status"><img src="@/assets/facebook.png"></span>
       </div>
 
-      <!--Mobile-->
-        <div class="NB-Rectangle d-768-none d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200202</span>
-          <span class="NB-Pending">Pending</span>
-          <p class="NB-Fee">Contribution Fee</p>
-          <p class="NB-USD">USD $ 000,000,000,000.000000</p>
-          <p class="NB-Paydate">Pay date: Jan 05,2020</p>
+      <!--375-->
+        <template v-for="number in 5">
+          <div class="NB__Rectangle d-768-none d-1440-none" :key="number">
+            <span class="NB__Picture"><img src="@/assets/facebook.png"></span>
+            <span class="NB__Name">NB1200202</span>
+            <span class="NB__Pending">Pending</span>
+            <p class="NB__Fee">Contribution Fee</p>
+            <p class="NB__USD">USD $ 000,000,000,000.000000</p>
+            <p class="NB__Paydate">Pay date: Jan 05,2020</p>
+          </div>
+        </template>
+        <div class="space__Rectangle d-768-none d-1440-none">
         </div>
-        <div class="NB-Rectangle d-768-none d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200209</span>
-          <span class="NB-Pending">Pending</span>
-          <p class="NB-Fee">Contribution Fee</p>
-          <p class="NB-USD">USD $ 342.98</p>
-          <p class="NB-Paydate">Pay date: Jan 05,2020</p>
+      <!--768-->
+        <template v-for="number in 5">
+          <div class="NB__Rectangle d-375-none d-768-block d-1440-none" :key="number">
+            <span class="NB__Picture"><img src="@/assets/facebook.png"></span>
+            <span class="NB__Name">NB1200202</span>
+            <p class="NB__Cristen">Cristen Michaelson</p>
+            <span class="NB__Fee">Contribution Fee</span>
+            <span class="NB__USD">$000,000,000.000000</span>
+            <p class="NB__Date">Jan 05,2020</p>
+            <span class="NB__Pending">Pending</span>
+          </div>
+        </template>
+        <div class="space__Rectangle d-375-none d-768-block d-1440-none">
         </div>
-        <div class="NB-Rectangle d-768-none d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200345</span>
-          <span class="NB-Pending">Peceived</span>
-          <p class="NB-Fee">Contribution Fee</p>
-          <p class="NB-USD">USD $ 20,000.00</p>
-          <p class="NB-Paydate">Pay date: Jan 05,2020</p>
+      <!--1440-->
+        <template v-for="number in 5">
+          <div class="NB__Rectangle d-375-none d-768-none d-1440-block" :key="number">
+            <span class="NB__Picture"><img src="@/assets/facebook.png"></span>
+            <span class="NB__Name">NB1200202</span>
+            <p class="NB__Cristen">Cristen Michaelson</p>
+            <span class="NB__Fee">Contribution Fee</span>
+            <span class="NB__USD">USD $000,000,000,000.000000</span>
+            <span class="NB__Date">Jan 05,2020</span>
+            <span class="NB__Pending">Pending</span>
+          </div>
+        </template>
+        <div class="space__Rectangle d-375-none d-768-none d-1440-block">
         </div>
-        <div class="NB-Rectangle d-768-none d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200348</span>
-          <span class="NB-Pending">Peceived</span>
-          <p class="NB-Fee">Contribution Fee</p>
-          <p class="NB-USD">USD $ 1,000.00</p>
-          <p class="NB-Paydate">Pay date: Dec 05,2019</p>
-        </div>
-        <div class="NB-Rectangle d-768-none d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200048</span>
-          <span class="NB-Pending">Peceived</span>
-          <p class="NB-Fee">Contribution Fee</p>
-          <p class="NB-USD">USD $ 5,000.00</p>
-          <p class="NB-Paydate">Pay date: Dec 05,2019</p>
-        </div>
-        <div class="space-Rectangle d-768-none d-1440-none">
-        </div>
-      <!--Tablet-->
-        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200202</span>
-          <p class="NB-Cristen">Cristen Michaelson</p>
-          <span class="NB-Fee">Contribution Fee</span>
-          <span class="NB-USD">$000,000,000.000000</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Pending</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200209</span>
-          <p class="NB-Cristen">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
-          <span class="NB-Fee">Advisor Service Fee</span>
-          <span class="NB-USD">$342.98</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Pending</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200345</span>
-          <p class="NB-Cristen">Michael Chang</p>
-          <span class="NB-Fee">One-off Advisor Fee</span>
-          <span class="NB-USD">$20,000.00</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Pending</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200348</span>
-          <p class="NB-Cristen">Josh Cheung, Lucie Kwan, Chien Hong</p>
-          <span class="NB-Fee">Establishment Fee</span>
-          <span class="NB-USD">$1,000.00</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Peceived</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-block d-1440-none">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB5200202</span>
-          <p class="NB-Cristen">Frank Collyn Woods Company</p>
-          <span class="NB-Fee">Research Fee</span>
-          <span class="NB-USD">$5,000.00</span>
-          <p class="NB-Date">Jan 05,2019</p>
-          <span class="NB-Pending">Received</span>
-        </div>
-        <div class="space-Rectangle d-375-none d-768-block d-1440-none">
-        </div>
-      <!--Desktop-->
-        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200202</span>
-          <p class="NB-Cristen">Cristen Michaelson</p>
-          <span class="NB-Fee">Contribution Fee</span>
-          <span class="NB-USD">USD $000,000,000,000.000000</span>
-          <span class="NB-Date">Jan 05,2020</span>
-          <span class="NB-Pending">Pending</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200209</span>
-          <p class="NB-Cristen">Abcdefg Hijkl Mnopqrs TuvwxYz</p>
-          <span class="NB-Fee">Advisor Service Fee</span>
-          <span class="NB-USD">USD $342.98</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Pending</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200345</span>
-          <p class="NB-Cristen">Michael Chang</p>
-          <span class="NB-Fee">One-off Advisor Fee</span>
-          <span class="NB-USD">USD $20,000.00</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Pending</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB1200348</span>
-          <p class="NB-Cristen">Josh Cheung, Lucie Kwan, Chien Hong</p>
-          <span class="NB-Fee">Establishment Fee</span>
-          <span class="NB-USD">USD $1,000.00</span>
-          <p class="NB-Date">Jan 05,2020</p>
-          <span class="NB-Pending">Peceived</span>
-        </div>
-        <div class="NB-Rectangle d-375-none d-768-none d-1440-block">
-          <span class="NB-Picture"><img src="@/assets/facebook.png"></span>
-          <span class="NB-Name">NB5200202</span>
-          <p class="NB-Cristen">Frank Collyn Woods Company</p>
-          <span class="NB-Fee">Research Fee</span>
-          <span class="NB-USD">USD $5,000.00</span>
-          <p class="NB-Date">Jan 05,2019</p>
-          <span class="NB-Pending">Received</span>
-        </div>
-        <div class="space-Rectangle d-375-none d-768-none d-1440-block">
-        </div>
-      <!--mobile-->
-      <div class="Button-Rectangle d-768-none d-1440-none">
-        <span class="Button-Rectangle-Change">
-          <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
-          <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
-          <span class="Button-Number">2</span>
-          <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
-          <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
+      <!--375-->
+      <div class="Button__Rectangle d-768-none d-1440-none">
+        <span class="Button__Rectangle__Change">
+          <span class="Oval__one"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval__two"><img src="@/assets/test3.jpg"></span>
+          <span class="Button__Number">2</span>
+          <span class="Oval__three"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval__four"><img src="@/assets/test3.jpg"></span>
         </span>
       </div>
-      <div class="Button-Rectangle2 d-768-none d-1440-none">
-        <span class="Button-Rectangle2-Change">
-          <span class="Button-Number2"><img src="@/assets/test3.jpg"></span>
+      <div class="Button__Rectangle2 d-768-none d-1440-none">
+        <span class="Button__Rectangle2__Change">
+          <span class="Button__Number2"><img src="@/assets/test3.jpg"></span>
           <span class="Showing">Showing 1-10 of 58</span>
         </span>
       </div>
-      <!--Tablet-->
-      <div class="Button-Rectangle d-375-none d-1440-none">
-        <span class="Button-Rectangle-Change">
-          <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
-          <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
-          <span class="Button-Number">2</span>
-          <span class="Oval-three"><img src="@/assets/test3.jpg"></span>
-          <span class="Oval-four"><img src="@/assets/test3.jpg"></span>
+      <!--768-->
+      <div class="Button__Rectangle d-375-none d-1440-none">
+        <span class="Button__Rectangle__Change">
+          <span class="Oval__one"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval__two"><img src="@/assets/test3.jpg"></span>
+          <span class="Button__Number">2</span>
+          <span class="Oval__three"><img src="@/assets/test3.jpg"></span>
+          <span class="Oval__four"><img src="@/assets/test3.jpg"></span>
         </span>
         <span class="EXPORT">EXPORT</span>
-        <span class="Button-Number2--Tablet"><img src="@/assets/test3.jpg"></span>
-        <span class="Showing--Tablet">Showing 1-10 of 58</span>
+        <span class="Button__Number2__Tablet"><img src="@/assets/test3.jpg"></span>
+        <span class="Showing__Tablet">Showing 1-10 of 58</span>
       </div>
-      <!--Desktop-->
-      <div class="Button-Rectangle d-375-none d-768-none">
-        <span class="Oval-one"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-two"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-three">1</span>
-        <span class="Button-Number">2</span>
-        <span class="Oval-four">3</span>
-        <span class="Oval-five">4</span>
-        <span class="Oval-six">5</span>
-        <span class="Oval-seven">6</span>
-        <span class="Oval-eight">7</span>
-        <span class="Oval-nine">8</span>
-        <span class="Oval-ten">9</span>
-        <span class="Oval-eleven">10</span>
-        <span class="Oval-twelve"><img src="@/assets/test3.jpg"></span>
-        <span class="Oval-thirteen"><img src="@/assets/test3.jpg"></span>
-        <span class="Button-Number2--Desktop"><img src="@/assets/test3.jpg"></span>
-        <span class="Showing--Desktop">Showing 1-10 of 58</span>
+      <!--1440-->
+      <div class="Button__Rectangle d-375-none d-768-none">
+        <span class="Oval__one"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval__two"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval__three">1</span>
+        <span class="Button__Number">2</span>
+        <span class="Oval__four">3</span>
+        <span class="Oval__five">4</span>
+        <span class="Oval__six">5</span>
+        <span class="Oval__seven">6</span>
+        <span class="Oval__eight">7</span>
+        <span class="Oval__nine">8</span>
+        <span class="Oval__ten">9</span>
+        <span class="Oval__eleven">10</span>
+        <span class="Oval__twelve"><img src="@/assets/test3.jpg"></span>
+        <span class="Oval__thirteen"><img src="@/assets/test3.jpg"></span>
+        <span class="Button__Number2__Desktop"><img src="@/assets/test3.jpg"></span>
+        <span class="Showing__Desktop">Showing 1-10 of 58</span>
       </div>
     </div>
   </div>
@@ -242,7 +144,7 @@ export default {
 .css__RWD{
   width:100%;
   padding:0 2rem;
-  .Commission-Rectangle{
+  .Commission__Rectangle{
       padding-top:20px;
       position: relative;
     }
@@ -256,7 +158,7 @@ export default {
       font-weight: bold;
       padding-top:5px;
     }
-    .Filter-Rectangle {
+    .Filter__Rectangle {
       width:82px;
       height: 40px;
       border-radius: 4px;
@@ -276,13 +178,12 @@ export default {
       margin-top: 10px;
       position: absolute;      
     }
-    .Filter-picture {
+    .Filter__picture {
       object-fit: contain;
       margin-left:55px;
       margin-top: 10px;
       position: absolute;
     }
-    //放大鏡
     .MagnifierRectangle{
       margin-top:60px;
       display:block;
@@ -291,13 +192,12 @@ export default {
       object-fit: contain;
       display:block;
     }
-    //Account Number+圖
-    .Account-Rectangle{
+    .Account__Rectangle{
       height: 20px;
       margin-top:0px;
       position: relative; 
     }
-    .Account-Number {
+    .Account__Number {
       height: 16px;
       font-size: 13px;
       font-weight: bold;
@@ -312,21 +212,21 @@ export default {
       position: absolute;
       padding-left: 100px;
     }
-    .NB-Rectangle {
+    .NB__Rectangle {
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
     }
-    .space-Rectangle {
+    .space__Rectangle {
       height: 32px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       margin-top:20px;
     }
-    .NB-Picture{
+    .NB__Picture{
       object-fit: contain;
       position: absolute;
       padding:10px 0px 0px 5px;
     }
-    .NB-Name{
+    .NB__Name{
       opacity: 0.9;
       font-size: 17px;
       font-weight: bold;
@@ -335,7 +235,7 @@ export default {
       position:absolute;
       padding:10px 0px 0px 30px;
     }
-    .NB-Fee{
+    .NB__Fee{
       height: 15px;
       opacity: 0.5;
       font-size: 14px;
@@ -343,14 +243,14 @@ export default {
       color: #414042;
       padding:40px 0px 0px 30px;
     }
-    .NB-USD{
+    .NB__USD{
       height: 18px;
       font-size: 15px;
       line-height: 1.07;
       color: #414042;
       padding:7px 0px 0px 30px;
     }
-    .NB-Paydate{
+    .NB__Paydate{
       height: 16px;
       opacity: 0.5;
       font-size: 13px;
@@ -359,7 +259,7 @@ export default {
       color: #414042;
       margin-left:30px;
     }
-    .NB-Pending {
+    .NB__Pending {
       height: 16px;
       opacity: 0.5;
       font-size: 13px;
@@ -371,39 +271,37 @@ export default {
       padding-top:10px;
       display:block;
     }
-    .Button-Rectangle{
+    .Button__Rectangle{
       height: 32px;
       position: relative;
       display:block;
     }
-    //頁碼按鈕
-    .Button-Rectangle-Change{
+    .Button__Rectangle__Change{
       height:32px;
       position: absolute;
       left:50%;
     }
-    .Oval-one {
+    .Oval__one {
       position: absolute;
       left:75px;
       top: calc(50% - 12px);
     }
-    .Oval-two {
+    .Oval__two {
       position: absolute;
       left:40px;
       top: calc(50% - 12px);
     }
-    .Oval-three {
+    .Oval__three {
       position: absolute;
       left:-70px;
       top: calc(50% - 12px);
     }
-    .Oval-four {
+    .Oval__four {
       position: absolute;
       top: calc(50% - 12px);
       left:-105px;
     }
-    //綠色頁碼
-    .Button-Number{
+    .Button__Number{
       width:67px;
       height: 32px;
       border-radius: 17px;
@@ -413,17 +311,17 @@ export default {
       padding-top:2px;
       text-align:center;
     }
-    .Button-Rectangle2-Change{
+    .Button__Rectangle2__Change{
       height:32px;
       position: absolute;
       left:50%;
     }
-    .Button-Rectangle2{
+    .Button__Rectangle2{
       height: 32px;
       position: relative;
       display:blcok;
     }
-    .Button-Number2{
+    .Button__Number2{
       height: 32px;
       position: absolute;
       left:-105px;
@@ -445,7 +343,7 @@ export default {
       display:none;
     }
   @media (min-width: 768px) {
-    .Commission-Rectangle{
+    .Commission__Rectangle{
       height: 40px;
       padding-top:20px;
       position: relative;
@@ -460,12 +358,12 @@ export default {
       position: absolute;
       margin:-25px 0px 0px 180px;
     }
-    .Account-Rectangle{
+    .Account__Rectangle{
       height:32px;
       margin-top:70px;
       position: relative;
     }
-    .Remuneration-USD {
+    .Remuneration__USD {
       height: 16px;
       font-size: 13px;
       font-weight: bold;
@@ -475,12 +373,12 @@ export default {
       right:140px;
       display:block;
     }
-    .Holder-Rectangle{
+    .Holder__Rectangle{
       position: relative;
       margin-top:-10px;
       display: block;
     }
-    .Account-Holder {
+    .Account__Holder {
       height: 14px;
       opacity: 0.35;
       font-size: 12px;
@@ -491,7 +389,7 @@ export default {
       position: absolute;
       display:block;
     }
-    .Fee-Type {
+    .Fee__Type {
       height: 16px;
       font-size: 13px;
       font-weight: bold;
@@ -501,26 +399,26 @@ export default {
       right:350px;
       display:block;
     }
-    .base-USD{
+    .base__USD{
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:120px;
       display:block;
     }
-    .base-Fee {
+    .base__Fee {
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:330px;
     }
-    .base-Status {
+    .base__Status {
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:0px;
     }
-    .Pay-Date {
+    .Pay__Date {
       height: 14px;
       opacity: 0.4;
       font-size: 12px;
@@ -539,12 +437,12 @@ export default {
       position: absolute;
       right:20px;
     }
-    .NB-Rectangle {
+    .NB__Rectangle {
       height: 50px;
       display: block;
       margin-top:20px;
     }
-    .NB-Cristen {
+    .NB__Cristen {
       height: 16px;
       opacity: 0.4;
       font-size: 13px;
@@ -554,7 +452,7 @@ export default {
       position: absolute;
       display:block;
     }
-    .NB-Fee {
+    .NB__Fee {
       height: 16px;
       opacity: 1.0;
       line-height: 1.14;
@@ -564,7 +462,7 @@ export default {
       margin-top:-10px;
       display:block;
     }
-    .NB-USD{
+    .NB__USD{
       height: 16px;
       opacity: 0.9;
       font-size: 14px;
@@ -576,7 +474,7 @@ export default {
       margin-top:10px;
       display:block;
     }
-    .NB-Date{
+    .NB__Date{
       height: 16px;
       opacity: 0.5;
       font-size: 13px;
@@ -587,14 +485,13 @@ export default {
       margin-top:40px;
       display:block;
     }
-    .NB-Picture{
+    .NB__Picture{
       display: block;      
     }
-    //NB1內容
-    .NB-Name{
+    .NB__Name{
       display: block;
     }
-    .NB-Pending {
+    .NB__Pending {
       opacity: 0.9;
       margin-top:10px;
       display: block;
@@ -605,40 +502,39 @@ export default {
       line-height: 1.08;
       color: #0043ff;
     }
-    .Oval-one{
+    .Oval__one{
       position: absolute;
       right:220px;
     }
-    .Oval-two{
+    .Oval__two{
       position: absolute;
       right:260px;
     }
-    .Button-Number{
+    .Button__Number{
       position: absolute;
       right:295px;
     }
-    .Oval-three{
+    .Oval__three{
       position: absolute;
       right:375px;
     }
-    .Oval-four{
+    .Oval__four{
       position: absolute;
       right:415px;
     }
-    .Button-Rectangle{
+    .Button__Rectangle{
       height: 32px;
       position: relative;
       display:block;
     }
-    //頁碼按鈕
-    .Button-Rectangle-Change{
+    .Button__Rectangle__Change{
       width:300px;
       height: 32px;
       position: absolute;
       left:50%;
       display:block;
     }
-    .Showing--Tablet {
+    .Showing__Tablet {
       height: 32px;
       font-family: Inter;
       font-size: 12px;
@@ -648,7 +544,7 @@ export default {
       position: absolute;
       right:10px;
     }
-    .Button-Number2--Tablet{
+    .Button__Number2__Tablet{
       height: 32px;
       position: absolute;
       right:120px;
@@ -662,104 +558,103 @@ export default {
     }
   }
   @media (min-width: 1440px) {
-    .Fee-Type {
+    .Fee__Type {
       right:897px;
       display:block;
     }
-    .Remuneration-USD {
+    .Remuneration__USD {
       right:430px;
       display:block;
     }
-    .base-USD{
+    .base__USD{
       right:410px;
       display:block;
     }
-    .base-PayDate{
+    .base__PayDate{
       height: 14px;
       object-fit: contain;
       position: absolute;
       right:180px;
       display: block;
     }
-    .base-Fee {
+    .base__Fee {
       right:877px;
     }
-    .Pay-Date {
+    .Pay__Date {
       opacity: 0.9;
       right:200px;
     }
-    .Account-Rectangle{
+    .Account__Rectangle{
       height: 32px;
       margin-top:70px;
       position: relative;
       display: block;
     }
-    .Holder-Rectangle{
+    .Holder__Rectangle{
       position: relative;
       margin-top:-10px;
       display: block;
     }
-    .NB-Rectangle {
+    .NB__Rectangle {
       height: 50px;
       box-shadow: inset 0 1px 0 0 rgba(155, 155, 155, 0.2);
       position: relative;
       display: block;
       margin-top:20px;
     }
-    .NB-Fee {
+    .NB__Fee {
       right:877px;
       display:block;
     }
-    .NB-USD{
+    .NB__USD{
       right:435px;
       margin-top:22px;
       display:block;
     }
-    .NB-Date{
+    .NB__Date{
       opacity: 1.0;
       font-size: 14px;
       right:178px;
       margin-top:22px;
       display:block;
     }
-    .NB-Picture{
+    .NB__Picture{
       display: block;      
     }
-    //NB1內容
-    .NB-Name{
+    .NB__Name{
       display: block;
     }
-    .NB-Pending {
+    .NB__Pending {
       font-size: 14px;
       display: block;
     }
-    .Account-Holder {
+    .Account__Holder {
       display:block;
     }
-    .Button-Rectangle{
+    .Button__Rectangle{
       height: 32px;
       position: relative;
       display:block;
     }
-    .Oval-one {
+    .Oval__one {
       height: 32px;
       position: absolute;
       left:0px;
       top: calc(50% - 14px);
     }
-    .Oval-two {
+    .Oval__two {
       height: 32px;
       position: absolute;
       left:30px;
       top: calc(50% - 14px);
     }
-    .Oval-three {
+    .Oval__three {
       height: 32px;
       position: absolute;
       left:70px;
       top: calc(50% - 14px);
     }
-    .Button-Number{
+    .Button__Number{
       position: absolute;
       width: 32px;
       height: 32px;
@@ -770,67 +665,67 @@ export default {
       border-radius: 16px;
       text-align:center;
     }
-    .Oval-four{
+    .Oval__four{
       height: 32px;
       position: absolute;
       left:130px;
       top: calc(50% - 14px);
     }
-    .Oval-five {
+    .Oval__five {
       height: 32px;
       position: absolute;
       left:160px;
       line-height: 1.75;
     }
-    .Oval-six {
+    .Oval__six {
       height: 32px;
       position: absolute;
       left:190px;
       line-height: 1.75;
     }
-    .Oval-seven {
+    .Oval__seven {
       height: 32px;
       position: absolute;
       left:220px;
       line-height: 1.75;
     }
-    .Oval-eight {
+    .Oval__eight {
       height: 32px;
       position: absolute;
       left:250px;
       line-height: 1.75;
     }
-    .Oval-nine {
+    .Oval__nine {
       height: 32px;
       position: absolute;
       left:280px;
       line-height: 1.75;
     }
-    .Oval-ten {
+    .Oval__ten {
       height: 32px;
       position: absolute;
       left:310px;
       line-height: 1.75;
     }
-    .Oval-eleven {
+    .Oval__eleven {
       height: 32px;
       position: absolute;
       left:340px;
       line-height: 1.75;
     }
-    .Oval-twelve {
+    .Oval__twelve {
       height: 32px;
       position: absolute;
       left:380px;
       top: calc(50% - 12px);
     }
-    .Oval-thirteen{
+    .Oval__thirteen{
       height: 32px;
       position: absolute;
       left:410px;
       top: calc(50% - 12px);
     }
-    .Button-Number{
+    .Button__Number{
       position: absolute;
       width: 32px;
       height: 32px;
@@ -841,7 +736,7 @@ export default {
       border-radius: 16px;
       text-align:center;
     }
-    .Button-Number{
+    .Button__Number{
       position: absolute;
       width: 32px;
       height: 32px;
@@ -852,7 +747,7 @@ export default {
       border-radius: 16px;
       text-align:center;
     }
-    .Showing--Desktop {
+    .Showing__Desktop {
       font-size: 12px;
       line-height: 2.5;
       letter-spacing: -0.2px;
@@ -860,7 +755,7 @@ export default {
       position: absolute;
       right:10px;
     }
-    .Button-Number2--Desktop{
+    .Button__Number2__Desktop{
       position: absolute;
       right:120px;
       top: calc(50% - 12px);

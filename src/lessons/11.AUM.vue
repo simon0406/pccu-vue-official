@@ -1,8 +1,5 @@
 <template>
-  <div class="css__RWD">
-    
     <div class="css__RWD">
-      
       <div class="all__group">
         <div class="aum__group">
           <div class="title__headerGroup">
@@ -71,7 +68,7 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-        
+
         <div class="netcontribution__group d-375-none d-768-block">
           <div class="title__headerGroup">
             <span class="title__header">AUM</span>
@@ -207,26 +204,8 @@
             <span class="oval__six "><img src="@/assets/facebook.png"></span>
           </div>
         </div>
-
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
-
-  </div>
 </template>
 <script>
 export default {

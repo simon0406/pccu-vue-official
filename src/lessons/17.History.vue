@@ -51,13 +51,14 @@ export default {
             xAxis: {
                 data: xAxisData,
             },
-            axisLabel:{
-                    formatter: function(test) {
-                            return Math.abs(test);
-                        }
-            },
+            
             yAxis: {
-                name: '($K)'
+                name: '($K)',
+                axisLabel:{
+                        formatter: function(test) {
+                                return Math.abs(test);
+                            }
+                },
             },
             series: [
                 {
